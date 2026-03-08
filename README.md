@@ -20,6 +20,7 @@ infrastructure — resources no other awesome list brings together.
 - [Knowledge Graphs and Memory](#knowledge-graphs-and-memory)
 - [Solana Agent Infrastructure](#solana-agent-infrastructure)
 - [Agent Identity and Wallets](#agent-identity-and-wallets)
+- [Agent Payments](#agent-payments)
 - [DeFi Agents](#defi-agents)
 - [Quant and Trading Agents](#quant-and-trading-agents)
 - [Agent Observability and Testing](#agent-observability-and-testing)
@@ -43,6 +44,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Letta](https://github.com/letta-ai/letta) - Stateful agents with long-term memory (formerly MemGPT).
 - [Magentic-One](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one) - Multi-agent team for complex web and file tasks.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official SDK for building agents with OpenAI models.
+- [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
 - [Phidata](https://github.com/phidatahq/phidata) - Toolkit for building AI assistants with memory and tools.
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust framework for building LLM-powered applications.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into apps with plugin architecture.
@@ -60,7 +62,6 @@ AI agents that write, review, and debug code.
 - [Cursor](https://cursor.com) - AI-first code editor built on VS Code.
 - [Devin](https://devin.ai) - Autonomous software engineering agent by Cognition.
 - [Goose](https://github.com/block/goose) - Autonomous developer agent from Block.
-- [OpenClaw](https://github.com/openclawai/OpenClaw) - Open-source coding agent framework.
 - [OpenCodex](https://github.com/openai/codex) - OpenAI's CLI coding agent.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
 - [SWE-Agent](https://github.com/princeton-nlp/SWE-agent) - Agent for automatically resolving GitHub issues.
@@ -69,6 +70,7 @@ AI agents that write, review, and debug code.
 ### Claude Code Resources
 
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Curated list of Claude Code resources.
+- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
 - [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
 - [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [Claude Code Hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) - Event-driven shell command automation.
@@ -153,6 +155,7 @@ Tools and SDKs for building AI agents on Solana.
 
 - [ARC (AI Rig Complex)](https://github.com/ARC-Agency/arc) - Framework for deploying AI agents on Solana.
 - [Awesome Solana AI](https://github.com/solana-foundation/awesome-solana-ai) - Solana Foundation's curated list of AI-Solana projects.
+- [GOAT SDK](https://github.com/goat-sdk/goat) - Open-source toolkit connecting AI agents to 200+ on-chain tools across Solana and EVM chains.
 - [Helius SDK](https://github.com/helius-labs/helius-sdk) - TypeScript SDK for Solana RPC, webhooks, and DAS API.
 - [Jupiter SDK](https://github.com/jup-ag/jupiter-core) - Solana DEX aggregator SDK for agent-driven swaps.
 - [LangChain Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - LangChain tools for Solana agent operations.
@@ -176,6 +179,17 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [Turnkey](https://www.turnkey.com) - Secure key infrastructure for programmatic wallet management.
 - [UCAN](https://github.com/ucan-wg/spec) - User-controlled authorization for decentralized agent capabilities.
 
+## Agent Payments
+
+Payment protocols and infrastructure for autonomous agent transactions.
+
+- [Awesome x402](https://github.com/Merit-Systems/awesome-x402) - Curated resources for the x402 payment protocol ecosystem.
+- [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
+- [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
+- [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
+- [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
+- [x402 Protocol](https://github.com/coinbase/x402) - Open HTTP payment protocol using the 402 status code for agent-to-service payments.
+
 ## DeFi Agents
 
 AI agents for decentralized finance operations and strategy.
@@ -189,6 +203,7 @@ AI agents for decentralized finance operations and strategy.
 - [Orca Whirlpools SDK](https://github.com/orca-so/whirlpools) - Solana concentrated liquidity SDK for agent strategies.
 - [Raydium SDK](https://github.com/raydium-io/raydium-sdk-V2) - Solana AMM SDK for agent-driven liquidity provision.
 - [Spectral Finance](https://www.spectral.finance) - On-chain credit scoring and risk models for agent decisions.
+- [Virtuals Protocol](https://www.virtuals.io) - Agent tokenization and autonomous commerce protocol tracking agentic GDP.
 - [Yearn Vaults](https://github.com/yearn/yearn-vaults-v3) - Automated yield vaults usable as agent strategy backends.
 
 ## Quant and Trading Agents
