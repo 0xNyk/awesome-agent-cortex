@@ -1,0 +1,13 @@
+---
+description: Security rules for all source files
+globs: **/*.{js,ts,jsx,tsx,py,rb,go,rs,java,cs}
+---
+
+- Never commit secrets, API keys, or credentials
+- Validate and sanitize all external inputs
+- Use parameterized queries — never concatenate SQL
+- Escape output to prevent XSS
+- Use allowlists over blocklists
+- Pin dependencies and audit for vulnerabilities
+- Log security events but never log sensitive data
+- Use constant-time comparison for secrets/tokens

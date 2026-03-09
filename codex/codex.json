@@ -1,0 +1,14 @@
+{
+  "model": "o4-mini",
+  "approval_mode": "suggest",
+  "providers": {
+    "openai": {
+      "name": "OpenAI"
+    }
+  },
+  "history": {
+    "persistence": "global",
+    "max_entries": 1000
+  },
+  "notify": true
+}

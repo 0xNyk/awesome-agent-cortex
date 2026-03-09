@@ -4,26 +4,32 @@
 > knowledge graphs for AI agents that think, remember, and own themselves.
 
 A curated list covering the full AI agent ecosystem: frameworks, coding agents,
-MCP tooling, knowledge graphs, blockchain identity, decentralized finance
-agents, quantitative trading, and observability. What makes this list unique is
-the combination of practical developer tooling with on-chain identity and memory
-infrastructure — resources no other awesome list brings together.
+MCP tooling, sandboxing, knowledge graphs, RAG, voice agents, blockchain
+identity, decentralized finance agents, quantitative trading, benchmarks, and
+observability. What makes this list unique is the combination of practical
+developer tooling with on-chain identity and memory infrastructure — plus
+ready-to-use [starter configs](claude/) for Claude Code, [Cursor](cursorrules/),
+and [Codex CLI](codex/) that no other awesome list provides.
 
 ## Contents
 
 - [Agent Frameworks](#agent-frameworks)
 - [Coding Agents](#coding-agents)
+- [Voice and Multimodal Agents](#voice-and-multimodal-agents)
 - [CLI and TUI Tools](#cli-and-tui-tools)
 - [MCP Ecosystem](#mcp-ecosystem)
+- [Agent Sandboxing and Execution](#agent-sandboxing-and-execution)
 - [Prompt Engineering](#prompt-engineering)
 - [Agent Configs and Dotfiles](#agent-configs-and-dotfiles)
 - [Knowledge Graphs and Memory](#knowledge-graphs-and-memory)
+- [RAG Infrastructure](#rag-infrastructure)
 - [Solana Agent Infrastructure](#solana-agent-infrastructure)
 - [Agent Identity and Wallets](#agent-identity-and-wallets)
 - [Agent Payments](#agent-payments)
 - [DeFi Agents](#defi-agents)
 - [Quant and Trading Agents](#quant-and-trading-agents)
 - [Agent Observability and Testing](#agent-observability-and-testing)
+- [Agent Benchmarks and Evaluation](#agent-benchmarks-and-evaluation)
 - [Research Papers](#research-papers)
 - [Communities](#communities)
 
@@ -31,12 +37,16 @@ infrastructure — resources no other awesome list brings together.
 
 Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 
+- [AG2](https://github.com/ag2ai/ag2) - Open-source AgentOS for building multi-agent systems (evolved from AutoGen).
+- [Agno](https://github.com/agno-agi/agno) - Lightweight library for building multi-modal agents with memory and knowledge.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework from Microsoft Research.
+- [Bee Agent Framework](https://github.com/i-am-bee/bee-agent-framework) - TypeScript framework for building scalable multi-agent systems by IBM.
+- [Camel-AI](https://github.com/camel-ai/camel) - Communicative agents framework for mind exploration of large-scale models.
 - [Claude Agent SDK](https://github.com/anthropics/anthropic-sdk-python) - Official Python SDK for building agents with Claude models.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration framework.
 - [ElizaOS](https://github.com/elizaOS/eliza) - Multi-agent simulation framework for autonomous characters.
-- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Google A2A](https://github.com/google/A2A) - Agent-to-Agent protocol for cross-framework agent communication.
+- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Haystack](https://github.com/deepset-ai/haystack) - LLM orchestration framework for building search and RAG pipelines.
 - [Julep](https://github.com/julep-ai/julep) - Stateful agent platform with built-in persistence and task workflows.
 - [LangChain](https://github.com/langchain-ai/langchain) - Composable framework for building LLM-powered applications.
@@ -46,6 +56,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official SDK for building agents with OpenAI models.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
 - [Phidata](https://github.com/phidatahq/phidata) - Toolkit for building AI assistants with memory and tools.
+- [PydanticAI](https://github.com/pydantic/pydantic-ai) - Agent framework from the Pydantic team with type-safe dependency injection.
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust framework for building LLM-powered applications.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into apps with plugin architecture.
 - [Smolagents](https://github.com/huggingface/smolagents) - Lightweight agent framework from Hugging Face.
@@ -56,25 +67,41 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 AI agents that write, review, and debug code.
 
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in the terminal with git integration.
+- [Amazon Q Developer](https://aws.amazon.com/q/developer/) - AI coding assistant from AWS for IDE and CLI.
+- [Augment Code](https://www.augmentcode.com) - AI coding agent with deep codebase understanding.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic CLI for code generation and editing.
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent for VS Code with tool use.
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains.
 - [Cursor](https://cursor.com) - AI-first code editor built on VS Code.
 - [Devin](https://devin.ai) - Autonomous software engineering agent by Cognition.
+- [Gemini Code Assist](https://cloud.google.com/gemini/docs/codeassist/overview) - Google Cloud's AI code assistant for IDEs and CLI.
+- [GitHub Copilot](https://github.com/features/copilot) - AI pair programmer by GitHub with IDE and CLI integration.
 - [Goose](https://github.com/block/goose) - Autonomous developer agent from Block.
 - [OpenCodex](https://github.com/openai/codex) - OpenAI's CLI coding agent.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
+- [Sourcegraph Cody](https://sourcegraph.com/cody) - AI coding assistant with full codebase context.
 - [SWE-Agent](https://github.com/princeton-nlp/SWE-agent) - Agent for automatically resolving GitHub issues.
 - [Windsurf](https://codeium.com/windsurf) - AI-native IDE by Codeium with agentic flows.
 
 ### Claude Code Resources
 
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Curated list of Claude Code resources.
-- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
-- [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
-- [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [Claude Code Hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) - Event-driven shell command automation.
 - [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/memory#slash-commands-as-custom-skills) - Reusable prompt-driven workflows.
+- [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
+- [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
+- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
+
+## Voice and Multimodal Agents
+
+Agents with voice, vision, and multimodal capabilities.
+
+- [ElevenLabs](https://github.com/elevenlabs/elevenlabs-python) - Text-to-speech and voice cloning API for agent voice interfaces.
+- [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time multimodal AI agents.
+- [Pipecat](https://github.com/pipecat-ai/pipecat) - Framework for building voice and multimodal conversational agents.
+- [Ultravox](https://github.com/fixie-ai/ultravox) - Fast multimodal LLM for real-time voice AI.
+- [Vapi](https://vapi.ai) - Platform for building and deploying voice AI agents.
+- [Whisper](https://github.com/openai/whisper) - Open-source speech recognition model from OpenAI.
 
 ## CLI and TUI Tools
 
@@ -101,11 +128,25 @@ Model Context Protocol servers, clients, and tooling.
 - [MCP CLI](https://github.com/modelcontextprotocol/cli) - Command-line inspector and debugging tool for MCP.
 - [MCP Go SDK](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers.
+- [MCP Registry](https://github.com/modelcontextprotocol/registry) - Official registry for discovering and sharing MCP servers.
 - [MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - Official Rust SDK for building MCP servers.
 - [MCP Spec](https://spec.modelcontextprotocol.io) - Official Model Context Protocol specification.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers.
 - [Playwright MCP](https://github.com/anthropics/mcp-playwright) - MCP server for browser automation via Playwright.
 - [Smithery](https://smithery.ai) - Registry and hosting platform for MCP servers.
+- [Toolhouse](https://toolhouse.ai) - Cloud infrastructure for running and managing tool servers for LLM agents.
+
+## Agent Sandboxing and Execution
+
+Secure execution environments for running agent-generated code.
+
+- [Daytona](https://github.com/daytonaio/daytona) - Open-source development environment manager for secure agent sandboxing.
+- [E2B](https://github.com/e2b-dev/e2b) - Cloud runtime for executing AI-generated code in secure sandboxes.
+- [Firecracker](https://github.com/firecracker-microvm/firecracker) - Lightweight microVM for secure multi-tenant container execution.
+- [gVisor](https://github.com/google/gvisor) - Application kernel for sandboxing containers with limited host access.
+- [Modal](https://modal.com) - Serverless platform for running AI workloads with per-function sandboxing.
+- [Nsjail](https://github.com/google/nsjail) - Lightweight process isolation tool for sandboxing agent processes.
+- [Runloop](https://www.runloop.ai) - Cloud devboxes purpose-built for AI coding agent execution.
 
 ## Prompt Engineering
 
@@ -126,8 +167,10 @@ Configuration files and workflow examples for AI coding tools.
 
 - [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - Curated list of Cursor rule files.
 - [Claude Code Memory Files](https://docs.anthropic.com/en/docs/claude-code/memory) - Guide to CLAUDE.md and project memory.
-- [CursorDirectory](https://cursor.directory) - Community-shared Cursor rules and configurations.
 - [Claude Code Starter Configs](claude/) - Ready-to-use CLAUDE.md, rules, hooks, and skills for Claude Code projects.
+- [Codex CLI Starter Configs](codex/) - Ready-to-use AGENTS.md and config for OpenAI Codex CLI projects.
+- [Cursor Starter Configs](cursorrules/) - Ready-to-use .cursorrules and rule files for Cursor projects.
+- [CursorDirectory](https://cursor.directory) - Community-shared Cursor rules and configurations.
 - [dotfiles](https://dotfiles.github.io) - Guide to managing dotfiles including agent configurations.
 
 ## Knowledge Graphs and Memory
@@ -149,6 +192,18 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector search engine for agent memory.
 - [txtai](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search and workflows.
 - [Weaviate](https://github.com/weaviate/weaviate) - Vector database with built-in modules for AI workloads.
+
+## RAG Infrastructure
+
+Document parsing, chunking, embedding, and retrieval pipelines for agents.
+
+- [Chroma](https://github.com/chroma-core/chroma) - Open-source embedding database for building RAG applications.
+- [Docling](https://github.com/DS4SD/docling) - Document parsing toolkit that converts PDFs and documents to structured data.
+- [LangChain Text Splitters](https://github.com/langchain-ai/langchain/tree/master/libs/text-splitters) - Modular text chunking strategies for RAG pipelines.
+- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for connecting LLMs to external data sources.
+- [Marker](https://github.com/VikParuchuri/marker) - Fast and accurate PDF-to-markdown converter for RAG ingestion.
+- [Ragas](https://github.com/explodinggradients/ragas) - Evaluation framework for retrieval augmented generation pipelines.
+- [Unstructured](https://github.com/Unstructured-IO/unstructured) - ETL toolkit for preprocessing documents for LLM applications.
 
 ## Solana Agent Infrastructure
 
@@ -228,16 +283,30 @@ Quantitative finance frameworks and AI-driven trading systems.
 
 Debugging, tracing, evaluation, and testing tools for AI agents.
 
+- [AgentOps](https://github.com/AgentOps-AI/agentops) - Observability and developer toolkit for AI agents.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability and monitoring platform.
 - [LangFuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform for tracing and evaluation.
 - [LangSmith](https://smith.langchain.com) - Platform for debugging, testing, and monitoring LLM applications.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based observability for LLM applications.
+- [Opik](https://github.com/comet-ml/opik) - Open-source platform for evaluating, testing, and monitoring LLM applications.
 - [Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform from Arize.
 - [Portkey](https://github.com/Portkey-AI/gateway) - AI gateway with observability, caching, and fallback routing.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - LLM evaluation and red-teaming toolkit.
 - [Weave](https://github.com/wandb/weave) - Toolkit for tracking and evaluating LLM applications from W&B.
+
+## Agent Benchmarks and Evaluation
+
+Benchmarks and datasets for evaluating agent capabilities.
+
+- [AgentBench](https://github.com/THUDM/AgentBench) - Multi-dimensional benchmark for evaluating LLMs as agents.
+- [BigCodeBench](https://github.com/bigcode-project/bigcodebench) - Benchmark for code generation with complex function calls and compositions.
+- [GAIA](https://huggingface.co/gaia-benchmark) - Benchmark for general AI assistants on real-world questions.
+- [HumanEval](https://github.com/openai/human-eval) - Hand-written Python programming problems for evaluating code generation.
+- [SWE-bench](https://github.com/princeton-nlp/SWE-bench) - Benchmark for evaluating LLMs on real-world software engineering tasks.
+- [TAU-bench](https://github.com/sierra-research/tau-bench) - Benchmark for tool-agent-user interaction in real-world domains.
+- [WebArena](https://github.com/web-arena-x/webarena) - Realistic web environment benchmark for autonomous agents.
 
 ## Research Papers
 

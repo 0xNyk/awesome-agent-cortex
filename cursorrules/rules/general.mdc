@@ -1,0 +1,13 @@
+---
+description: General coding conventions for all files
+globs: *
+---
+
+- Follow existing code patterns and conventions
+- Use descriptive names that reveal intent
+- Keep functions small and focused (max ~50 lines)
+- Use early returns to reduce nesting
+- No magic numbers — use named constants
+- Remove unused imports and dead code
+- Write actionable error messages with context
+- Prefer composition over inheritance

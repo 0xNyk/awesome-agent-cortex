@@ -1,0 +1,12 @@
+---
+description: Git workflow conventions
+globs: *
+---
+
+- Conventional commits: type(scope): description
+- Types: feat, fix, docs, test, refactor, chore, ci, perf
+- Atomic commits: one logical change per commit
+- Branch naming: type/short-description
+- PR titles follow conventional commit format
+- Never force-push shared branches
+- Delete branches after merge
