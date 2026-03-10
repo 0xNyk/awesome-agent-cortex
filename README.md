@@ -24,6 +24,7 @@ CLI usage).
 - [Prompt Engineering](#prompt-engineering)
 - [Agent Harnessing and Evaluation](#agent-harnessing-and-evaluation)
 - [Context Engineering](#context-engineering)
+- [Agent Security and Robustness](#agent-security-and-robustness)
 - [Agent Configs and Dotfiles](#agent-configs-and-dotfiles)
 - [Skill Engineering and Playbooks](#skill-engineering-and-playbooks)
 - [Knowledge Graphs and Memory](#knowledge-graphs-and-memory)
@@ -192,6 +193,18 @@ Methods and references for designing robust, efficient context pipelines.
 - [Chain-of-Thought Prompting (Wei et al., 2022)](https://arxiv.org/abs/2203.02155) - Foundational reasoning/prompting technique paper.
 - [Lost in the Middle (Liu et al., 2023)](https://arxiv.org/abs/2307.03172) - Key long-context failure analysis paper.
 - [Context Engineering Playbook (this repo)](guides/context-engineering-playbook.md) - Practical context budget, memory, retrieval, and anti-drift checklist.
+
+## Agent Security and Robustness
+
+Safety, red-teaming, and robustness tools for hardening agent behavior.
+
+- [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanning and red-teaming toolkit for security testing.
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
+- [Invariant](https://github.com/invariantlabs-ai/invariant) - Guardrails framework for secure and robust agent development.
+- [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Open robustness benchmark for measuring jailbreak resistance in language models and agents.
+- [llm-attacks](https://github.com/llm-attacks/llm-attacks) - Reference implementation and resources for adversarial jailbreak attack evaluation.
+- [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
+- [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and robustness testing toolkit for LLM systems.
 
 ## Agent Configs and Dotfiles
 
