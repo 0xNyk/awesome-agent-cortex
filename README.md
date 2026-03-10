@@ -17,6 +17,7 @@ CLI usage).
 
 - [Agent Frameworks](#agent-frameworks)
 - [Coding Agents](#coding-agents)
+- [Voice and Multimodal Agents](#voice-and-multimodal-agents)
 - [Hermes Stack](#hermes-stack)
 - [CLI and TUI Tools](#cli-and-tui-tools)
 - [Agent Runtime Infrastructure](#agent-runtime-infrastructure)
@@ -41,6 +42,7 @@ CLI usage).
 
 Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 
+- [AG2](https://github.com/ag2ai/ag2) - Open-source AgentOS for building multi-agent systems (evolved from AutoGen).
 - [Agno](https://github.com/agno-agi/agno) - Framework for building and running agentic software at scale.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework from Microsoft Research.
 - [Claude Agent SDK](https://github.com/anthropics/anthropic-sdk-python) - Official Python SDK for building agents with Claude models.
@@ -90,6 +92,17 @@ AI agents that write, review, and debug code.
 - [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
+
+## Voice and Multimodal Agents
+
+Agents with voice, vision, and multimodal capabilities.
+
+- [ElevenLabs](https://github.com/elevenlabs/elevenlabs-python) - Text-to-speech and voice cloning API for agent voice interfaces.
+- [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time multimodal AI agents.
+- [Pipecat](https://github.com/pipecat-ai/pipecat) - Framework for building voice and multimodal conversational agents.
+- [Ultravox](https://github.com/fixie-ai/ultravox) - Fast multimodal LLM for real-time voice AI.
+- [Vapi](https://vapi.ai) - Platform for building and deploying voice AI agents.
+- [Whisper](https://github.com/openai/whisper) - Open-source speech recognition model from OpenAI.
 
 ## Hermes Stack
 
@@ -213,6 +226,8 @@ Configuration files and workflow examples for AI coding tools.
 - [awesome-cursorrules](https://github.com/PatrickJS/awesome-cursorrules) - Curated list of Cursor rule files.
 - [Claude Code Memory Files](https://docs.anthropic.com/en/docs/claude-code/memory) - Guide to CLAUDE.md and project memory.
 - [Claude Code Starter Configs](claude/) - Ready-to-use CLAUDE.md, rules, hooks, and skills for Claude Code projects.
+- [Codex CLI Starter Configs](codex/) - Ready-to-use AGENTS.md and config for OpenAI Codex CLI projects.
+- [Cursor Starter Configs](cursorrules/) - Ready-to-use .cursorrules and rule files for Cursor projects.
 - [CursorDirectory](https://cursor.directory) - Community-shared Cursor rules and configurations.
 - [dotfiles](https://dotfiles.github.io) - Guide to managing dotfiles including agent configurations.
 
@@ -329,20 +344,14 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Monitoring, cost tracking, and benchmarking for agent workflows.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework.
-- [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanning and red-teaming toolkit for security testing.
-- [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
-- [Invariant](https://github.com/invariantlabs-ai/invariant) - Guardrails framework for secure and robust agent development.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability and monitoring platform.
 - [LangFuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform for tracing and evaluation.
 - [LangSmith](https://smith.langchain.com) - Platform for debugging, testing, and monitoring LLM applications.
 - [LiteLLM](https://github.com/BerriAI/litellm) - LLM gateway and proxy with logging, cost tracking, and routing controls.
-- [llm-attacks](https://github.com/llm-attacks/llm-attacks) - Reference implementation and resources for adversarial jailbreak attack evaluation.
-- [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and benchmark registry for evaluating LLM systems.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based observability for LLM applications.
 - [Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform from Arize.
 - [Portkey](https://github.com/Portkey-AI/gateway) - AI gateway with observability, caching, and fallback routing.
-- [Promptfoo](https://github.com/promptfoo/promptfoo) - LLM evaluation and red-teaming toolkit.
 - [SigNoz](https://github.com/SigNoz/signoz) - OpenTelemetry-native observability platform for traces, logs, and metrics.
 - [TruLens](https://github.com/truera/trulens) - Open-source framework for evaluating and tracking LLM and agent experiments.
 - [Weave](https://github.com/wandb/weave) - Toolkit for tracking and evaluating LLM applications from W&B.
