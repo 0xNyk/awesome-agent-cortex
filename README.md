@@ -44,6 +44,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Google A2A](https://github.com/google/A2A) - Agent-to-Agent protocol for cross-framework agent communication.
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Haystack](https://github.com/deepset-ai/haystack) - LLM orchestration framework for building search and RAG pipelines.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Tool-using autonomous agent platform with memory, skills, delegation, and MCP support.
 - [Julep](https://github.com/julep-ai/julep) - Stateful agent platform with built-in persistence and task workflows.
 - [LangChain](https://github.com/langchain-ai/langchain) - Composable framework for building LLM-powered applications.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Library for building stateful multi-agent workflows as graphs.
@@ -79,11 +80,17 @@ AI agents that write, review, and debug code.
 ### Claude Code Resources
 
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Curated list of Claude Code resources.
-- [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
-- [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [Claude Code Hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) - Event-driven shell command automation.
 - [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/memory#slash-commands-as-custom-skills) - Reusable prompt-driven workflows.
+- [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
+- [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
+
+### Hermes Ecosystem Resources
+
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Open-source autonomous AI agent with CLI, gateway, memory, subagents, and broad tool integrations.
+- [Hermes Agent + hermes-fly Best Practices (this repo)](guides/hermes-agent-hermes-fly-playbook.md) - Practical setup, operations, security, and optimization playbook.
+- [hermes-fly](https://github.com/alexfazio/hermes-fly) - Fly.io deployment and operations CLI for Hermes Agent with deploy, logs, doctor, and teardown workflows.
 
 ## CLI and TUI Tools
 
@@ -92,6 +99,8 @@ Terminal-based agent interfaces and developer tools.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic CLI that operates directly in the terminal.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's command-line interface for Gemini models.
 - [Glow](https://github.com/charmbracelet/glow) - Terminal Markdown renderer useful for agent output.
+- [Hermes Agent](https://github.com/NousResearch/hermes-agent) - CLI and gateway agent runtime with tools, memory, delegation, and automation support.
+- [hermes-fly](https://github.com/alexfazio/hermes-fly) - CLI wizard to deploy and operate Hermes Agent on Fly.io.
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commonly paired with coding agents.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs from the terminal.
 - [mods](https://github.com/charmbracelet/mods) - AI on the command line built on Charm.
