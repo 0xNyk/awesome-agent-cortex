@@ -271,6 +271,7 @@ Tools and SDKs for building AI agents on Solana.
 - [Awesome Solana AI](https://github.com/solana-foundation/awesome-solana-ai) - Solana Foundation's curated list of AI-Solana projects.
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Open-source toolkit connecting AI agents to 200+ on-chain tools across Solana and EVM chains.
 - [Helius SDK](https://github.com/helius-labs/helius-sdk) - TypeScript SDK for Solana RPC, webhooks, and DAS API.
+- [Jito-Solana](https://github.com/jito-foundation/jito-solana) - MEV-aware Solana client infrastructure for advanced execution agents.
 - [Jupiter Swap API Docs](https://dev.jup.ag/docs/swap-api) - Official documentation for integrating Jupiter routing and swaps.
 - [LangChain Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - LangChain tools for Solana agent operations.
 - [Light Protocol](https://github.com/Lightprotocol/light-protocol) - ZK compression for scalable on-chain agent state.
@@ -282,6 +283,7 @@ Tools and SDKs for building AI agents on Solana.
 - [Solana Web3.js](https://github.com/solana-labs/solana-web3.js) - JavaScript SDK for interacting with the Solana blockchain.
 - [Switchboard Solana SDK](https://github.com/switchboard-xyz/solana-sdk) - Verifiable oracle and data-feed SDK for agent decision systems.
 - [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - High-throughput real-time Solana data streams for low-latency agents and indexers.
+- [Solana Agent Architecture Playbook (this repo)](guides/solana-agent-architecture-playbook.md) - Reference architecture, security controls, and ops checklist for production Solana agents.
 
 ## Agent Identity and Wallets
 
@@ -324,9 +326,11 @@ AI agents for decentralized finance operations and strategy.
 
 - [Autonolas](https://github.com/valory-xyz/open-autonomy) - Framework for building autonomous agent services on-chain.
 - [DeFi Llama API](https://defillama.com/docs/api) - Open API for DeFi protocol data used by trading agents.
+- [Drift Protocol v2](https://github.com/drift-labs/protocol-v2) - On-chain perpetuals protocol infrastructure for autonomous trading agents.
 - [ElizaOS DeFi Plugins](https://github.com/elizaOS/eliza/tree/main/packages) - DeFi protocol integrations for ElizaOS agents.
 - [Gauntlet](https://www.gauntlet.xyz) - Risk management and simulation platform for DeFi agents.
 - [Griffain](https://griffain.com) - AI agent platform for Solana DeFi operations.
+- [Kamino KLend SDK](https://github.com/Kamino-Finance/klend-sdk) - Lending protocol SDK for credit and yield allocation agents.
 - [Lulo](https://lulo.fi) - Yield optimization protocol with agent-friendly APIs.
 - [Orca Whirlpools SDK](https://github.com/orca-so/whirlpools) - Solana concentrated liquidity SDK for agent strategies.
 - [Raydium SDK](https://github.com/raydium-io/raydium-sdk-V2) - Solana AMM SDK for agent-driven liquidity provision.
@@ -340,12 +344,14 @@ Quantitative finance frameworks and AI-driven trading systems.
 
 - [AlphaAgent](https://github.com/LLMQuant/AlphaAgent) - LLM-powered agent for quantitative trading research.
 - [BitQuant](https://github.com/OpenGradient/BitQuant) - Multi-agent quantitative analysis framework.
+- [DriftPy](https://github.com/drift-labs/driftpy) - Python SDK for building Solana-based perp and risk management agents.
 - [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Open-source financial LLM framework.
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) - Deep reinforcement learning library for quantitative finance.
 - [Freqtrade](https://github.com/freqtrade/freqtrade) - Open-source algorithmic trading bot in Python.
 - [Hummingbot](https://github.com/hummingbot/hummingbot) - Open-source market making and arbitrage bot.
 - [Lean](https://github.com/QuantConnect/Lean) - Algorithmic trading engine by QuantConnect.
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - High-performance algorithmic trading platform in Rust and Python.
+- [Phoenix v1](https://github.com/Ellipsis-Labs/phoenix-v1) - On-chain central limit order book protocol for low-latency execution agents.
 - [Qlib](https://github.com/microsoft/qlib) - AI-oriented quantitative investment platform from Microsoft.
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent LLM framework simulating a trading firm.
 - [VectorBT](https://github.com/polakowo/vectorbt) - Fast backtesting and analysis library for trading strategies.
