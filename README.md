@@ -25,6 +25,8 @@ CLI usage).
 - [Prompt Engineering](#prompt-engineering)
 - [Agent Harnessing and Evaluation](#agent-harnessing-and-evaluation)
 - [Context Engineering](#context-engineering)
+- [Neural Networks and Neural Linking](#neural-networks-and-neural-linking)
+- [Obsidian Vault Architecture for Agents](#obsidian-vault-architecture-for-agents)
 - [Agent Security and Robustness](#agent-security-and-robustness)
 - [Agent Configs and Dotfiles](#agent-configs-and-dotfiles)
 - [Skill Engineering and Playbooks](#skill-engineering-and-playbooks)
@@ -200,6 +202,12 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [Tau-Bench](https://github.com/sierra-research/tau-bench) - Realistic interactive benchmark for measuring agent reliability.
 - [WebArena](https://github.com/web-arena-x/webarena) - Real-world web task benchmark environment for browser agents.
 - [WorkArena](https://github.com/ServiceNow/WorkArena) - Enterprise task benchmark for browser-based agent workflows.
+- [AgentDojo](https://github.com/ethz-spylab/agentdojo) - Security and robustness benchmark suite for tool-using agents.
+- [AppWorld](https://github.com/StonyBrookNLP/appworld) - Multi-application environment for benchmarking autonomous task completion.
+- [AgentLab](https://github.com/ServiceNow/AgentLab) - Research platform for developing and evaluating web agents.
+- [ALFWorld](https://alfworld.github.io/) - Interactive long-horizon benchmark environment for embodied planning agents.
+- [HELM](https://crfm.stanford.edu/helm/latest/) - Standardized evaluation framework for model and agent behavior comparison.
+- [GAIA Benchmark](https://huggingface.co/gaia-benchmark) - Realistic benchmark for tool-using, multi-step general assistant tasks.
 - [Agent Harnessing Playbook (this repo)](guides/agent-harnessing-playbook.md) - Practical framework for benchmark design, regression gates, and release readiness.
 
 ## Context Engineering
@@ -220,6 +228,38 @@ Methods and references for designing robust, efficient context pipelines.
 - [Lost in the Middle (Liu et al., 2023)](https://arxiv.org/abs/2307.03172) - Key long-context failure analysis paper.
 - [Context Engineering Playbook (this repo)](guides/context-engineering-playbook.md) - Practical context budget, memory, retrieval, and anti-drift checklist.
 - [Agent Operator Trend Signals (this repo)](guides/agent-operator-trend-signals-2026.md) - Synthesized practitioner themes for harness and context strategy.
+
+## Neural Networks and Neural Linking
+
+Neural memory, retrieval, and graph-linking foundations relevant to advanced agent cognition.
+
+- [Neural Turing Machines (2014)](https://arxiv.org/abs/1410.5401) - Foundational differentiable external-memory architecture.
+- [End-to-End Memory Networks (2015)](https://arxiv.org/abs/1503.08895) - Multi-hop memory lookup architecture for iterative reasoning.
+- [Differentiable Neural Computer (2016)](https://arxiv.org/abs/1605.08582) - Enhanced neural memory addressing for long-horizon reasoning.
+- [Transformer-XL (2019)](https://arxiv.org/abs/1901.02860) - Segment-level recurrence for long-context memory reuse.
+- [Compressive Transformer (2019)](https://arxiv.org/abs/1911.05507) - Compressed memory tiers for scalable sequence retention.
+- [RAG (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401) - Canonical retrieval-augmented generation architecture.
+- [kNN Language Models (2020)](https://arxiv.org/abs/1911.00172) - Non-parametric memory retrieval at inference time.
+- [RETRO (2021)](https://arxiv.org/abs/2112.04426) - Retrieval-heavy architecture for efficient knowledge access.
+- [Neural Bellman-Ford Networks (2021)](https://arxiv.org/abs/2106.06935) - Graph neural reasoning for multi-hop relational inference.
+- [DeepProbLog](https://github.com/ML-KULeuven/deepproblog) - Neural-symbolic framework combining perception models and logic rules.
+- [Neural Linking and Memory Playbook (this repo)](guides/neural-linking-memory-playbook.md) - Practical guide for agent memory architectures and neural-symbolic linking patterns.
+
+## Obsidian Vault Architecture for Agents
+
+Obsidian-specific architecture patterns and APIs for using vaults as agent memory backends.
+
+- [How Obsidian Stores Data](https://help.obsidian.md/Files+and+folders/How+Obsidian+stores+data) - Canonical vault-on-disk model and config layout.
+- [Obsidian Properties](https://help.obsidian.md/Editing+and+formatting/Properties) - Structured metadata schema for machine-readable note attributes.
+- [Obsidian Plugin Guide](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) - Official plugin architecture and lifecycle entrypoint.
+- [Obsidian TypeScript API (Vault)](https://docs.obsidian.md/Reference/TypeScript+API/Vault) - Programmatic CRUD layer for vault files.
+- [obsidian-api](https://github.com/obsidianmd/obsidian-api) - Official API type definitions for plugin development.
+- [Dataview](https://github.com/blacksmithgu/obsidian-dataview) - Query engine for structured note metadata and graph-aware retrieval.
+- [Juggl](https://github.com/HEmile/juggl) - Advanced graph exploration plugin for complex link topology workflows.
+- [Local REST API Plugin](https://github.com/coddingtonbear/obsidian-local-rest-api) - Local HTTP interface for external agent integrations.
+- [Advanced URI](https://github.com/Vinzent03/obsidian-advanced-uri) - URI-based automation hooks for cross-tool workflows.
+- [Obsidian Git](https://github.com/Vinzent03/obsidian-git) - Versioned vault operations for auditable agent writes.
+- [Obsidian Vault Architecture Playbook (this repo)](guides/obsidian-vault-architecture-playbook.md) - Reference architecture and operational patterns for agent-connected Obsidian systems.
 
 ## Agent Security and Robustness
 
