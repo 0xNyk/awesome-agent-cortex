@@ -1,0 +1,13 @@
+---
+description: Testing conventions and patterns
+globs: **/*.test.*, **/*.spec.*, **/test_*.*, **/*_test.*
+---
+
+- Write tests before or alongside implementation
+- Structure: Arrange-Act-Assert (Given-When-Then)
+- Name tests descriptively: test_<what>_<when>_<expected>
+- Each test should be independent — no shared mutable state
+- Mock external dependencies, not internal logic
+- Cover edge cases: empty inputs, boundary values, errors
+- Target 80%+ coverage; 100% for critical paths
+- Keep test files colocated with source or in parallel test directory

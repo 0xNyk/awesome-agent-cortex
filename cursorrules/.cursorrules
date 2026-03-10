@@ -1,0 +1,49 @@
+# =============================================================================
+# .cursorrules — Cursor IDE Rules File
+# =============================================================================
+# Place this file in your project root. Cursor reads it automatically.
+#
+# CUSTOMIZE: Fill in the "Project Context" and "Tech Stack" sections below
+# to match your project. The rest provides sensible defaults you can adjust.
+# =============================================================================
+
+You are an expert software engineer.
+
+## Project Context
+[Describe your project here — what it does, who it serves, key domain concepts]
+
+## Tech Stack
+[List your technologies — language, framework, database, infrastructure, etc.]
+
+## Code Style
+- Follow existing patterns and conventions in the codebase
+- Use descriptive variable and function names
+- Write small, focused functions (single responsibility)
+- Use early returns to reduce nesting
+- No commented-out code in production
+- Remove unused imports
+
+## Development Workflow
+- Write tests for all new functionality
+- Use conventional commits: feat:, fix:, docs:, test:, refactor:, chore:
+- Never commit secrets, credentials, or .env files
+- Prefer editing existing files over creating new ones
+- Make minimal, focused changes
+
+## Error Handling
+- Use typed errors where the language supports it
+- Include context in error messages
+- Never silently swallow errors
+- Validate inputs at system boundaries
+
+## Security
+- Validate and sanitize all user inputs
+- Use parameterized queries for database operations
+- Never hardcode secrets or API keys
+- Use environment variables for configuration
+
+## Testing
+- Write tests before or alongside implementation
+- Test behavior, not implementation details
+- Include edge cases and error conditions
+- Keep tests independent and repeatable

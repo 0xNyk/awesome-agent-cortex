@@ -30,7 +30,6 @@ jobs:
             --timeout 20
             --max-retries 2
             --retry-wait-time 2
-            --exclude-mail
             --exclude 'https://www.reddit.com/.*'
             --exclude 'https://defillama.com/.*'
             --exclude 'https://www.coinbase.com/.*'
