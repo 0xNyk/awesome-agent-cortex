@@ -32,21 +32,25 @@ infrastructure — resources no other awesome list brings together.
 
 Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 
+- [Agno](https://github.com/agno-agi/agno) - Framework for building and running agentic software at scale.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework from Microsoft Research.
 - [Claude Agent SDK](https://github.com/anthropics/anthropic-sdk-python) - Official Python SDK for building agents with Claude models.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration framework.
 - [ElizaOS](https://github.com/elizaOS/eliza) - Multi-agent simulation framework for autonomous characters.
-- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Google A2A](https://github.com/google/A2A) - Agent-to-Agent protocol for cross-framework agent communication.
+- [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Haystack](https://github.com/deepset-ai/haystack) - LLM orchestration framework for building search and RAG pipelines.
 - [Julep](https://github.com/julep-ai/julep) - Stateful agent platform with built-in persistence and task workflows.
 - [LangChain](https://github.com/langchain-ai/langchain) - Composable framework for building LLM-powered applications.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Library for building stateful multi-agent workflows as graphs.
 - [Letta](https://github.com/letta-ai/letta) - Stateful agents with long-term memory (formerly MemGPT).
+- [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for document agents, retrieval, and workflow orchestration.
 - [Magentic-One](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one) - Multi-agent team for complex web and file tasks.
+- [Mastra](https://github.com/mastra-ai/mastra) - TypeScript framework for building AI applications and agents.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official SDK for building agents with OpenAI models.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
 - [Phidata](https://github.com/phidatahq/phidata) - Toolkit for building AI assistants with memory and tools.
+- [PydanticAI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework built around Pydantic.
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust framework for building LLM-powered applications.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into apps with plugin architecture.
 - [Smolagents](https://github.com/huggingface/smolagents) - Lightweight agent framework from Hugging Face.
@@ -98,12 +102,16 @@ Terminal-based agent interfaces and developer tools.
 Model Context Protocol servers, clients, and tooling.
 
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
+- [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
 - [mcp](https://github.com/modelcontextprotocol/servers) - Official reference MCP server implementations.
-- [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official inspector and debugging tool for MCP servers.
+- [MCP Agent](https://github.com/lastmile-ai/mcp-agent) - Framework patterns for building agents on top of MCP.
 - [MCP Go SDK](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol.
+- [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official inspector and debugging tool for MCP servers.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers.
+- [MCP Registry](https://github.com/modelcontextprotocol/registry) - Community registry service for discovering MCP servers.
 - [MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - Official Rust SDK for building MCP servers.
 - [MCP Spec](https://spec.modelcontextprotocol.io) - Official Model Context Protocol specification.
+- [MCP Specification Repo](https://github.com/modelcontextprotocol/modelcontextprotocol) - Canonical specification and documentation repository.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation via Playwright.
 - [Smithery](https://smithery.ai) - Registry and hosting platform for MCP servers.
@@ -146,6 +154,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 
 - [Cognee](https://github.com/topoteretes/cognee) - Memory management layer for LLM apps using knowledge graphs.
 - [FalkorDB](https://github.com/FalkorDB/FalkorDB) - Ultra-fast graph database for AI agent knowledge.
+- [Graphiti](https://github.com/getzep/graphiti) - Real-time knowledge graph framework for AI agents.
 - [GraphRAG](https://github.com/microsoft/graphrag) - Graph-based retrieval augmented generation from Microsoft.
 - [Khoj](https://github.com/khoj-ai/khoj) - Personal AI assistant with long-term memory and knowledge search.
 - [LightRAG](https://github.com/HKUDS/LightRAG) - Simple and fast RAG framework using graph structures.
@@ -159,6 +168,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector search engine for agent memory.
 - [txtai](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search and workflows.
 - [Weaviate](https://github.com/weaviate/weaviate) - Vector database with built-in modules for AI workloads.
+- [Zep](https://github.com/getzep/zep) - Memory infrastructure and retrieval stack for AI assistants and agents.
 
 ## Solana Agent Infrastructure
 
@@ -179,6 +189,7 @@ Tools and SDKs for building AI agents on Solana.
 
 On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 
+- [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Toolkit for giving AI agents programmable wallet capabilities.
 - [Crossmint](https://www.crossmint.com) - Wallet-as-a-service for agent-owned wallets and NFT minting.
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) - Proposed standard for cross-chain agent identity.
 - [Lit Protocol](https://github.com/LIT-Protocol/js-sdk) - Decentralized key management and programmable signing.
@@ -237,15 +248,21 @@ Quantitative finance frameworks and AI-driven trading systems.
 
 Debugging, tracing, evaluation, and testing tools for AI agents.
 
+- [AgentOps](https://github.com/AgentOps-AI/agentops) - Monitoring, cost tracking, and benchmarking for agent workflows.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework.
+- [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability and monitoring platform.
 - [LangFuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform for tracing and evaluation.
 - [LangSmith](https://smith.langchain.com) - Platform for debugging, testing, and monitoring LLM applications.
+- [LiteLLM](https://github.com/BerriAI/litellm) - LLM gateway and proxy with logging, cost tracking, and routing controls.
+- [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
+- [OpenAI Evals](https://github.com/openai/evals) - Framework and benchmark registry for evaluating LLM systems.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based observability for LLM applications.
 - [Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform from Arize.
 - [Portkey](https://github.com/Portkey-AI/gateway) - AI gateway with observability, caching, and fallback routing.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - LLM evaluation and red-teaming toolkit.
+- [SigNoz](https://github.com/SigNoz/signoz) - OpenTelemetry-native observability platform for traces, logs, and metrics.
 - [Weave](https://github.com/wandb/weave) - Toolkit for tracking and evaluating LLM applications from W&B.
 
 ## Research Papers
