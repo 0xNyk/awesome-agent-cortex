@@ -38,6 +38,22 @@ submission will be accepted — but we welcome all suggestions.
 - Self-promotion without substance
 - Entries that do not fit any existing section
 
+## Intentional Cross-Listings (Duplicate Entries)
+
+Some resources are intentionally listed in multiple sections when they provide
+strong value across distinct workflows (for example: Prompt + Evaluation, or
+Coding Agent + CLI Tool).
+
+Rules for cross-listing:
+
+1. Only cross-list when the overlap is clearly meaningful to users.
+2. Keep the description aligned to each section's context (same project, but
+   section-relevant phrasing is okay).
+3. In PRs, explicitly call out intentional cross-listings in the description so
+   reviewers do not remove them as accidental duplicates.
+4. Avoid excessive repetition. If a project appears in more than two sections,
+   justify why.
+
 ## Suggesting a New Section
 
 Open an issue first to discuss whether a new section is warranted. New sections
