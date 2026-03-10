@@ -19,6 +19,7 @@ CLI usage).
 - [Coding Agents](#coding-agents)
 - [Hermes Stack](#hermes-stack)
 - [CLI and TUI Tools](#cli-and-tui-tools)
+- [Agent Runtime Infrastructure](#agent-runtime-infrastructure)
 - [MCP Ecosystem](#mcp-ecosystem)
 - [Prompt Engineering](#prompt-engineering)
 - [Agent Harnessing and Evaluation](#agent-harnessing-and-evaluation)
@@ -117,6 +118,14 @@ Terminal-based agent interfaces and developer tools.
 - [Warp](https://www.warp.dev) - Modern terminal with built-in AI assistance.
 - [Zellij](https://github.com/zellij-org/zellij) - Terminal workspace with plugin system for agent integration.
 
+## Agent Runtime Infrastructure
+
+Execution sandboxes and runtime platforms for safely running agent actions and generated code.
+
+- [Daytona](https://github.com/daytonaio/daytona) - Secure and elastic runtime infrastructure for AI-generated code execution.
+- [E2B](https://github.com/e2b-dev/E2B) - Open-source secure cloud sandbox environment for AI agents.
+- [Modal](https://modal.com) - Serverless compute platform often used for running agent workloads and tools.
+
 ## MCP Ecosystem
 
 Model Context Protocol servers, clients, and tooling.
@@ -157,10 +166,12 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [AgentEvals](https://github.com/langchain-ai/agentevals) - Evaluation utilities for scoring agent trajectories and outcomes.
 - [AutoGen agbench](https://github.com/microsoft/autogen/tree/main/python/packages/agbench) - Benchmark runner for AutoGen agent workflows.
 - [BrowserGym](https://github.com/ServiceNow/BrowserGym) - Gym-style environment for training and evaluating browser agents.
+- [browser-use](https://github.com/browser-use/browser-use) - Framework for browser task automation and agent web interaction loops.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Open-source framework for reproducible LLM and agent evaluations.
 - [MLE-bench](https://github.com/openai/mle-bench) - Benchmark harness for autonomous ML engineering tasks.
 - [OSWorld](https://github.com/xlang-ai/OSWorld) - Open-ended benchmark environment for desktop computer-use agents.
 - [OpenCUA](https://github.com/xlang-ai/OpenCUA) - Open foundation stack for building and evaluating computer-use agents.
+- [Stagehand](https://github.com/browserbase/stagehand) - Browser automation framework for agentic web workflows and reproducible runs.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Canonical benchmark for coding agents on real GitHub issue tasks.
 - [Tau-Bench](https://github.com/sierra-research/tau-bench) - Realistic interactive benchmark for measuring agent reliability.
 - [WebArena](https://github.com/web-arena-x/webarena) - Real-world web task benchmark environment for browser agents.
@@ -209,6 +220,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [Graphiti](https://github.com/getzep/graphiti) - Real-time knowledge graph framework for AI agents.
 - [GraphRAG](https://github.com/microsoft/graphrag) - Graph-based retrieval augmented generation from Microsoft.
 - [Khoj](https://github.com/khoj-ai/khoj) - Personal AI assistant with long-term memory and knowledge search.
+- [LangMem](https://github.com/langchain-ai/langmem) - Memory management toolkit for building long-horizon agent systems.
 - [LightRAG](https://github.com/HKUDS/LightRAG) - Simple and fast RAG framework using graph structures.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants and agents.
 - [Memgraph](https://github.com/memgraph/memgraph) - In-memory graph database for real-time agent queries.
@@ -303,6 +315,7 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Monitoring, cost tracking, and benchmarking for agent workflows.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework.
+- [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanning and red-teaming toolkit for security testing.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability and monitoring platform.
 - [LangFuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform for tracing and evaluation.
@@ -315,6 +328,7 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 - [Portkey](https://github.com/Portkey-AI/gateway) - AI gateway with observability, caching, and fallback routing.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - LLM evaluation and red-teaming toolkit.
 - [SigNoz](https://github.com/SigNoz/signoz) - OpenTelemetry-native observability platform for traces, logs, and metrics.
+- [TruLens](https://github.com/truera/trulens) - Open-source framework for evaluating and tracking LLM and agent experiments.
 - [Weave](https://github.com/wandb/weave) - Toolkit for tracking and evaluating LLM applications from W&B.
 
 ## Research Papers
