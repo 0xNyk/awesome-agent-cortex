@@ -21,6 +21,8 @@ CLI usage).
 - [CLI and TUI Tools](#cli-and-tui-tools)
 - [MCP Ecosystem](#mcp-ecosystem)
 - [Prompt Engineering](#prompt-engineering)
+- [Agent Harnessing and Evaluation](#agent-harnessing-and-evaluation)
+- [Context Engineering](#context-engineering)
 - [Agent Configs and Dotfiles](#agent-configs-and-dotfiles)
 - [Skill Engineering and Playbooks](#skill-engineering-and-playbooks)
 - [Knowledge Graphs and Memory](#knowledge-graphs-and-memory)
@@ -146,6 +148,38 @@ System prompts, templates, and agent prompt patterns.
 - [LangChain Hub](https://smith.langchain.com/hub) - Community-driven prompt and chain sharing platform.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Testing and evaluation framework for LLM prompts.
 - [System Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts) - Collection of system prompts for various AI models.
+
+## Agent Harnessing and Evaluation
+
+Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and reliability.
+
+- [AgentBench](https://github.com/THUDM/AgentBench) - Multi-domain benchmark suite for evaluating LLMs as agents.
+- [AgentEvals](https://github.com/langchain-ai/agentevals) - Evaluation utilities for scoring agent trajectories and outcomes.
+- [AutoGen agbench](https://github.com/microsoft/autogen/tree/main/python/packages/agbench) - Benchmark runner for AutoGen agent workflows.
+- [BrowserGym](https://github.com/ServiceNow/BrowserGym) - Gym-style environment for training and evaluating browser agents.
+- [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Open-source framework for reproducible LLM and agent evaluations.
+- [MLE-bench](https://github.com/openai/mle-bench) - Benchmark harness for autonomous ML engineering tasks.
+- [OSWorld](https://github.com/xlang-ai/OSWorld) - Open-ended benchmark environment for desktop computer-use agents.
+- [OpenCUA](https://github.com/xlang-ai/OpenCUA) - Open foundation stack for building and evaluating computer-use agents.
+- [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Canonical benchmark for coding agents on real GitHub issue tasks.
+- [Tau-Bench](https://github.com/sierra-research/tau-bench) - Realistic interactive benchmark for measuring agent reliability.
+- [WebArena](https://github.com/web-arena-x/webarena) - Real-world web task benchmark environment for browser agents.
+- [WorkArena](https://github.com/ServiceNow/WorkArena) - Enterprise task benchmark for browser-based agent workflows.
+- [Agent Harnessing Playbook (this repo)](guides/agent-harnessing-playbook.md) - Practical framework for benchmark design, regression gates, and release readiness.
+
+## Context Engineering
+
+Methods and references for designing robust, efficient context pipelines.
+
+- [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Practical engineering patterns for agent design and execution loops.
+- [Anthropic: Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval) - Retrieval architecture guidance for improving grounding and precision.
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official prompt and instruction design guidance.
+- [OpenAI Evals Guide](https://platform.openai.com/docs/guides/evals) - Official framework for building eval loops and quality gates.
+- [OpenAI Cookbook: Getting Started with Evals](https://developers.openai.com/cookbook/examples/evaluation/getting_started_with_openai_evals) - Practical eval setup walkthrough.
+- [RAG (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401) - Foundational retrieval-augmented generation paper.
+- [Chain-of-Thought Prompting (Wei et al., 2022)](https://arxiv.org/abs/2203.02155) - Foundational reasoning/prompting technique paper.
+- [Lost in the Middle (Liu et al., 2023)](https://arxiv.org/abs/2307.03172) - Key long-context failure analysis paper.
+- [Context Engineering Playbook (this repo)](guides/context-engineering-playbook.md) - Practical context budget, memory, retrieval, and anti-drift checklist.
 
 ## Agent Configs and Dotfiles
 
