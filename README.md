@@ -482,3 +482,12 @@ If you find this project useful, consider supporting my open-source work.
 
 To the extent possible under law, the authors have waived all copyright and
 related or neighboring rights to this work.
+
+---
+
+
+<p align="center">
+  <a href="https://star-history.com/#0xNyk/awesome-agent-cortex&Date">
+    <img src="https://api.star-history.com/svg?repos=0xNyk/awesome-agent-cortex&type=Date" alt="Star History" width="400">
+  </a>
+</p>
