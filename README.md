@@ -121,6 +121,7 @@ Agents with voice, vision, and multimodal capabilities.
 Hermes Agent runtime, deployment rails, and operator resources.
 
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Open-source autonomous AI agent with CLI, gateway, memory, subagents, and broad tool integrations.
+- [Hermes Hub (this repo)](hermes/README.md) - Local operator knowledge base for Hermes setup, configuration, memory/skills workflows, and contribution orientation.
 - [Hermes Agent + hermes-fly Best Practices (this repo)](guides/hermes-agent-hermes-fly-playbook.md) - Practical setup, operations, security, and optimization playbook.
 - [Hermes Agent Optimization Playbook (this repo)](guides/hermes-agent-optimization-playbook.md) - Deep operator guide for context, delegation, memory, and execution tuning.
 - [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) - Evolutionary self-improvement framework for optimizing Hermes Agent prompts, skills, and code.
