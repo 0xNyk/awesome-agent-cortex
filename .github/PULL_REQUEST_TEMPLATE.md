@@ -7,6 +7,13 @@
 - [ ] The project is actively maintained
 - [ ] The entry is in alphabetical order within its section
 
+## Merge + Hygiene Checklist
+
+- [ ] Branch is up to date with `main` (rebased or merged) before review
+- [ ] No conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) remain
+- [ ] CI checks pass (link check/docs health)
+- [ ] Scope is tight (no unrelated files or drive-by edits)
+
 ### Entry
 
 ```markdown

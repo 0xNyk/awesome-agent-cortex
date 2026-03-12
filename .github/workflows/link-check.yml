@@ -37,5 +37,5 @@ jobs:
             --exclude 'https://cursor.directory.*'
             --exclude 'https://spec.modelcontextprotocol.io.*'
             --exclude 'https://platform.openai.com/docs/.*'
-            README.md guides/**/*.md claude/**/*.md
+            README.md guides/**/*.md claude/**/*.md hermes/**/*.md codex/**/*.md cursorrules/**/*.md CONTRIBUTING.md CODE_OF_CONDUCT.md
           fail: true
