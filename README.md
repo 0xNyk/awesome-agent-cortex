@@ -110,8 +110,10 @@ Agents with voice, vision, and multimodal capabilities.
 - [ElevenLabs](https://github.com/elevenlabs/elevenlabs-python) - Text-to-speech and voice cloning API for agent voice interfaces.
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time multimodal AI agents.
 - [Pipecat](https://github.com/pipecat-ai/pipecat) - Framework for building voice and multimodal conversational agents.
+- [TEN Framework](https://github.com/TEN-framework/ten-framework) - Open-source framework for conversational voice AI agents.
 - [Ultravox](https://github.com/fixie-ai/ultravox) - Fast multimodal LLM for real-time voice AI.
 - [Vapi](https://vapi.ai) - Platform for building and deploying voice AI agents.
+- [Vocode Core](https://github.com/vocodedev/vocode-core) - Modular open-source framework for building voice-based LLM agents.
 - [Whisper](https://github.com/openai/whisper) - Open-source speech recognition model from OpenAI.
 
 ## Hermes Stack
@@ -119,11 +121,13 @@ Agents with voice, vision, and multimodal capabilities.
 Hermes Agent runtime, deployment rails, and operator resources.
 
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Open-source autonomous AI agent with CLI, gateway, memory, subagents, and broad tool integrations.
-- [hermes-fly](https://github.com/alexfazio/hermes-fly) - Fly.io deployment and operations CLI for Hermes Agent with deploy, logs, doctor, and teardown workflows.
 - [Hermes Agent + hermes-fly Best Practices (this repo)](guides/hermes-agent-hermes-fly-playbook.md) - Practical setup, operations, security, and optimization playbook.
 - [Hermes Agent Optimization Playbook (this repo)](guides/hermes-agent-optimization-playbook.md) - Deep operator guide for context, delegation, memory, and execution tuning.
-- [Hermes Stack Quickstart Recipes (this repo)](guides/hermes-stack-quickstart-recipes.md) - Copy/paste recipes for local dev, hosted production, secure mode, and CI operations.
+- [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) - Evolutionary self-improvement framework for optimizing Hermes Agent prompts, skills, and code.
+- [Hermes Paperclip Adapter](https://github.com/NousResearch/hermes-paperclip-adapter) - Adapter for running Hermes Agent as a managed employee inside Paperclip.
+- [hermes-fly](https://github.com/alexfazio/hermes-fly) - Fly.io deployment and operations CLI for Hermes Agent with deploy, logs, doctor, and teardown workflows.
 - [Hermes Stack Maturity Ladder (this repo)](guides/hermes-stack-maturity-ladder.md) - L1-L3 readiness model with upgrade paths and operational checklist.
+- [Hermes Stack Quickstart Recipes (this repo)](guides/hermes-stack-quickstart-recipes.md) - Copy/paste recipes for local dev, hosted production, secure mode, and CI operations.
 
 ## CLI and TUI Tools
 
@@ -136,7 +140,7 @@ Terminal-based agent interfaces and developer tools.
 - [hermes-fly](https://github.com/alexfazio/hermes-fly) - CLI wizard to deploy and operate Hermes Agent on Fly.io.
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commonly paired with coding agents.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs from the terminal.
-- [mods](https://github.com/charmbracelet/mods) - AI on the command line built on Charm.
+- [aichat](https://github.com/sigoden/aichat) - All-in-one LLM CLI with chat, shell assistant, RAG, and agent features.
 - [OpenCodex](https://github.com/openai/codex) - Lightweight CLI coding agent from OpenAI.
 - [sgpt](https://github.com/tbckr/sgpt) - Command-line productivity tool powered by LLMs.
 - [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for running agents in persistent sessions.
@@ -149,7 +153,11 @@ Execution sandboxes and runtime platforms for safely running agent actions and g
 
 - [Daytona](https://github.com/daytonaio/daytona) - Secure and elastic runtime infrastructure for AI-generated code execution.
 - [E2B](https://github.com/e2b-dev/E2B) - Open-source secure cloud sandbox environment for AI agents.
+- [Firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVM technology for isolated agent execution.
+- [gVisor](https://github.com/google/gvisor) - Application kernel for containers that adds a strong isolation boundary.
+- [Kata Containers](https://github.com/kata-containers/kata-containers) - Lightweight VM-based container runtime for stronger workload isolation.
 - [Modal](https://modal.com) - Serverless compute platform often used for running agent workloads and tools.
+- [RunPod Python SDK](https://github.com/runpod/runpod-python) - Python SDK for RunPod serverless and worker-based AI workloads.
 
 ## MCP Ecosystem
 
@@ -164,7 +172,7 @@ Model Context Protocol servers, clients, and tooling.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers.
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - Community registry service for discovering MCP servers.
 - [MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - Official Rust SDK for building MCP servers.
-- [MCP Spec](https://spec.modelcontextprotocol.io) - Official Model Context Protocol specification.
+- [MCP Spec](https://modelcontextprotocol.io/specification) - Official Model Context Protocol specification.
 - [MCP Specification Repo](https://github.com/modelcontextprotocol/modelcontextprotocol) - Canonical specification and documentation repository.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation via Playwright.
@@ -274,6 +282,7 @@ Safety, red-teaming, and robustness tools for hardening agent behavior.
 - [llm-attacks](https://github.com/llm-attacks/llm-attacks) - Reference implementation and resources for adversarial jailbreak attack evaluation.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and robustness testing toolkit for LLM systems.
+- [PyRIT](https://github.com/Azure/PyRIT) - Python Risk Identification Tool for proactively testing generative AI security risks.
 
 ## Agent Configs and Dotfiles
 
@@ -286,6 +295,7 @@ Configuration files and workflow examples for AI coding tools.
 - [Cursor Starter Configs](cursorrules/) - Ready-to-use .cursorrules and rule files for Cursor projects.
 - [CursorDirectory](https://cursor.directory) - Community-shared Cursor rules and configurations.
 - [dotfiles](https://dotfiles.github.io) - Guide to managing dotfiles including agent configurations.
+- [Trail of Bits Claude Code Config](https://github.com/trailofbits/claude-code-config) - Opinionated Claude Code defaults and workflows from a security-focused engineering team.
 
 ## Skill Engineering and Playbooks
 
