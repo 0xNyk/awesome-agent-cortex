@@ -1,0 +1,10 @@
+# Default owners for all files
+* @0xNyk
+
+# CI and repo policy
+/.github/ @0xNyk
+
+# Core curation surfaces
+/README.md @0xNyk
+/guides/ @0xNyk
+/hermes/ @0xNyk

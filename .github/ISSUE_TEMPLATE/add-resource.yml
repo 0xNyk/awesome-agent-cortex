@@ -1,0 +1,83 @@
+name: Add resource
+description: Propose a new resource for the awesome list.
+title: "[Add]: "
+labels:
+  - curation
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Resource name
+      placeholder: Example Tool
+    validations:
+      required: true
+
+  - type: input
+    id: url
+    attributes:
+      label: Resource URL
+      placeholder: https://github.com/org/repo
+    validations:
+      required: true
+
+  - type: dropdown
+    id: section
+    attributes:
+      label: Target section
+      options:
+        - Agent Frameworks
+        - Coding Agents
+        - Voice and Multimodal Agents
+        - Hermes Stack
+        - CLI and TUI Tools
+        - Agent Runtime Infrastructure
+        - MCP Ecosystem
+        - Prompt Engineering
+        - Agent Harnessing and Evaluation
+        - Context Engineering
+        - Neural Networks and Neural Linking
+        - Obsidian Vault Architecture for Agents
+        - Agent Security and Robustness
+        - Agent Configs and Dotfiles
+        - Skill Engineering and Playbooks
+        - Knowledge Graphs and Memory
+        - Solana Agent Infrastructure
+        - Agent Identity and Wallets
+        - Agent Payments
+        - DeFi Agents
+        - Quant and Trading Agents
+        - Agent Observability and Testing
+        - Research Papers
+        - Communities
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this belongs
+      description: Explain unique value and fit for the selected section.
+      placeholder: What does it add that we do not already have?
+    validations:
+      required: true
+
+  - type: textarea
+    id: score
+    attributes:
+      label: Awesome Score (1-5 each)
+      description: Maintenance, Docs, Production readiness, Unique value, Security posture.
+      placeholder: Maintenance 4, Docs 4, Production 3, Unique 4, Security 3
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I verified the link is accessible.
+          required: true
+        - label: I checked the project is actively maintained.
+          required: true
+        - label: I checked this is not a duplicate entry unless intentional cross-listing.
+          required: true

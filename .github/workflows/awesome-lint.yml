@@ -1,0 +1,33 @@
+name: Awesome Lint
+
+on:
+  pull_request:
+    paths:
+      - 'README.md'
+      - '.github/workflows/awesome-lint.yml'
+      - '.github/scripts/check_alpha_sections.py'
+  push:
+    branches: [main]
+    paths:
+      - 'README.md'
+      - '.github/workflows/awesome-lint.yml'
+      - '.github/scripts/check_alpha_sections.py'
+
+jobs:
+  awesome-lint:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run awesome-lint (advisory baseline)
+        continue-on-error: true
+        run: npx --yes awesome-lint README.md
+
+      - name: Check alphabetical order in curated sections
+        run: python3 .github/scripts/check_alpha_sections.py README.md

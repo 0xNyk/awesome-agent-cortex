@@ -61,6 +61,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for document agents, retrieval, and workflow orchestration.
 - [Magentic-One](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one) - Multi-agent team for complex web and file tasks.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript framework for building AI applications and agents.
+- [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Framework for building, orchestrating, and deploying agents with Python and .NET support.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official SDK for building agents with OpenAI models.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
 - [Phidata](https://github.com/phidatahq/phidata) - Toolkit for building AI assistants with memory and tools.
@@ -152,6 +153,7 @@ Terminal-based agent interfaces and developer tools.
 
 Execution sandboxes and runtime platforms for safely running agent actions and generated code.
 
+- [CUA](https://github.com/trycua/cua) - Open-source infrastructure for computer-use agents with sandboxes, SDKs, and benchmarks.
 - [Daytona](https://github.com/daytonaio/daytona) - Secure and elastic runtime infrastructure for AI-generated code execution.
 - [E2B](https://github.com/e2b-dev/E2B) - Open-source secure cloud sandbox environment for AI agents.
 - [Firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVM technology for isolated agent execution.
@@ -165,9 +167,12 @@ Execution sandboxes and runtime platforms for safely running agent actions and g
 Model Context Protocol servers, clients, and tooling.
 
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
+- [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server for coding and browser automation agents.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
+- [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server for GitHub workflows and repository actions.
 - [mcp](https://github.com/modelcontextprotocol/servers) - Official reference MCP server implementations.
 - [MCP Agent](https://github.com/lastmile-ai/mcp-agent) - Framework patterns for building agents on top of MCP.
+- [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) - Cross-language curriculum and practical examples for learning MCP.
 - [MCP Go SDK](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official inspector and debugging tool for MCP servers.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers.
@@ -205,6 +210,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [browser-use](https://github.com/browser-use/browser-use) - Framework for browser task automation and agent web interaction loops.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Open-source framework for reproducible LLM and agent evaluations.
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Open robustness benchmark for measuring jailbreak resistance in language models and agents.
+- [MCPMark](https://github.com/eval-sys/mcpmark) - Stress-testing benchmark for evaluating model and agent capability on MCP tasks.
 - [MLE-bench](https://github.com/openai/mle-bench) - Benchmark harness for autonomous ML engineering tasks.
 - [OSWorld](https://github.com/xlang-ai/OSWorld) - Open-ended benchmark environment for desktop computer-use agents.
 - [OpenCUA](https://github.com/xlang-ai/OpenCUA) - Open foundation stack for building and evaluating computer-use agents.
@@ -226,6 +232,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 Systems-level context design: memory, retrieval, compression, routing, and long-horizon state management.
 Focus here on *what information the model gets, when, and in what form*.
 
+- [12-Factor Agents](https://github.com/humanlayer/12-factor-agents) - Engineering principles for building reliable, production-grade LLM agents.
 - [Anthropic: Building Effective Agents](https://www.anthropic.com/engineering/building-effective-agents) - Practical engineering patterns for agent design and execution loops.
 - [Anthropic: Contextual Retrieval](https://www.anthropic.com/engineering/contextual-retrieval) - Retrieval architecture guidance for improving grounding and precision.
 - [Anthropic: Effective Context Engineering for AI Agents](https://www.anthropic.com/engineering/effective-context-engineering-for-ai-agents) - Production guidance for context composition and lifecycle management.
@@ -281,6 +288,7 @@ Safety, red-teaming, and robustness tools for hardening agent behavior.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Guardrails framework for secure and robust agent development.
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Open robustness benchmark for measuring jailbreak resistance in language models and agents.
 - [llm-attacks](https://github.com/llm-attacks/llm-attacks) - Reference implementation and resources for adversarial jailbreak attack evaluation.
+- [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) - Official security guidance for MCP authorization flows, threats, and mitigations.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and robustness testing toolkit for LLM systems.
 - [PyRIT](https://github.com/Azure/PyRIT) - Python Risk Identification Tool for proactively testing generative AI security risks.
@@ -437,6 +445,7 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 - [LiteLLM](https://github.com/BerriAI/litellm) - LLM gateway and proxy with logging, cost tracking, and routing controls.
 - [OpenAI Evals](https://github.com/openai/evals) - Framework and benchmark registry for evaluating LLM systems.
 - [OpenLLMetry](https://github.com/traceloop/openllmetry) - OpenTelemetry-based observability for LLM applications.
+- [Opik](https://github.com/comet-ml/opik) - Open-source platform for LLM and agent tracing, evaluation, and monitoring.
 - [Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform from Arize.
 - [Portkey](https://github.com/Portkey-AI/gateway) - AI gateway with observability, caching, and fallback routing.
 - [SigNoz](https://github.com/SigNoz/signoz) - OpenTelemetry-native observability platform for traces, logs, and metrics.
