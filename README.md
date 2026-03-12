@@ -24,6 +24,7 @@ CLI usage).
 - [MCP Ecosystem](#mcp-ecosystem)
 - [Prompt Engineering](#prompt-engineering)
 - [Agent Harnessing and Evaluation](#agent-harnessing-and-evaluation)
+- [ArXiv Deep Research Map](#arxiv-deep-research-map)
 - [Context Engineering](#context-engineering)
 - [Neural Networks and Neural Linking](#neural-networks-and-neural-linking)
 - [Obsidian Vault Architecture for Agents](#obsidian-vault-architecture-for-agents)
@@ -203,6 +204,15 @@ Focus here on *what to ask and how to phrase it* at the prompt layer.
 
 Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and reliability.
 
+### Benchmark Reality Check (real-world tool use)
+
+- [MCPMark (paper)](https://arxiv.org/abs/2509.24002) - 127-task MCP benchmark; reports best pass@1 at 52.56% (gpt-5-medium), with several strong models below 30% pass@1.
+- [MCPMark (leaderboard)](https://mcpmark.ai/) - Live model comparisons for realistic MCP task execution.
+- [τ-bench](https://arxiv.org/abs/2406.12045) - Tool-agent-user benchmark; reports strong function-calling agents still below 50% task success in its setup.
+- [OSWorld](https://arxiv.org/abs/2404.07972) - Open-ended computer-use benchmark; reports best model 12.24% vs 72.36% human success in initial results.
+- [WebArena](https://arxiv.org/abs/2307.13854) - Realistic web-task benchmark; reports best GPT-4-based agent at 14.41% vs 78.24% human.
+- [GAIA](https://arxiv.org/abs/2311.12983) - General assistant benchmark; original framing reports large human-model gap on tool-heavy questions.
+
 - [AgentBench](https://github.com/THUDM/AgentBench) - Multi-domain benchmark suite for evaluating LLMs as agents.
 - [AgentEvals](https://github.com/langchain-ai/agentevals) - Evaluation utilities for scoring agent trajectories and outcomes.
 - [AutoGen agbench](https://github.com/microsoft/autogen/blob/main/python/packages/agbench/README.md) - Benchmark runner for AutoGen agent workflows.
@@ -226,6 +236,12 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [HELM](https://crfm.stanford.edu/helm/latest/) - Standardized evaluation framework for model and agent behavior comparison.
 - [GAIA Benchmark](https://huggingface.co/gaia-benchmark) - Realistic benchmark for tool-using, multi-step general assistant tasks.
 - [Agent Harnessing Playbook (this repo)](guides/agent-harnessing-playbook.md) - Practical framework for benchmark design, regression gates, and release readiness.
+
+## ArXiv Deep Research Map
+
+Deep-dive reading map organized by the major categories in this repository.
+
+- [ArXiv Deep Research Map (this repo)](guides/arxiv-deep-research-map.md) - Curated paper paths with per-category must-reads, a recent watchlist, and a monthly refresh workflow across frameworks, coding, MCP/tool use, eval reliability, memory, security, multimodal, quant, and on-chain/DeFi-adjacent research.
 
 ## Context Engineering
 
@@ -457,6 +473,7 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 Curated papers on AI agents, multi-agent systems, and agent infrastructure.
 
 - [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) - Comprehensive survey of LLM-based agent architectures.
+- [ArXiv Deep Research Map (this repo)](guides/arxiv-deep-research-map.md) - Category-by-category reading map spanning frameworks, coding, MCP/tool use, memory, security, multimodal, and quant/on-chain adjacent domains.
 - [Awesome AI Agent Papers](https://github.com/VoltAgent/awesome-ai-agent-papers) - Continuously updated collection of agent research papers.
 - [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Foundational paper on reasoning in language models.
 - [Generative Agents](https://arxiv.org/abs/2304.03442) - Simulating human behavior with LLM-driven agents in a sandbox.
