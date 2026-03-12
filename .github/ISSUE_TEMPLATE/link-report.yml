@@ -1,0 +1,46 @@
+name: Broken or stale link
+description: Report a broken link or stale repository in the list.
+title: "[Link]: "
+labels:
+  - links
+  - maintenance
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location in repo
+      description: File and, if possible, line/section where the link appears.
+      placeholder: README.md - MCP Ecosystem
+    validations:
+      required: true
+
+  - type: input
+    id: broken_url
+    attributes:
+      label: Broken URL
+      placeholder: https://example.com
+    validations:
+      required: true
+
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What happened
+      description: Error code, redirect loop, archived repo, etc.
+      placeholder: HTTP 404, repo archived, domain expired, etc.
+    validations:
+      required: true
+
+  - type: input
+    id: replacement
+    attributes:
+      label: Suggested replacement URL (optional)
+      placeholder: https://github.com/org/new-repo
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I confirmed this issue is not already reported.
+          required: true

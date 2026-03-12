@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions / Discussion
+    url: https://github.com/0xNyk/awesome-agent-cortex/discussions
+    about: Ask broader questions or propose larger direction changes in Discussions.

@@ -1,0 +1,42 @@
+name: Propose new section
+description: Suggest a new top-level section for the awesome list.
+title: "[Section]: "
+labels:
+  - curation
+body:
+  - type: input
+    id: section_name
+    attributes:
+      label: Proposed section name
+      placeholder: Agent Governance and Policy
+    validations:
+      required: true
+
+  - type: textarea
+    id: rationale
+    attributes:
+      label: Why this section is needed
+      description: Explain the gap in current taxonomy.
+    validations:
+      required: true
+
+  - type: textarea
+    id: seed_entries
+    attributes:
+      label: Seed entries (minimum 5)
+      description: List at least 5 candidate resources with links.
+      placeholder: |
+        - [Example 1](https://...)
+        - [Example 2](https://...)
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: Checklist
+      options:
+        - label: I confirmed there are at least 5 qualifying entries.
+          required: true
+        - label: I checked this does not fit better under existing sections.
+          required: true
