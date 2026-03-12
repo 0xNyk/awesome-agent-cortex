@@ -199,7 +199,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 
 - [AgentBench](https://github.com/THUDM/AgentBench) - Multi-domain benchmark suite for evaluating LLMs as agents.
 - [AgentEvals](https://github.com/langchain-ai/agentevals) - Evaluation utilities for scoring agent trajectories and outcomes.
-- [AutoGen agbench](https://github.com/microsoft/autogen/tree/main/python/packages/agbench) - Benchmark runner for AutoGen agent workflows.
+- [AutoGen agbench](https://github.com/microsoft/autogen/blob/main/python/packages/agbench/README.md) - Benchmark runner for AutoGen agent workflows.
 - [BrowserGym](https://github.com/ServiceNow/BrowserGym) - Gym-style environment for training and evaluating browser agents.
 - [browser-use](https://github.com/browser-use/browser-use) - Framework for browser task automation and agent web interaction loops.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Open-source framework for reproducible LLM and agent evaluations.
