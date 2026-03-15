@@ -396,6 +396,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [Squads Protocol](https://github.com/Squads-Protocol/v4) - Multisig and smart account protocol for Solana agents.
 - [Turnkey](https://www.turnkey.com) - Secure key infrastructure for programmatic wallet management.
 - [UCAN](https://github.com/ucan-wg/spec) - User-controlled authorization for decentralized agent capabilities.
+- [AIP (Agent Identity Protocol)](https://github.com/The-Nexus-Guard/aip) - Cryptographic identity, trust vouching, and encrypted messaging for AI agents. Ed25519 signatures, W3C Verifiable Credentials, behavioral trust scoring (PDR). `pip install aip-identity`.
 
 ## Agent Payments
 
