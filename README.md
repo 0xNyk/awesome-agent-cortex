@@ -63,6 +63,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Magentic-One](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one) - Multi-agent team for complex web and file tasks.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript framework for building AI applications and agents.
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Framework for building, orchestrating, and deploying agents with Python and .NET support.
+- [NemoClaw](https://github.com/NVIDIA/NemoClaw) - NVIDIA plugin stack for secure installation and operation of OpenClaw agents.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official SDK for building agents with OpenAI models.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
 - [Phidata](https://github.com/phidatahq/phidata) - Toolkit for building AI assistants with memory and tools.
@@ -83,8 +84,11 @@ AI agents that write, review, and debug code.
 - [Cursor](https://cursor.com) - AI-first code editor built on VS Code.
 - [Devin](https://devin.ai) - Autonomous software engineering agent by Cognition.
 - [Goose](https://github.com/block/goose) - Autonomous developer agent from Block.
+- [Leanstral](https://mistral.ai/news/leanstral) - Open-source code agent for Lean 4 formal verification from Mistral AI.
+- [Open-SWE](https://github.com/langchain-ai/open-swe) - Open-source asynchronous coding agent from LangChain for software engineering tasks.
 - [OpenCodex](https://github.com/openai/codex) - OpenAI's CLI coding agent.
 - [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
+- [SERA](https://allenai.org/blog/open-coding-agents) - Open 14B-parameter coding agent from Ai2 that adapts to private codebases.
 - [SWE-Agent](https://github.com/princeton-nlp/SWE-agent) - Agent for automatically resolving GitHub issues.
 - [Windsurf](https://codeium.com/windsurf) - AI-native IDE by Codeium with agentic flows.
 
@@ -112,6 +116,7 @@ Agents with voice, vision, and multimodal capabilities.
 - [ElevenLabs](https://github.com/elevenlabs/elevenlabs-python) - Text-to-speech and voice cloning API for agent voice interfaces.
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time multimodal AI agents.
 - [Pipecat](https://github.com/pipecat-ai/pipecat) - Framework for building voice and multimodal conversational agents.
+- [Sesame CSM](https://github.com/SesameAILabs/csm) - Conversational speech model for real-time voice agent interactions.
 - [TEN Framework](https://github.com/TEN-framework/ten-framework) - Open-source framework for conversational voice AI agents.
 - [Ultravox](https://github.com/fixie-ai/ultravox) - Fast multimodal LLM for real-time voice AI.
 - [Vapi](https://vapi.ai) - Platform for building and deploying voice AI agents.
@@ -137,6 +142,10 @@ Hermes Agent runtime, deployment rails, and operator resources.
 Terminal-based agent interfaces and developer tools.
 
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic CLI that operates directly in the terminal.
+- [Claude Squad](https://github.com/smtg-ai/claude-squad) - tmux-based harness for running and managing multiple Claude Code sessions side-by-side.
+- [cmux](https://github.com/manaflow-ai/cmux) - Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents.
+- [Crush](https://github.com/charmbracelet/crush) - Agentic coding TUI from Charmbracelet with multi-provider support and LSP awareness.
+- [dmux](https://github.com/standardagents/dmux) - Dev agent multiplexer for managing coding agents across git worktrees.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's command-line interface for Gemini models.
 - [Glow](https://github.com/charmbracelet/glow) - Terminal Markdown renderer useful for agent output.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - CLI and gateway agent runtime with tools, memory, delegation, and automation support.
@@ -144,7 +153,9 @@ Terminal-based agent interfaces and developer tools.
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commonly paired with coding agents.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs from the terminal.
 - [aichat](https://github.com/sigoden/aichat) - All-in-one LLM CLI with chat, shell assistant, RAG, and agent features.
+- [OpenCode](https://github.com/opencode-ai/opencode) - Open-source terminal coding agent with multi-provider support and LSP integration.
 - [OpenCodex](https://github.com/openai/codex) - Lightweight CLI coding agent from OpenAI.
+- [Plandex](https://github.com/plandex-ai/plandex) - Plan-first CLI agent for multi-file features with structured steps and large context.
 - [sgpt](https://github.com/tbckr/sgpt) - Command-line productivity tool powered by LLMs.
 - [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for running agents in persistent sessions.
 - [Warp](https://www.warp.dev) - Modern terminal with built-in AI assistance.
@@ -161,6 +172,7 @@ Execution sandboxes and runtime platforms for safely running agent actions and g
 - [gVisor](https://github.com/google/gvisor) - Application kernel for containers that adds a strong isolation boundary.
 - [Kata Containers](https://github.com/kata-containers/kata-containers) - Lightweight VM-based container runtime for stronger workload isolation.
 - [Modal](https://modal.com) - Serverless compute platform often used for running agent workloads and tools.
+- [Morph](https://morphcloud.com) - Cloud sandbox runtime for AI agents with snapshot/restore and time-travel debugging.
 - [RunPod Python SDK](https://github.com/runpod/runpod-python) - Python SDK for RunPod serverless and worker-based AI workloads.
 
 ## MCP Ecosystem
@@ -169,6 +181,7 @@ Model Context Protocol servers, clients, and tooling.
 
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server for coding and browser automation agents.
+- [Context7 MCP](https://github.com/upstash/context7) - Most-used MCP server in 2026; provides up-to-date library documentation to agents.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server for GitHub workflows and repository actions.
 - [mcp](https://github.com/modelcontextprotocol/servers) - Official reference MCP server implementations.
@@ -178,6 +191,7 @@ Model Context Protocol servers, clients, and tooling.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official inspector and debugging tool for MCP servers.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers.
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - Community registry service for discovering MCP servers.
+- [MCP Roadmap 2026](https://blog.modelcontextprotocol.io/posts/2026-mcp-roadmap/) - Official 2026 roadmap covering remote-first servers, discoverability, and enterprise auth.
 - [MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - Official Rust SDK for building MCP servers.
 - [MCP Spec](https://modelcontextprotocol.io/specification) - Official Model Context Protocol specification.
 - [MCP Specification Repo](https://github.com/modelcontextprotocol/modelcontextprotocol) - Canonical specification and documentation repository.
@@ -190,13 +204,14 @@ Model Context Protocol servers, clients, and tooling.
 Instruction-writing craft: system prompts, response framing, and reusable prompt templates.
 Focus here on *what to ask and how to phrase it* at the prompt layer.
 
+- [Anthropic: 2026 Agentic Coding Trends Report (PDF)](https://resources.anthropic.com/hubfs/2026%20Agentic%20Coding%20Trends%20Report.pdf) - Data-driven analysis of how coding agents reshape software development.
 - [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library) - Official prompt examples from Anthropic.
 - [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - Collection of prompt examples for ChatGPT.
 - [Claude System Prompts](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) - Guide to writing effective system prompts.
-- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official guide to designing reliable prompts and instruction patterns.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming with foundation models instead of prompting.
 - [fabric](https://github.com/danielmiessler/fabric) - Framework for augmenting humans using AI with curated prompts.
 - [LangChain Hub](https://smith.langchain.com/hub) - Community-driven prompt and chain sharing platform.
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official guide to designing reliable prompts and instruction patterns.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Testing and evaluation framework for LLM prompts.
 - [System Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts) - Collection of system prompts for various AI models.
 
@@ -255,6 +270,7 @@ Focus here on *what information the model gets, when, and in what form*.
 - [Anthropic: Effective Harnesses for Long-Running Agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) - Patterns for long-horizon orchestration and reliability.
 - [LangChain: Context Engineering for Agents](https://blog.langchain.com/context-engineering-for-agents/) - Practical taxonomy for writing, selecting, compressing, and isolating context.
 - [Manus: Context Engineering for AI Agents](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus) - Practitioner lessons from building production autonomous workflows.
+- [Martin Fowler: Harness Engineering](https://martinfowler.com/articles/exploring-gen-ai/harness-engineering.html) - Practitioner-oriented analysis of harness-layer reliability patterns.
 - [OpenAI Evals Guide](https://platform.openai.com/docs/guides/evals) - Official framework for building eval loops and quality gates.
 - [OpenAI Cookbook: Getting Started with Evals](https://developers.openai.com/cookbook/examples/evaluation/getting_started_with_openai_evals) - Practical eval setup walkthrough.
 - [RAG (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401) - Foundational retrieval-augmented generation paper.
@@ -308,6 +324,7 @@ Safety, red-teaming, and robustness tools for hardening agent behavior.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and robustness testing toolkit for LLM systems.
 - [PyRIT](https://github.com/Azure/PyRIT) - Python Risk Identification Tool for proactively testing generative AI security risks.
+- [Qualys TotalAI MCP Security](https://blog.qualys.com/product-tech/2026/03/19/mcp-servers-shadow-it-ai-qualys-totalai-2026) - MCP server security assessment and shadow IT detection for enterprise environments.
 
 ## Agent Configs and Dotfiles
 
@@ -320,16 +337,22 @@ Configuration files and workflow examples for AI coding tools.
 - [Cursor Starter Configs](cursorrules/) - Ready-to-use .cursorrules and rule files for Cursor projects.
 - [CursorDirectory](https://cursor.directory) - Community-shared Cursor rules and configurations.
 - [dotfiles](https://dotfiles.github.io) - Guide to managing dotfiles including agent configurations.
+- [Superpowers](https://github.com/obra/superpowers) - Shell-based agentic skills methodology with composable capability configs.
 - [Trail of Bits Claude Code Config](https://github.com/trailofbits/claude-code-config) - Opinionated Claude Code defaults and workflows from a security-focused engineering team.
 
 ## Skill Engineering and Playbooks
 
 Hands-on resources for designing, testing, and shipping high-quality agent skills.
 
+- [Agent Skills for Context Engineering](https://github.com/muratcankoylan/Agent-Skills-for-Context-Engineering) - Collection of agent skills for context engineering, multi-agent architectures, and production systems.
+- [Agent Skills for LLMs (paper)](https://arxiv.org/abs/2602.12430) - Research on skill augmentation design principles and effectiveness for LLM-based agents.
 - [Anthropic: The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) - Canonical end-to-end guide covering structure, triggering, testing, and distribution.
 - [anthropics/skills](https://github.com/anthropics/skills) - Official production-ready skill examples and reference implementations.
 - [Claude Skill Engineering Playbook (this repo)](guides/claude-skill-engineering-playbook.md) - Distilled patterns, anti-patterns, templates, and troubleshooting from the Anthropic guide.
 - [Claude Skills Quickstart Checklist (this repo)](guides/claude-skills-quickstart-checklist.md) - Build-test-ship checklist for repeatable skill quality.
+- [SkillsBench](https://arxiv.org/html/2602.12670v1) - Benchmark for evaluating how well agent skills work across diverse tasks and harness configurations.
+- [Spring AI Agent Skills](https://spring.io/blog/2026/01/13/spring-ai-generic-agent-skills/) - Modular, reusable skill capabilities for the Spring AI Java ecosystem.
+- [Superpowers](https://github.com/obra/superpowers) - Agentic skills framework and software development methodology with composable skill architecture.
 
 ## Knowledge Graphs and Memory
 
@@ -406,7 +429,9 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
 - [Request Network](https://request.network) - Crypto-native invoicing and payment request rails for agent billing workflows.
+- [Skyfire](https://www.skyfire.xyz) - Know Your Agent infrastructure for accountable autonomous commerce, backed by a16z.
 - [Solana Pay](https://solanapay.com) - Open payments standard for Solana-based checkout and transfer flows.
+- [Stripe Tempo](https://tempo.network) - Payments-focused blockchain with Machine Payments Protocol for AI agent autonomous transactions.
 - [Superfluid](https://superfluid.org) - Streaming payment primitives for machine-to-machine and agent subscriptions.
 - [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
 - [x402 Protocol](https://github.com/coinbase/x402) - Open HTTP payment protocol using the 402 status code for agent-to-service payments.
@@ -441,6 +466,7 @@ Quantitative finance frameworks and AI-driven trading systems.
 - [Freqtrade](https://github.com/freqtrade/freqtrade) - Open-source algorithmic trading bot in Python.
 - [Hummingbot](https://github.com/hummingbot/hummingbot) - Open-source market making and arbitrage bot.
 - [Lean](https://github.com/QuantConnect/Lean) - Algorithmic trading engine by QuantConnect.
+- [MiroFish](https://github.com/666ghj/MiroFish) - Multi-agent swarm intelligence engine for scenario simulation and market prediction workflows.
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - High-performance algorithmic trading platform in Rust and Python.
 - [Phoenix v1](https://github.com/Ellipsis-Labs/phoenix-v1) - On-chain central limit order book protocol for low-latency execution agents.
 - [Qlib](https://github.com/microsoft/qlib) - AI-oriented quantitative investment platform from Microsoft.
@@ -472,7 +498,6 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 
 Curated papers on AI agents, multi-agent systems, and agent infrastructure.
 
-- [ArXiv Deep Research Map (this repo)](guides/arxiv-deep-research-map.md) - Category-by-category reading map spanning frameworks, coding, MCP/tool use, memory, security, multimodal, and quant/on-chain adjacent domains.
 - [A Survey on Large Language Model based Autonomous Agents](https://arxiv.org/abs/2308.11432) - Comprehensive survey of LLM-based agent architectures.
 - [ArXiv Deep Research Map (this repo)](guides/arxiv-deep-research-map.md) - Category-by-category reading map spanning frameworks, coding, MCP/tool use, memory, security, multimodal, and quant/on-chain adjacent domains.
 - [Awesome AI Agent Papers](https://github.com/VoltAgent/awesome-ai-agent-papers) - Continuously updated collection of agent research papers.
@@ -494,6 +519,7 @@ Forums, Discord servers, newsletters, and social accounts.
 - [ElizaOS Discord](https://discord.gg/elizaos) - Community for ElizaOS agent builders.
 - [LangChain Discord](https://discord.gg/langchain) - LangChain developer community.
 - [Latent Space Podcast](https://www.latent.space) - Podcast covering AI engineering and agents.
+- [Nous Research Discord](https://discord.gg/nousresearch) - Community for Hermes, OpenClaw, and Nous Research agent builders.
 - [r/artificial](https://www.reddit.com/r/artificial/) - Subreddit for AI discussions and news.
 - [r/LocalLLaMA](https://www.reddit.com/r/LocalLLaMA/) - Community for local LLM deployment and agent experimentation.
 - [Solana AI Discord](https://discord.gg/solana) - Solana developer community with AI channels.
