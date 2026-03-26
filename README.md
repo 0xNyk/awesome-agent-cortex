@@ -410,6 +410,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [Superfluid](https://superfluid.org) - Streaming payment primitives for machine-to-machine and agent subscriptions.
 - [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
 - [x402 Protocol](https://github.com/coinbase/x402) - Open HTTP payment protocol using the 402 status code for agent-to-service payments.
+- [x402-proxy](https://github.com/cascade-protocol/x402-proxy) - `curl` for x402 paid APIs. CLI that auto-pays HTTP 402 responses with USDC on Base and Solana, with MCP stdio proxy for AI agents.
 
 ## DeFi Agents
 
