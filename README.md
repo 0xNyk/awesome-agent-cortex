@@ -389,6 +389,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [ERC-7579](https://ercs.ethereum.org/ERCS/erc-7579) - Modular smart account standard for plugin-based permissions and execution.
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) - Proposed standard for cross-chain agent identity.
 - [Lit Protocol](https://github.com/LIT-Protocol/js-sdk) - Decentralized key management and programmable signing.
+- [NovaKΞ Protocol](https://novake.gg) - ERC-20 token protocol on Base L2 with a 3-stage presale smart contract, on-chain whitelist management, and a 10-level unilateral referral system — reference implementation of agent-managed treasury and identity on Base Mainnet.
 - [Privy](https://www.privy.io) - Embedded wallet infrastructure for agent authentication.
 - [Safe](https://github.com/safe-global/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
 - [Sign-In With Solana](https://github.com/phantom/sign-in-with-solana) - Wallet-native authentication pattern for Solana apps and agents.
@@ -425,6 +426,7 @@ AI agents for decentralized finance operations and strategy.
 - [Lulo](https://lulo.fi) - Yield optimization protocol with agent-friendly APIs.
 - [Orca Whirlpools SDK](https://github.com/orca-so/whirlpools) - Solana concentrated liquidity SDK for agent strategies.
 - [Raydium SDK](https://github.com/raydium-io/raydium-sdk-V2) - Solana AMM SDK for agent-driven liquidity provision.
+- [NovaKΞ $NVKE](https://novake.gg) - Fixed-supply ERC-20 on Base L2 with autonomous presale management, commission tree, and treasury wallet operated by an AI agent (OpenClaw/Hermes runtime). Live on Base Mainnet.
 - [Spectral Finance](https://www.spectral.finance) - On-chain credit scoring and risk models for agent decisions.
 - [Virtuals Protocol](https://www.virtuals.io) - Agent tokenization and autonomous commerce protocol tracking agentic GDP.
 - [Yearn Vaults](https://github.com/yearn/yearn-vaults-v3) - Automated yield vaults usable as agent strategy backends.
