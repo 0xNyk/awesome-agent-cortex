@@ -382,6 +382,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Toolkit for giving AI agents programmable wallet capabilities.
 - [Crossmint](https://www.crossmint.com) - Wallet-as-a-service for agent-owned wallets and NFT minting.
+- [Hashgraph Online (HOL)](https://hol.org) - Universal agentic registry for AI agents with Universal Agent IDs (UAIDs). Bridges to ERC-8004, A2A, Virtuals, and x402. 187K+ verified agents.
 - [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) - Standard for contract wallet signature validation in dapps and agent auth flows.
 - [EIP-4337](https://eips.ethereum.org/EIPS/eip-4337) - Account abstraction standard enabling programmable smart accounts for agents.
 - [EIP-4361 (SIWE)](https://eips.ethereum.org/EIPS/eip-4361) - Sign-In with Ethereum standard for wallet-based authentication.
