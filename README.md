@@ -96,6 +96,7 @@ AI agents that write, review, and debug code.
 - [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
 - [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
+- [Toprank](https://github.com/nowork-studio/toprank) - Open-source MIT Claude Code plugin with 9 SEO and Google Ads skills that connects Google Search Console, PageSpeed Insights, and the Google Ads API to ship fixes including meta tag rewrites, JSON-LD schema generation, keyword bid adjustments, and CMS content pushes.
 
 ### Codex Resources
 
