@@ -374,6 +374,7 @@ Tools and SDKs for building AI agents on Solana.
 - [Solana Web3.js](https://github.com/solana-labs/solana-web3.js) - JavaScript SDK for interacting with the Solana blockchain.
 - [Switchboard Solana SDK](https://github.com/switchboard-xyz/solana-sdk) - Verifiable oracle and data-feed SDK for agent decision systems.
 - [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - High-throughput real-time Solana data streams for low-latency agents and indexers.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - MCP server for Solana agent trust scoring and on-chain receipt verification. Free tools: `resolve_agent`, `score_agent`, `preflight_check`, `verify_trust_receipt`. Paid receipt generation via x402/USDC. Zero-install: `{"mcpServers": {"twzrd-agent-intel": {"url": "https://intel.twzrd.xyz/mcp"}}}`
 - [Solana Agent Architecture Playbook (this repo)](guides/solana-agent-architecture-playbook.md) - Reference architecture, security controls, and ops checklist for production Solana agents.
 
 ## Agent Identity and Wallets
@@ -396,6 +397,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [Squads Protocol](https://github.com/Squads-Protocol/v4) - Multisig and smart account protocol for Solana agents.
 - [Turnkey](https://www.turnkey.com) - Secure key infrastructure for programmatic wallet management.
 - [UCAN](https://github.com/ucan-wg/spec) - User-controlled authorization for decentralized agent capabilities.
+- [TWZRD Agent Intel](https://intel.twzrd.xyz) - Solana-native agent trust scoring and on-chain receipt generation. Resolves agent identity from wallet address, generates signed trust receipts via x402 payment, and provides preflight verification before transactions. MCP endpoint: `https://intel.twzrd.xyz/mcp`
 
 ## Agent Payments
 
