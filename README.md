@@ -455,6 +455,7 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Monitoring, cost tracking, and benchmarking for agent workflows.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework.
+- [Future AGI](https://github.com/future-agi/future-agi) - Open-source platform for agent simulation, evaluating, tracing, guarding, and auto-improving AI agents.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability and monitoring platform.
 - [LangFuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform for tracing and evaluation.
 - [LangSmith](https://smith.langchain.com) - Platform for debugging, testing, and monitoring LLM applications.
