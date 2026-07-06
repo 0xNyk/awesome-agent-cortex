@@ -51,7 +51,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Claude Agent SDK](https://github.com/anthropics/anthropic-sdk-python) - Official Python SDK for building agents with Claude models.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration framework.
 - [ElizaOS](https://github.com/elizaOS/eliza) - Multi-agent simulation framework for autonomous characters.
-- [Google A2A](https://github.com/google/A2A) - Agent-to-Agent protocol for cross-framework agent communication.
+- [Google A2A](https://github.com/a2aproject/A2A) - Agent-to-Agent protocol for cross-framework agent communication.
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Haystack](https://github.com/deepset-ai/haystack) - LLM orchestration framework for building search and RAG pipelines.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Tool-using autonomous agent platform with memory, skills, delegation, and MCP support.
@@ -65,7 +65,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Framework for building, orchestrating, and deploying agents with Python and .NET support.
 - [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official SDK for building agents with OpenAI models.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
-- [Phidata](https://github.com/phidatahq/phidata) - Toolkit for building AI assistants with memory and tools.
+- [Phidata](https://github.com/agno-agi/agno) - Toolkit for building AI assistants with memory and tools.
 - [PydanticAI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework built around Pydantic.
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust framework for building LLM-powered applications.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into apps with plugin architecture.
@@ -82,10 +82,10 @@ AI agents that write, review, and debug code.
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains.
 - [Cursor](https://cursor.com) - AI-first code editor built on VS Code.
 - [Devin](https://devin.ai) - Autonomous software engineering agent by Cognition.
-- [Goose](https://github.com/block/goose) - Autonomous developer agent from Block.
+- [Goose](https://github.com/aaif-goose/goose) - Autonomous developer agent from Block.
 - [OpenCodex](https://github.com/openai/codex) - OpenAI's CLI coding agent.
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
-- [SWE-Agent](https://github.com/princeton-nlp/SWE-agent) - Agent for automatically resolving GitHub issues.
+- [OpenHands](https://github.com/OpenHands/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
+- [SWE-Agent](https://github.com/SWE-agent/SWE-agent) - Agent for automatically resolving GitHub issues.
 - [Windsurf](https://codeium.com/windsurf) - AI-native IDE by Codeium with agentic flows.
 
 ### Claude Code Resources
@@ -95,7 +95,7 @@ AI agents that write, review, and debug code.
 - [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/memory#slash-commands-as-custom-skills) - Reusable prompt-driven workflows.
 - [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
-- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
+- [Everything Claude Code](https://github.com/affaan-m/ECC) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
 
 ### Codex Resources
 
@@ -191,7 +191,7 @@ Instruction-writing craft: system prompts, response framing, and reusable prompt
 Focus here on *what to ask and how to phrase it* at the prompt layer.
 
 - [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library) - Official prompt examples from Anthropic.
-- [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - Collection of prompt examples for ChatGPT.
+- [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) - Collection of prompt examples for ChatGPT.
 - [Claude System Prompts](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) - Guide to writing effective system prompts.
 - [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official guide to designing reliable prompts and instruction patterns.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming with foundation models instead of prompting.
@@ -358,7 +358,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 
 Tools and SDKs for building AI agents on Solana.
 
-- [Anchor](https://github.com/solana-foundation/anchor) - Core Solana framework for building and integrating smart contracts and clients.
+- [Anchor](https://github.com/otter-sec/anchor) - Core Solana framework for building and integrating smart contracts and clients.
 - [Awesome Solana AI](https://github.com/solana-foundation/awesome-solana-ai) - Solana Foundation's curated list of AI-Solana projects.
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Open-source toolkit connecting AI agents to 200+ on-chain tools across Solana and EVM chains.
 - [Helius SDK](https://github.com/helius-labs/helius-sdk) - TypeScript SDK for Solana RPC, webhooks, and DAS API.
@@ -371,7 +371,7 @@ Tools and SDKs for building AI agents on Solana.
 - [Solana Actions](https://github.com/solana-developers/solana-actions) - Spec and tools for blockchain-powered actions and blinks.
 - [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - Toolkit for connecting AI agents to Solana protocols.
 - [Solana Kit](https://github.com/anza-xyz/kit) - Modern Solana client SDK stack for building high-quality applications and agents.
-- [Solana Web3.js](https://github.com/solana-labs/solana-web3.js) - JavaScript SDK for interacting with the Solana blockchain.
+- [Solana Web3.js](https://github.com/solana-foundation/solana-web3.js) - JavaScript SDK for interacting with the Solana blockchain.
 - [Switchboard Solana SDK](https://github.com/switchboard-xyz/solana-sdk) - Verifiable oracle and data-feed SDK for agent decision systems.
 - [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - High-throughput real-time Solana data streams for low-latency agents and indexers.
 - [Solana Agent Architecture Playbook (this repo)](guides/solana-agent-architecture-playbook.md) - Reference architecture, security controls, and ops checklist for production Solana agents.
@@ -390,7 +390,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) - Proposed standard for cross-chain agent identity.
 - [Lit Protocol](https://github.com/LIT-Protocol/js-sdk) - Decentralized key management and programmable signing.
 - [Privy](https://www.privy.io) - Embedded wallet infrastructure for agent authentication.
-- [Safe](https://github.com/safe-global/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
+- [Safe](https://github.com/safe-fndn/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
 - [Sign-In With Solana](https://github.com/phantom/sign-in-with-solana) - Wallet-native authentication pattern for Solana apps and agents.
 - [Solana Agent Identity](https://github.com/sendaifun/solana-agent-kit) - Agent wallet and identity features in Solana Agent Kit.
 - [Squads Protocol](https://github.com/Squads-Protocol/v4) - Multisig and smart account protocol for Solana agents.
@@ -401,7 +401,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 
 Payment protocols and infrastructure for autonomous agent transactions.
 
-- [Awesome x402](https://github.com/Merit-Systems/awesome-x402) - Curated resources for the x402 payment protocol ecosystem.
+- [Awesome x402](https://github.com/Merit-Systems/awesome-agentic-commerce) - Curated resources for the x402 payment protocol ecosystem.
 - [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
@@ -417,7 +417,7 @@ AI agents for decentralized finance operations and strategy.
 
 - [Autonolas](https://github.com/valory-xyz/open-autonomy) - Framework for building autonomous agent services on-chain.
 - [DeFi Llama API](https://defillama.com/docs/api) - Open API for DeFi protocol data used by trading agents.
-- [Drift Protocol v2](https://github.com/drift-labs/protocol-v2) - On-chain perpetuals protocol infrastructure for autonomous trading agents.
+- [Drift Protocol v2](https://github.com/velocity-exchange/protocol-v2) - On-chain perpetuals protocol infrastructure for autonomous trading agents.
 - [ElizaOS DeFi Plugins](https://github.com/elizaOS/eliza/tree/main/packages) - DeFi protocol integrations for ElizaOS agents.
 - [Gauntlet](https://www.gauntlet.xyz) - Risk management and simulation platform for DeFi agents.
 - [Griffain](https://griffain.com) - AI agent platform for Solana DeFi operations.
@@ -435,7 +435,7 @@ Quantitative finance frameworks and AI-driven trading systems.
 
 - [AlphaAgent](https://github.com/LLMQuant/AlphaAgent) - LLM-powered agent for quantitative trading research.
 - [BitQuant](https://github.com/OpenGradient/BitQuant) - Multi-agent quantitative analysis framework.
-- [DriftPy](https://github.com/drift-labs/driftpy) - Python SDK for building Solana-based perp and risk management agents.
+- [DriftPy](https://github.com/velocity-exchange/driftpy) - Python SDK for building Solana-based perp and risk management agents.
 - [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Open-source financial LLM framework.
 - [FinRL](https://github.com/AI4Finance-Foundation/FinRL) - Deep reinforcement learning library for quantitative finance.
 - [Freqtrade](https://github.com/freqtrade/freqtrade) - Open-source algorithmic trading bot in Python.

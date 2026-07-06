@@ -4,7 +4,7 @@ Curated starter configurations for [Claude Code](https://docs.anthropic.com/en/d
 
 ## Primary Source
 
-These configs are adapted from [everything-claude-code](https://github.com/affaan-m/everything-claude-code), a comprehensive collection of Claude Code configurations, patterns, and best practices contributed by the community.
+These configs are adapted from [everything-claude-code](https://github.com/affaan-m/ECC), a comprehensive collection of Claude Code configurations, patterns, and best practices contributed by the community.
 
 ## How to Use
 
