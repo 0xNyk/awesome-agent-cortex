@@ -401,6 +401,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 
 Payment protocols and infrastructure for autonomous agent transactions.
 
+- [AgentServices](https://agentservices.to) - x402-paid API platform for AI agents with 52 endpoints covering crypto data, market intelligence, DeFi strategies, and on-chain analytics.
 - [Awesome x402](https://github.com/Merit-Systems/awesome-x402) - Curated resources for the x402 payment protocol ecosystem.
 - [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
