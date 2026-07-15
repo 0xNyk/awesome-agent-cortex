@@ -350,6 +350,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [ODIN](https://github.com/memgraph/odin) - Knowledge graph construction tool built on Memgraph.
 - [Pinecone](https://www.pinecone.io) - Vector database for semantic memory and retrieval.
 - [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector search engine for agent memory.
+- [ReMe](https://github.com/agentscope-ai/ReMe) - Local-first agent memory layer with editable Markdown storage and hybrid retrieval.
 - [txtai](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search and workflows.
 - [Weaviate](https://github.com/weaviate/weaviate) - Vector database with built-in modules for AI workloads.
 - [Zep](https://github.com/getzep/zep) - Memory infrastructure and retrieval stack for AI assistants and agents.
