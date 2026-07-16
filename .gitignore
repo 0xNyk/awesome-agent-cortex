@@ -1,2 +1,28 @@
-# Local/private launch copy
+# Operating-system and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Dependency and tool caches
+node_modules/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Generated reports and local/private launch copy
+monthly-audit-report.md
+monthly-audit-title.txt
 /guides/launch-kit-x.md

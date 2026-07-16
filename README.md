@@ -1,17 +1,35 @@
 # Awesome Agent Cortex [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> The sovereign agent stack — practical scripts, on-chain identity, and
-> knowledge graphs for AI agents that think, remember, and own themselves.
+<p align="center">
+  <img src="public/readme/agent-cortex-hero.jpeg" alt="Awesome Agent Cortex maps the sovereign agent stack" width="960">
+</p>
 
-A curated list covering the full AI agent ecosystem: frameworks, coding agents,
-MCP tooling, knowledge graphs, blockchain identity, decentralized finance
-agents, quantitative trading, and observability. What makes this list unique is
-the combination of practical developer tooling with on-chain identity and memory
-infrastructure — resources no other awesome list brings together.
+<p align="center">
+  <strong>A curated map of the tools, memory systems, identity rails, and operational patterns behind capable AI agents.</strong>
+</p>
 
-Note: Some resources are intentionally listed in multiple sections when they are
-core to more than one workflow domain (for example, prompt + eval, or coding +
-CLI usage).
+<p align="center">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC0-FF6A2A.svg" alt="CC0 license"></a>
+  <a href="https://github.com/0xNyk/awesome-agent-cortex/actions/workflows/docs-health.yml"><img src="https://github.com/0xNyk/awesome-agent-cortex/actions/workflows/docs-health.yml/badge.svg" alt="Documentation health"></a>
+  <a href="https://github.com/0xNyk/awesome-agent-cortex"><img src="https://img.shields.io/github/stars/0xNyk/awesome-agent-cortex" alt="GitHub stars"></a>
+</p>
+
+---
+
+Awesome Agent Cortex connects the layers that ordinary framework lists leave apart: agent runtimes, coding tools, MCP, evaluation, memory, knowledge graphs, on-chain identity, payments, security, and observability. Use it to find one component or to understand how the pieces fit into a complete agent system.
+
+![Navigate the directory through build, operate, remember, and own](public/readme/find-your-layer.jpeg)
+
+Choose a route from the contents below:
+
+- **Build:** frameworks, coding agents, MCP, skills, and prompt systems.
+- **Operate:** runtimes, harnessing, evaluation, security, and observability.
+- **Remember:** context engineering, knowledge graphs, neural memory, and Obsidian.
+- **Own:** identity, wallets, payments, DeFi, and Solana infrastructure.
+
+![The sovereign agent stack moves from models and tools through memory, identity, and evidence](public/readme/sovereign-agent-stack.jpeg)
+
+Some resources appear in more than one section when they serve distinct workflows. Cross-listing is deliberate, limited, and reviewed under the contribution rules.
 
 ## Contents
 
@@ -363,7 +381,7 @@ Tools and SDKs for building AI agents on Solana.
 - [GOAT SDK](https://github.com/goat-sdk/goat) - Open-source toolkit connecting AI agents to 200+ on-chain tools across Solana and EVM chains.
 - [Helius SDK](https://github.com/helius-labs/helius-sdk) - TypeScript SDK for Solana RPC, webhooks, and DAS API.
 - [Jito-Solana](https://github.com/jito-foundation/jito-solana) - MEV-aware Solana client infrastructure for advanced execution agents.
-- [Jupiter Swap API Docs](https://dev.jup.ag/docs/swap-api) - Official documentation for integrating Jupiter routing and swaps.
+- [Jupiter Swap API Docs](https://dev.jup.ag/docs/swap) - Official documentation for integrating Jupiter routing and swaps.
 - [LangChain Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - LangChain tools for Solana agent operations.
 - [Light Protocol](https://github.com/Lightprotocol/light-protocol) - ZK compression for scalable on-chain agent state.
 - [Metaplex](https://github.com/metaplex-foundation/metaplex-program-library) - Solana programs for NFTs and digital assets used in agent identity.
@@ -388,7 +406,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [EIP-7702](https://eips.ethereum.org/EIPS/eip-7702) - EOA delegation model for temporary smart-account-like behavior.
 - [ERC-7579](https://ercs.ethereum.org/ERCS/erc-7579) - Modular smart account standard for plugin-based permissions and execution.
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) - Proposed standard for cross-chain agent identity.
-- [Lit Protocol](https://github.com/LIT-Protocol/js-sdk) - Decentralized key management and programmable signing.
+- [Lit Protocol](https://github.com/LIT-Protocol/lit-js-sdk) - Decentralized key management and programmable signing.
 - [Privy](https://www.privy.io) - Embedded wallet infrastructure for agent authentication.
 - [Safe](https://github.com/safe-global/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
 - [Sign-In With Solana](https://github.com/phantom/sign-in-with-solana) - Wallet-native authentication pattern for Solana apps and agents.
@@ -425,7 +443,6 @@ AI agents for decentralized finance operations and strategy.
 - [Lulo](https://lulo.fi) - Yield optimization protocol with agent-friendly APIs.
 - [Orca Whirlpools SDK](https://github.com/orca-so/whirlpools) - Solana concentrated liquidity SDK for agent strategies.
 - [Raydium SDK](https://github.com/raydium-io/raydium-sdk-V2) - Solana AMM SDK for agent-driven liquidity provision.
-- [Spectral Finance](https://www.spectral.finance) - On-chain credit scoring and risk models for agent decisions.
 - [Virtuals Protocol](https://www.virtuals.io) - Agent tokenization and autonomous commerce protocol tracking agentic GDP.
 - [Yearn Vaults](https://github.com/yearn/yearn-vaults-v3) - Automated yield vaults usable as agent strategy backends.
 
@@ -433,7 +450,6 @@ AI agents for decentralized finance operations and strategy.
 
 Quantitative finance frameworks and AI-driven trading systems.
 
-- [AlphaAgent](https://github.com/LLMQuant/AlphaAgent) - LLM-powered agent for quantitative trading research.
 - [BitQuant](https://github.com/OpenGradient/BitQuant) - Multi-agent quantitative analysis framework.
 - [DriftPy](https://github.com/drift-labs/driftpy) - Python SDK for building Solana-based perp and risk management agents.
 - [FinGPT](https://github.com/AI4Finance-Foundation/FinGPT) - Open-source financial LLM framework.
@@ -501,43 +517,22 @@ Forums, Discord servers, newsletters, and social accounts.
 
 ## Contributing
 
-Contributions welcome. Read the [contribution guidelines](CONTRIBUTING.md) first.
+![Resources are reviewed for maintenance, documentation, distinct value, operability, and security](public/readme/resource-signals.jpeg)
 
-## ❤️ Support the Project
+Contributions are welcome. Read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request. One focused resource per PR keeps review evidence clear.
 
-If you find this project useful, consider supporting my open-source work.
+For broken links, outdated descriptions, or missing categories, use the repository's structured [issue forms](https://github.com/0xNyk/awesome-agent-cortex/issues/new/choose). Report security concerns privately through [SECURITY.md](SECURITY.md).
 
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20a%20Coffee-support-orange?logo=buymeacoffee)](https://buymeacoffee.com/nyk_builderz)
+Maintenance is best-effort. Inclusion does not mean endorsement, security certification, or a promise that a third-party project will remain available.
 
-**Solana donations**
+### Support the project
 
-`2k1oq9U99mwy4gm8P2hXPJoZusoXQCpFs35EEf5Ve73y`
+If the directory saves you research time, you can [buy me a coffee](https://buymeacoffee.com/nyk_builderz) or support the repository with a star.
 
-
----
-
-<div align="center">
-
-**Need agent infrastructure, trading systems, or Solana applications built for your team?**
-
-[Builderz](https://builderz.dev) ships production AI systems — 32+ products across 15 countries.
-
-[Get in touch](https://builderz.dev) | [@nyk_builderz](https://x.com/nyk_builderz)
-
-</div>
-
-## License
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
-
-To the extent possible under law, the authors have waived all copyright and
-related or neighboring rights to this work.
+Solana: `2k1oq9U99mwy4gm8P2hXPJoZusoXQCpFs35EEf5Ve73y`
 
 ---
 
+Built and maintained by [0xNyk](https://github.com/0xNyk). For agent infrastructure, trading systems, and Solana product work, visit [Builderz](https://builderz.dev).
 
-<p align="center">
-  <a href="https://star-history.com/#0xNyk/awesome-agent-cortex&Date">
-    <img src="https://api.star-history.com/svg?repos=0xNyk/awesome-agent-cortex&type=Date" alt="Star History" width="400">
-  </a>
-</p>
+Released under [CC0 1.0 Universal](LICENSE).
