@@ -1,9 +1,8 @@
 # Contributing to Awesome Agent Cortex
 
-Thank you for your interest in contributing! This list is curated, so not every
-submission will be accepted — but we welcome all suggestions.
+This is a curated directory, so not every submission will be accepted. A useful pull request makes one resource easier to evaluate without adding promotional noise.
 
-## Adding an Entry
+## Adding an entry
 
 ### Format
 
@@ -13,24 +12,24 @@ submission will be accepted — but we welcome all suggestions.
 
 ### Rules
 
-1. **One entry per pull request.** Batch PRs are harder to review.
+1. **One entry per pull request.** Batch PRs take longer to review.
 2. **Description** starts with a capital letter and ends with a period.
-3. **No marketing language** — avoid superlatives like "best", "fastest", "revolutionary".
+3. **No marketing language.** Describe verifiable capabilities instead of unsupported hype.
 4. **No trailing slashes** on URLs.
 5. **Drop unnecessary articles** (A, An, The) at the start of descriptions.
 6. **Alphabetical order** within each section.
-7. **Working links only** — dead links will be removed.
+7. **Working links only.** Dead links will be removed.
 8. The project should be **actively maintained** (commit within the last 12 months).
 9. The project should have **meaningful documentation** (at minimum a README).
 
-### What We Look For
+### What we look for
 
 - Genuine usefulness to agent builders
 - Active maintenance and community
 - Clear documentation
-- Unique value — not a thin wrapper around another listed project
+- Distinct value that is not a thin wrapper around another listed project
 
-## Awesome Score Rubric (5-point)
+## Awesome Score rubric
 
 To keep reviews consistent, we score candidate entries from 1 (weak) to 5
 (strong) across five dimensions:
@@ -42,7 +41,7 @@ To keep reviews consistent, we score candidate entries from 1 (weak) to 5
 3. **Production readiness**
    - Stability signals (tests/CI, real users, operational guidance).
 4. **Unique value**
-   - Adds new capability/coverage vs existing list entries.
+   - Adds capability or coverage beyond existing list entries.
 5. **Security posture**
    - Reasonable security controls/disclosures for its category.
 
@@ -55,7 +54,7 @@ In PR descriptions, include a short rubric line, e.g.:
 
 `Awesome Score: Maintenance 4, Docs 5, Production 4, Unique 4, Security 3`
 
-### What We Reject
+### What we reject
 
 - Abandoned or archived projects
 - Projects with no documentation
@@ -63,7 +62,7 @@ In PR descriptions, include a short rubric line, e.g.:
 - Self-promotion without substance
 - Entries that do not fit any existing section
 
-## Intentional Cross-Listings (Duplicate Entries)
+## Intentional cross-listings
 
 Some resources are intentionally listed in multiple sections when they provide
 strong value across distinct workflows (for example: Prompt + Evaluation, or
@@ -71,7 +70,7 @@ Coding Agent + CLI Tool).
 
 Rules for cross-listing:
 
-1. Only cross-list when the overlap is clearly meaningful to users.
+1. Only cross-list when the overlap is meaningful to users.
 2. Keep the description aligned to each section's context (same project, but
    section-relevant phrasing is okay).
 3. In PRs, explicitly call out intentional cross-listings in the description so
@@ -79,18 +78,24 @@ Rules for cross-listing:
 4. Avoid excessive repetition. If a project appears in more than two sections,
    justify why.
 
-## Suggesting a New Section
+## Suggesting a new section
 
 Open an issue first to discuss whether a new section is warranted. New sections
 should have at least 5 qualifying entries before being added.
 
-## Reporting Issues
+## Reporting issues
 
-- **Broken link?** Open an issue or PR with the fix.
-- **Outdated description?** Same — issue or PR.
-- **Project no longer maintained?** Open an issue and we will review.
+- Open an issue or pull request to fix a broken link.
+- Open an issue or pull request to update an outdated description.
+- Open an issue when a project appears unmaintained so the listing can be reviewed.
 
-## Code of Conduct
+## Code of conduct
 
 This project follows the [Contributor Covenant](CODE_OF_CONDUCT.md). By
 participating, you agree to abide by its terms.
+
+## Contribution integrity
+
+AI-assisted contributions follow the same standard as any other pull request. The contributor remains responsible for accuracy, licensing, working links, provenance, and understanding every submitted change.
+
+Do not include credentials, personal data, private deployment details, unrelated local paths, or generated claims that cannot be verified.
