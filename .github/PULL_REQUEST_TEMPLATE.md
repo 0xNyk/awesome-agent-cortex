@@ -1,4 +1,4 @@
-## Proposed Entry
+## Proposed entry
 
 - [ ] I have read the [contributing guidelines](../CONTRIBUTING.md)
 - [ ] The entry follows the format: `- [Name](URL) - Description.`
@@ -6,13 +6,15 @@
 - [ ] The link is not a duplicate of an existing entry
 - [ ] The project is actively maintained
 - [ ] The entry is in alphabetical order within its section
+- [ ] I checked the canonical project URL rather than relying on a redirect
 
-## Merge + Hygiene Checklist
+## Merge and hygiene checklist
 
 - [ ] Branch is up to date with `main` (rebased or merged) before review
 - [ ] No conflict markers (`<<<<<<<`, `=======`, `>>>>>>>`) remain
 - [ ] CI checks pass (link check/docs health)
 - [ ] Scope is tight (no unrelated files or drive-by edits)
+- [ ] No credentials, personal data, private deployment details, or unrelated local paths are included
 
 ### Entry
 
@@ -27,3 +29,11 @@ Which section does this belong to?
 ### Why?
 
 Brief justification for why this entry belongs on the list.
+
+### Evidence
+
+Link the primary project documentation, repository, specification, or paper used to verify the description.
+
+### Intentional cross-listings
+
+If the resource already appears elsewhere, name each section and explain the distinct retrieval job.
