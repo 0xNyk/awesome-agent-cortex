@@ -206,6 +206,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [MCP Spec](https://modelcontextprotocol.io/specification) - Official Model Context Protocol specification.
 - [MCP Specification Repo](https://github.com/modelcontextprotocol/modelcontextprotocol) - Canonical specification and documentation repository.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers.
+- [NotFair](https://notfair.co) - Hosted Google Ads MCP server connecting Claude and AI agents to Google Ads accounts; diagnose, recommend, and execute campaign changes.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation via Playwright.
 - [Smithery](https://smithery.ai) - Registry and hosting platform for MCP servers.
 
