@@ -14,15 +14,18 @@ on:
       - '**/*.md'
       - '.github/workflows/link-check.yml'
 
+permissions:
+  contents: read
+
 jobs:
   lychee:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5 # v4
 
       - name: Run lychee link checker
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
         with:
           args: >-
             --verbose
@@ -37,5 +40,5 @@ jobs:
             --exclude 'https://cursor.directory.*'
             --exclude 'https://spec.modelcontextprotocol.io.*'
             --exclude 'https://platform.openai.com/docs/.*'
-            README.md guides/**/*.md claude/**/*.md hermes/**/*.md codex/**/*.md cursorrules/**/*.md CONTRIBUTING.md CODE_OF_CONDUCT.md
+            README.md guides/**/*.md claude/**/*.md hermes/**/*.md codex/**/*.md cursorrules/**/*.md CONTRIBUTING.md CODE_OF_CONDUCT.md SECURITY.md SUPPORT.md
           fail: true

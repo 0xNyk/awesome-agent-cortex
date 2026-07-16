@@ -39,7 +39,7 @@ Some resources appear in more than one section when they serve distinct workflow
 - [Hermes Stack](#hermes-stack)
 - [CLI and TUI Tools](#cli-and-tui-tools)
 - [Agent Runtime Infrastructure](#agent-runtime-infrastructure)
-- [MCP Ecosystem](#mcp-ecosystem)
+- [Agent Protocols and MCP Ecosystem](#agent-protocols-and-mcp-ecosystem)
 - [Prompt Engineering](#prompt-engineering)
 - [Agent Harnessing and Evaluation](#agent-harnessing-and-evaluation)
 - [ArXiv Deep Research Map](#arxiv-deep-research-map)
@@ -66,10 +66,9 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [AG2](https://github.com/ag2ai/ag2) - Open-source AgentOS for building multi-agent systems (evolved from AutoGen).
 - [Agno](https://github.com/agno-agi/agno) - Framework for building and running agentic software at scale.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework from Microsoft Research.
-- [Claude Agent SDK](https://github.com/anthropics/anthropic-sdk-python) - Official Python SDK for building agents with Claude models.
+- [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Official Python SDK for building agents on the Claude Code runtime.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration framework.
 - [ElizaOS](https://github.com/elizaOS/eliza) - Multi-agent simulation framework for autonomous characters.
-- [Google A2A](https://github.com/google/A2A) - Agent-to-Agent protocol for cross-framework agent communication.
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Haystack](https://github.com/deepset-ai/haystack) - LLM orchestration framework for building search and RAG pipelines.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Tool-using autonomous agent platform with memory, skills, delegation, and MCP support.
@@ -81,9 +80,9 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Magentic-One](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one) - Multi-agent team for complex web and file tasks.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript framework for building AI applications and agents.
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Framework for building, orchestrating, and deploying agents with Python and .NET support.
-- [OpenAI Agents SDK](https://github.com/openai/openai-agents-python) - Official SDK for building agents with OpenAI models.
+- [OpenAI Agents SDK for Python](https://github.com/openai/openai-agents-python) - Official Python SDK for agent workflows, tools, handoffs, and guardrails.
+- [OpenAI Agents SDK for TypeScript](https://github.com/openai/openai-agents-js) - Official TypeScript SDK for agent workflows and voice agents.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
-- [Phidata](https://github.com/phidatahq/phidata) - Toolkit for building AI assistants with memory and tools.
 - [PydanticAI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework built around Pydantic.
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust framework for building LLM-powered applications.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into apps with plugin architecture.
@@ -97,13 +96,13 @@ AI agents that write, review, and debug code.
 - [Aider](https://github.com/Aider-AI/aider) - AI pair programming in the terminal with git integration.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Anthropic's agentic CLI for code generation and editing.
 - [Cline](https://github.com/cline/cline) - Autonomous coding agent for VS Code with tool use.
+- [Codex CLI](https://github.com/openai/codex) - OpenAI's open-source coding agent for terminal workflows.
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains.
 - [Cursor](https://cursor.com) - AI-first code editor built on VS Code.
 - [Devin](https://devin.ai) - Autonomous software engineering agent by Cognition.
-- [Goose](https://github.com/block/goose) - Autonomous developer agent from Block.
-- [OpenCodex](https://github.com/openai/codex) - OpenAI's CLI coding agent.
-- [OpenHands](https://github.com/All-Hands-AI/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
-- [SWE-Agent](https://github.com/princeton-nlp/SWE-agent) - Agent for automatically resolving GitHub issues.
+- [Goose](https://github.com/aaif-goose/goose) - Open-source developer agent governed by the Agentic AI Foundation.
+- [OpenHands](https://github.com/OpenHands/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
+- [SWE-Agent](https://github.com/SWE-agent/SWE-agent) - Agent for resolving software engineering tasks from GitHub issues.
 - [Windsurf](https://codeium.com/windsurf) - AI-native IDE by Codeium with agentic flows.
 
 ### Claude Code Resources
@@ -111,16 +110,16 @@ AI agents that write, review, and debug code.
 - [awesome-claude-code](https://github.com/hesreallyhim/awesome-claude-code) - Curated list of Claude Code resources.
 - [Claude Code Hooks](https://docs.anthropic.com/en/docs/claude-code/hooks) - Event-driven shell command automation.
 - [Claude Code Skills](https://docs.anthropic.com/en/docs/claude-code/memory#slash-commands-as-custom-skills) - Reusable prompt-driven workflows.
-- [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
-- [Everything Claude Code](https://github.com/affaan-m/everything-claude-code) - Comprehensive Claude Code harness with agent skills, hooks, and multi-language support.
+- [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
+- [Everything Claude Code](https://github.com/affaan-m/ECC) - Community collection of Claude Code skills, hooks, agents, and configuration patterns.
 
 ### Codex Resources
 
-- [Codex Docs](https://developers.openai.com/codex) - Official Codex documentation hub.
-- [Codex CLI](https://developers.openai.com/codex/cli) - Guide to local Codex CLI workflows.
-- [Codex Non-Interactive Mode](https://developers.openai.com/codex/noninteractive) - Batch and CI automation with `codex exec`.
 - [AGENTS.md Guide (Codex)](https://developers.openai.com/codex/guides/agents-md) - Instruction hierarchy and scoping patterns for Codex.
+- [Codex CLI](https://developers.openai.com/codex/cli) - Guide to local Codex CLI workflows.
+- [Codex Docs](https://developers.openai.com/codex) - Official Codex documentation hub.
+- [Codex Non-Interactive Mode](https://developers.openai.com/codex/noninteractive) - Batch and CI automation with `codex exec`.
 - [Codex Optimization Playbook (this repo)](guides/codex-optimization-playbook.md) - Practical operator patterns for speed, safety, and quality.
 
 ## Voice and Multimodal Agents
@@ -141,28 +140,28 @@ Agents with voice, vision, and multimodal capabilities.
 Hermes Agent runtime, deployment rails, and operator resources.
 
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Open-source autonomous AI agent with CLI, gateway, memory, subagents, and broad tool integrations.
-- [Hermes Hub (this repo)](hermes/README.md) - Local operator knowledge base for Hermes setup, configuration, memory/skills workflows, and contribution orientation.
 - [Hermes Agent + hermes-fly Best Practices (this repo)](guides/hermes-agent-hermes-fly-playbook.md) - Practical setup, operations, security, and optimization playbook.
 - [Hermes Agent Optimization Playbook (this repo)](guides/hermes-agent-optimization-playbook.md) - Deep operator guide for context, delegation, memory, and execution tuning.
 - [Hermes Agent Self-Evolution](https://github.com/NousResearch/hermes-agent-self-evolution) - Evolutionary self-improvement framework for optimizing Hermes Agent prompts, skills, and code.
+- [Hermes Hub (this repo)](hermes/README.md) - Local operator knowledge base for Hermes setup, configuration, memory/skills workflows, and contribution orientation.
 - [Hermes Paperclip Adapter](https://github.com/NousResearch/hermes-paperclip-adapter) - Adapter for running Hermes Agent as a managed employee inside Paperclip.
-- [hermes-fly](https://github.com/alexfazio/hermes-fly) - Fly.io deployment and operations CLI for Hermes Agent with deploy, logs, doctor, and teardown workflows.
 - [Hermes Stack Maturity Ladder (this repo)](guides/hermes-stack-maturity-ladder.md) - L1-L3 readiness model with upgrade paths and operational checklist.
 - [Hermes Stack Quickstart Recipes (this repo)](guides/hermes-stack-quickstart-recipes.md) - Copy/paste recipes for local dev, hosted production, secure mode, and CI operations.
+- [hermes-fly](https://github.com/alexfazio/hermes-fly) - Fly.io deployment and operations CLI for Hermes Agent with deploy, logs, doctor, and teardown workflows.
 
 ## CLI and TUI Tools
 
 Terminal-based agent interfaces and developer tools.
 
+- [aichat](https://github.com/sigoden/aichat) - All-in-one LLM CLI with chat, shell assistant, RAG, and agent features.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic CLI that operates directly in the terminal.
+- [Codex CLI](https://github.com/openai/codex) - Open-source coding agent from OpenAI.
 - [Gemini CLI](https://github.com/google-gemini/gemini-cli) - Google's command-line interface for Gemini models.
 - [Glow](https://github.com/charmbracelet/glow) - Terminal Markdown renderer useful for agent output.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - CLI and gateway agent runtime with tools, memory, delegation, and automation support.
 - [hermes-fly](https://github.com/alexfazio/hermes-fly) - CLI wizard to deploy and operate Hermes Agent on Fly.io.
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commonly paired with coding agents.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs from the terminal.
-- [aichat](https://github.com/sigoden/aichat) - All-in-one LLM CLI with chat, shell assistant, RAG, and agent features.
-- [OpenCodex](https://github.com/openai/codex) - Lightweight CLI coding agent from OpenAI.
 - [sgpt](https://github.com/tbckr/sgpt) - Command-line productivity tool powered by LLMs.
 - [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for running agents in persistent sessions.
 - [Warp](https://www.warp.dev) - Modern terminal with built-in AI assistance.
@@ -179,22 +178,29 @@ Execution sandboxes and runtime platforms for safely running agent actions and g
 - [gVisor](https://github.com/google/gvisor) - Application kernel for containers that adds a strong isolation boundary.
 - [Kata Containers](https://github.com/kata-containers/kata-containers) - Lightweight VM-based container runtime for stronger workload isolation.
 - [Modal](https://modal.com) - Serverless compute platform often used for running agent workloads and tools.
+- [NemoClaw](https://github.com/NVIDIA/NemoClaw) - NVIDIA tooling for running OpenClaw inside an OpenShell sandbox with managed inference.
 - [RunPod Python SDK](https://github.com/runpod/runpod-python) - Python SDK for RunPod serverless and worker-based AI workloads.
 
-## MCP Ecosystem
+<a id="mcp-ecosystem"></a>
 
-Model Context Protocol servers, clients, and tooling.
+## Agent Protocols and MCP Ecosystem
 
+Open protocols, SDKs, servers, clients, and registries for connecting agents to tools, other agents, interfaces, and editors.
+
+- [AG-UI](https://github.com/ag-ui-protocol/ag-ui) - Event-based protocol for connecting agent backends to interactive user interfaces.
+- [Agent Client Protocol](https://github.com/zed-industries/agent-client-protocol) - Open protocol between coding agents and editors or IDEs.
+- [Agent2Agent (A2A)](https://github.com/a2aproject/A2A) - Linux Foundation protocol for communication between independent agent applications.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server for coding and browser automation agents.
+- [Context7 MCP](https://github.com/upstash/context7) - MCP server that retrieves current, version-specific library documentation.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server for GitHub workflows and repository actions.
-- [mcp](https://github.com/modelcontextprotocol/servers) - Official reference MCP server implementations.
 - [MCP Agent](https://github.com/lastmile-ai/mcp-agent) - Framework patterns for building agents on top of MCP.
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) - Cross-language curriculum and practical examples for learning MCP.
 - [MCP Go SDK](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol.
 - [MCP Inspector](https://github.com/modelcontextprotocol/inspector) - Official inspector and debugging tool for MCP servers.
 - [MCP Python SDK](https://github.com/modelcontextprotocol/python-sdk) - Official Python SDK for building MCP servers.
+- [MCP Reference Servers](https://github.com/modelcontextprotocol/servers) - Official reference implementations for Model Context Protocol servers.
 - [MCP Registry](https://github.com/modelcontextprotocol/registry) - Community registry service for discovering MCP servers.
 - [MCP Rust SDK](https://github.com/modelcontextprotocol/rust-sdk) - Official Rust SDK for building MCP servers.
 - [MCP Spec](https://modelcontextprotocol.io/specification) - Official Model Context Protocol specification.
@@ -209,12 +215,12 @@ Instruction-writing craft: system prompts, response framing, and reusable prompt
 Focus here on *what to ask and how to phrase it* at the prompt layer.
 
 - [Anthropic Prompt Library](https://docs.anthropic.com/en/prompt-library) - Official prompt examples from Anthropic.
-- [awesome-chatgpt-prompts](https://github.com/f/awesome-chatgpt-prompts) - Collection of prompt examples for ChatGPT.
+- [awesome-chatgpt-prompts](https://github.com/f/prompts.chat) - Collection of prompt examples for ChatGPT.
 - [Claude System Prompts](https://docs.anthropic.com/en/docs/build-with-claude/prompt-engineering) - Guide to writing effective system prompts.
-- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official guide to designing reliable prompts and instruction patterns.
 - [DSPy](https://github.com/stanfordnlp/dspy) - Framework for programming with foundation models instead of prompting.
 - [fabric](https://github.com/danielmiessler/fabric) - Framework for augmenting humans using AI with curated prompts.
 - [LangChain Hub](https://smith.langchain.com/hub) - Community-driven prompt and chain sharing platform.
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official guide to designing reliable prompts and instruction patterns.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Testing and evaluation framework for LLM prompts.
 - [System Prompts](https://github.com/mustvlad/ChatGPT-System-Prompts) - Collection of system prompts for various AI models.
 
@@ -273,8 +279,8 @@ Focus here on *what information the model gets, when, and in what form*.
 - [Anthropic: Effective Harnesses for Long-Running Agents](https://www.anthropic.com/engineering/effective-harnesses-for-long-running-agents) - Patterns for long-horizon orchestration and reliability.
 - [LangChain: Context Engineering for Agents](https://blog.langchain.com/context-engineering-for-agents/) - Practical taxonomy for writing, selecting, compressing, and isolating context.
 - [Manus: Context Engineering for AI Agents](https://manus.im/blog/Context-Engineering-for-AI-Agents-Lessons-from-Building-Manus) - Practitioner lessons from building production autonomous workflows.
-- [OpenAI Evals Guide](https://platform.openai.com/docs/guides/evals) - Official framework for building eval loops and quality gates.
 - [OpenAI Cookbook: Getting Started with Evals](https://developers.openai.com/cookbook/examples/evaluation/getting_started_with_openai_evals) - Practical eval setup walkthrough.
+- [OpenAI Evals Guide](https://platform.openai.com/docs/guides/evals) - Official framework for building eval loops and quality gates.
 - [RAG (Lewis et al., 2020)](https://arxiv.org/abs/2005.11401) - Foundational retrieval-augmented generation paper.
 - [Chain-of-Thought Prompting (Wei et al., 2022)](https://arxiv.org/abs/2203.02155) - Foundational reasoning/prompting technique paper.
 - [Lost in the Middle (Liu et al., 2023)](https://arxiv.org/abs/2307.03172) - Key long-context failure analysis paper.
@@ -301,17 +307,17 @@ Neural memory, retrieval, and graph-linking foundations relevant to advanced age
 
 Obsidian-specific architecture patterns and APIs for using vaults as agent memory backends.
 
-- [How Obsidian Stores Data](https://help.obsidian.md/Files+and+folders/How+Obsidian+stores+data) - Canonical vault-on-disk model and config layout.
-- [Obsidian Properties](https://help.obsidian.md/Editing+and+formatting/Properties) - Structured metadata schema for machine-readable note attributes.
-- [Obsidian Plugin Guide](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) - Official plugin architecture and lifecycle entrypoint.
-- [Obsidian TypeScript API (Vault)](https://docs.obsidian.md/Reference/TypeScript+API/Vault) - Programmatic CRUD layer for vault files.
-- [obsidian-api](https://github.com/obsidianmd/obsidian-api) - Official API type definitions for plugin development.
+- [Advanced URI](https://github.com/Vinzent03/obsidian-advanced-uri) - URI-based automation hooks for cross-tool workflows.
 - [Dataview](https://github.com/blacksmithgu/obsidian-dataview) - Query engine for structured note metadata and graph-aware retrieval.
+- [How Obsidian Stores Data](https://help.obsidian.md/Files+and+folders/How+Obsidian+stores+data) - Canonical vault-on-disk model and config layout.
 - [Juggl](https://github.com/HEmile/juggl) - Advanced graph exploration plugin for complex link topology workflows.
 - [Local REST API Plugin](https://github.com/coddingtonbear/obsidian-local-rest-api) - Local HTTP interface for external agent integrations.
-- [Advanced URI](https://github.com/Vinzent03/obsidian-advanced-uri) - URI-based automation hooks for cross-tool workflows.
 - [Obsidian Git](https://github.com/Vinzent03/obsidian-git) - Versioned vault operations for auditable agent writes.
+- [Obsidian Plugin Guide](https://docs.obsidian.md/Plugins/Getting+started/Build+a+plugin) - Official plugin architecture and lifecycle entrypoint.
+- [Obsidian Properties](https://help.obsidian.md/Editing+and+formatting/Properties) - Structured metadata schema for machine-readable note attributes.
+- [Obsidian TypeScript API (Vault)](https://docs.obsidian.md/Reference/TypeScript+API/Vault) - Programmatic CRUD layer for vault files.
 - [Obsidian Vault Architecture Playbook (this repo)](guides/obsidian-vault-architecture-playbook.md) - Reference architecture and operational patterns for agent-connected Obsidian systems.
+- [obsidian-api](https://github.com/obsidianmd/obsidian-api) - Official API type definitions for plugin development.
 
 ## Agent Security and Robustness
 
@@ -325,7 +331,7 @@ Safety, red-teaming, and robustness tools for hardening agent behavior.
 - [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) - Official security guidance for MCP authorization flows, threats, and mitigations.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and robustness testing toolkit for LLM systems.
-- [PyRIT](https://github.com/Azure/PyRIT) - Python Risk Identification Tool for proactively testing generative AI security risks.
+- [PyRIT](https://github.com/microsoft/PyRIT) - Python Risk Identification Tool for testing generative AI systems.
 
 ## Agent Configs and Dotfiles
 
@@ -344,10 +350,13 @@ Configuration files and workflow examples for AI coding tools.
 
 Hands-on resources for designing, testing, and shipping high-quality agent skills.
 
+- [Agent Skills Specification](https://github.com/agentskills/agentskills) - Open format and reference documentation for portable agent skill packages.
 - [Anthropic: The Complete Guide to Building Skills for Claude (PDF)](https://resources.anthropic.com/hubfs/The-Complete-Guide-to-Building-Skill-for-Claude.pdf) - Canonical end-to-end guide covering structure, triggering, testing, and distribution.
 - [anthropics/skills](https://github.com/anthropics/skills) - Official production-ready skill examples and reference implementations.
 - [Claude Skill Engineering Playbook (this repo)](guides/claude-skill-engineering-playbook.md) - Distilled patterns, anti-patterns, templates, and troubleshooting from the Anthropic guide.
 - [Claude Skills Quickstart Checklist (this repo)](guides/claude-skills-quickstart-checklist.md) - Build-test-ship checklist for repeatable skill quality.
+- [NVIDIA Agent Skills](https://github.com/NVIDIA/skills) - NVIDIA-maintained catalog of skills for CUDA-X libraries, blueprints, and platform tools.
+- [SkillsBench](https://github.com/benchflow-ai/skillsbench) - Benchmark for measuring how agents use skill packages across verifiable tasks.
 
 ## Knowledge Graphs and Memory
 
@@ -387,12 +396,12 @@ Tools and SDKs for building AI agents on Solana.
 - [Metaplex](https://github.com/metaplex-foundation/metaplex-program-library) - Solana programs for NFTs and digital assets used in agent identity.
 - [Pyth Crosschain](https://github.com/pyth-network/pyth-crosschain) - Oracle infrastructure for low-latency market data used by agent strategies.
 - [Solana Actions](https://github.com/solana-developers/solana-actions) - Spec and tools for blockchain-powered actions and blinks.
+- [Solana Agent Architecture Playbook (this repo)](guides/solana-agent-architecture-playbook.md) - Reference architecture, security controls, and ops checklist for production Solana agents.
 - [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - Toolkit for connecting AI agents to Solana protocols.
 - [Solana Kit](https://github.com/anza-xyz/kit) - Modern Solana client SDK stack for building high-quality applications and agents.
-- [Solana Web3.js](https://github.com/solana-labs/solana-web3.js) - JavaScript SDK for interacting with the Solana blockchain.
+- [Solana Web3.js](https://github.com/solana-foundation/solana-web3.js) - JavaScript SDK for interacting with the Solana blockchain.
 - [Switchboard Solana SDK](https://github.com/switchboard-xyz/solana-sdk) - Verifiable oracle and data-feed SDK for agent decision systems.
 - [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - High-throughput real-time Solana data streams for low-latency agents and indexers.
-- [Solana Agent Architecture Playbook (this repo)](guides/solana-agent-architecture-playbook.md) - Reference architecture, security controls, and ops checklist for production Solana agents.
 
 ## Agent Identity and Wallets
 
@@ -406,9 +415,9 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [EIP-7702](https://eips.ethereum.org/EIPS/eip-7702) - EOA delegation model for temporary smart-account-like behavior.
 - [ERC-7579](https://ercs.ethereum.org/ERCS/erc-7579) - Modular smart account standard for plugin-based permissions and execution.
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) - Proposed standard for cross-chain agent identity.
-- [Lit Protocol](https://github.com/LIT-Protocol/lit-js-sdk) - Decentralized key management and programmable signing.
+- [Lit Protocol](https://github.com/LIT-Protocol/lit-peer) - Decentralized key management and programmable signing infrastructure.
 - [Privy](https://www.privy.io) - Embedded wallet infrastructure for agent authentication.
-- [Safe](https://github.com/safe-global/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
+- [Safe](https://github.com/safe-fndn/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
 - [Sign-In With Solana](https://github.com/phantom/sign-in-with-solana) - Wallet-native authentication pattern for Solana apps and agents.
 - [Solana Agent Identity](https://github.com/sendaifun/solana-agent-kit) - Agent wallet and identity features in Solana Agent Kit.
 - [Squads Protocol](https://github.com/Squads-Protocol/v4) - Multisig and smart account protocol for Solana agents.
@@ -419,7 +428,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 
 Payment protocols and infrastructure for autonomous agent transactions.
 
-- [Awesome x402](https://github.com/Merit-Systems/awesome-x402) - Curated resources for the x402 payment protocol ecosystem.
+- [Awesome Agentic Commerce](https://github.com/Merit-Systems/awesome-agentic-commerce) - Curated directory of agent payments and commerce protocols, including x402.
 - [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
@@ -521,7 +530,7 @@ Forums, Discord servers, newsletters, and social accounts.
 
 Contributions are welcome. Read the [contribution guidelines](CONTRIBUTING.md) before opening a pull request. One focused resource per PR keeps review evidence clear.
 
-For broken links, outdated descriptions, or missing categories, use the repository's structured [issue forms](https://github.com/0xNyk/awesome-agent-cortex/issues/new/choose). Report security concerns privately through [SECURITY.md](SECURITY.md).
+For broken links, outdated descriptions, or missing categories, use the repository's structured [issue forms](https://github.com/0xNyk/awesome-agent-cortex/issues/new/choose). [SUPPORT.md](SUPPORT.md) routes broader questions, and [SECURITY.md](SECURITY.md) covers private vulnerability reporting.
 
 Maintenance is best-effort. Inclusion does not mean endorsement, security certification, or a promise that a third-party project will remain available.
 

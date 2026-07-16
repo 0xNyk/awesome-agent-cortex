@@ -21,6 +21,7 @@ This is a curated directory, so not every submission will be accepted. A useful 
 7. **Working links only.** Dead links will be removed.
 8. The project should be **actively maintained** (commit within the last 12 months).
 9. The project should have **meaningful documentation** (at minimum a README).
+10. Use the canonical project URL. Do not submit a URL that only works through a repository rename or redirect.
 
 ### What we look for
 
@@ -99,3 +100,14 @@ participating, you agree to abide by its terms.
 AI-assisted contributions follow the same standard as any other pull request. The contributor remains responsible for accuracy, licensing, working links, provenance, and understanding every submitted change.
 
 Do not include credentials, personal data, private deployment details, unrelated local paths, or generated claims that cannot be verified.
+
+## Maintainer checks
+
+Before merging a curation change, run:
+
+```bash
+python3 .github/scripts/check_alpha_sections.py README.md
+python3 .github/scripts/check_internal_links.py
+```
+
+The pull request workflow also checks external links. Some sites reject automated requests; those failures still require manual verification before an exclusion is added.
