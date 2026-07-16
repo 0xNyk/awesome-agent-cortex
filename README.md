@@ -377,6 +377,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [ODIN](https://github.com/memgraph/odin) - Knowledge graph construction tool built on Memgraph.
 - [Pinecone](https://www.pinecone.io) - Vector database for semantic memory and retrieval.
 - [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector search engine for agent memory.
+- [Tree Ring Memory](https://github.com/TerminallyLazy/Tree-Ring-Memory) - Rust-native local-first memory lifecycle framework for AI agents with SQLite/FTS recall, audit, consolidation, and forgetting.
 - [txtai](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search and workflows.
 - [Weaviate](https://github.com/weaviate/weaviate) - Vector database with built-in modules for AI workloads.
 - [Zep](https://github.com/getzep/zep) - Memory infrastructure and retrieval stack for AI assistants and agents.
