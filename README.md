@@ -536,7 +536,7 @@ Maintenance is best-effort. Inclusion does not mean endorsement, security certif
 
 ### Support the project
 
-If the directory saves you research time, you can [buy me a coffee](https://buymeacoffee.com/nyk_builderz) or support the repository with a star.
+If the directory saves you research time, you can [buy me a coffee](https://buymeacoffee.com/nykdotdev) or support the repository with a star.
 
 Solana: `2k1oq9U99mwy4gm8P2hXPJoZusoXQCpFs35EEf5Ve73y`
 
