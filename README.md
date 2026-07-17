@@ -536,12 +536,12 @@ Maintenance is best-effort. Inclusion does not mean endorsement, security certif
 
 ### Support the project
 
-If the directory saves you research time, you can [buy me a coffee](https://buymeacoffee.com/nykdotdev) or support the repository with a star.
+If the directory saves you research time, [sponsor its continued maintenance](https://github.com/sponsors/0xNyk) or support the repository with a star.
 
 Solana: `2k1oq9U99mwy4gm8P2hXPJoZusoXQCpFs35EEf5Ve73y`
 
 ---
 
-Built and maintained by [0xNyk](https://github.com/0xNyk). For agent infrastructure, trading systems, and Solana product work, visit [Builderz](https://builderz.dev).
+Built and maintained by [Nyk](https://nyk.dev). Follow [@nykdotdev](https://x.com/nykdotdev). For agent infrastructure, trading systems, and Solana product work, visit [Builderz](https://builderz.dev).
 
 Released under [CC0 1.0 Universal](LICENSE).
