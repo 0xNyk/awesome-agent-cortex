@@ -415,6 +415,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [EIP-7702](https://eips.ethereum.org/EIPS/eip-7702) - EOA delegation model for temporary smart-account-like behavior.
 - [ERC-7579](https://ercs.ethereum.org/ERCS/erc-7579) - Modular smart account standard for plugin-based permissions and execution.
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) - Proposed standard for cross-chain agent identity.
+- [GenTech Agent Kit](https://github.com/ProtoJay4789/gentech-agent-kit) - ERC-8004 agent identity framework with MCP tools for token security, wallet analysis, market data, and DeFi operations across 6 chains.
 - [Lit Protocol](https://github.com/LIT-Protocol/lit-peer) - Decentralized key management and programmable signing infrastructure.
 - [Privy](https://www.privy.io) - Embedded wallet infrastructure for agent authentication.
 - [Safe](https://github.com/safe-fndn/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
