@@ -415,6 +415,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [EIP-7702](https://eips.ethereum.org/EIPS/eip-7702) - EOA delegation model for temporary smart-account-like behavior.
 - [ERC-7579](https://ercs.ethereum.org/ERCS/erc-7579) - Modular smart account standard for plugin-based permissions and execution.
 - [ERC-8004](https://eips.ethereum.org/EIPS/eip-8004) - Proposed standard for cross-chain agent identity.
+- [GenTech Agent Kit](https://github.com/ProtoJay4789/gentech-agent-kit) - ERC-8004 agent identity framework with MCP tools for token security, wallet analysis, market data, and DeFi operations across 6 chains.
 - [Lit Protocol](https://github.com/LIT-Protocol/lit-peer) - Decentralized key management and programmable signing infrastructure.
 - [Privy](https://www.privy.io) - Embedded wallet infrastructure for agent authentication.
 - [Safe](https://github.com/safe-fndn/safe-smart-account) - Multi-signature smart account for EVM agent treasuries.
@@ -430,6 +431,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 
 - [Awesome Agentic Commerce](https://github.com/Merit-Systems/awesome-agentic-commerce) - Curated directory of agent payments and commerce protocols, including x402.
 - [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
+- [GenTech x402 Gateway](https://api.gentechlabs.net) - Production multi-chain x402 API gateway with 16 pay-per-call endpoints across 6 chains for token risk, wallet analysis, market data, and DeFi operations via USDC micropayments.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
 - [Request Network](https://request.network) - Crypto-native invoicing and payment request rails for agent billing workflows.
