@@ -153,6 +153,7 @@ Hermes Agent runtime, deployment rails, and operator resources.
 
 Terminal-based agent interfaces and developer tools.
 
+- [Agent-Ready Repo Auditor](https://github.com/wrightops-ai/agent-ready-repo-auditor) - Dependency-free GitHub Action and Python CLI that scores immutable public repository evidence for coding-agent instructions, setup, verification, and risky-action boundaries without cloning or executing repository code.
 - [aichat](https://github.com/sigoden/aichat) - All-in-one LLM CLI with chat, shell assistant, RAG, and agent features.
 - [Claude Code](https://docs.anthropic.com/en/docs/claude-code) - Agentic CLI that operates directly in the terminal.
 - [Codex CLI](https://github.com/openai/codex) - Open-source coding agent from OpenAI.
