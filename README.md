@@ -88,6 +88,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into apps with plugin architecture.
 - [Smolagents](https://github.com/huggingface/smolagents) - Lightweight agent framework from Hugging Face.
 - [Swarm](https://github.com/openai/swarm) - Educational framework for multi-agent handoffs and routines.
+- [Agon](https://github.com/AutoResearch-Factory/Agon) - Autonomous research orchestrator. Runs generate-critique loops across 10+ disciplines with 18 reusable roles and 230.6 KiB of prompts; sustained a 30-day unattended run.
 
 ## Coding Agents
 
@@ -236,6 +237,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [OSWorld](https://arxiv.org/abs/2404.07972) - Open-ended computer-use benchmark; reports best model 12.24% vs 72.36% human success in initial results.
 - [WebArena](https://arxiv.org/abs/2307.13854) - Realistic web-task benchmark; reports best GPT-4-based agent at 14.41% vs 78.24% human.
 - [GAIA](https://arxiv.org/abs/2311.12983) - General assistant benchmark; original framing reports large human-model gap on tool-heavy questions.
+- [PerspectiveGap (paper)](https://arxiv.org/abs/2606.08878) - Multi-agent orchestration prompting benchmark; 33 commercial models average 17.2% pass rate on assigning context fragments to correct sub-agent roles across 110 scenarios.
 
 - [AgentBench](https://github.com/THUDM/AgentBench) - Multi-domain benchmark suite for evaluating LLMs as agents.
 - [AgentEvals](https://github.com/langchain-ai/agentevals) - Evaluation utilities for scoring agent trajectories and outcomes.
