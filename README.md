@@ -407,7 +407,7 @@ Tools and SDKs for building AI agents on Solana.
 
 On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 
-- [AgentLayer](https://github.com/lopushok9/Agent-Layer) - Local-first wallet runtime for AI agents with x402 payments and DeFi operations; wallet material stays local and onchain writes use preview plus explicit approval.
+- [AgentLayer](https://github.com/lopushok9/Agent-Layer) - Open-source, local-first wallet for AI agents, with x402 payments and DeFi tools for Base, Solana, and Ethereum, including swaps, lending, and borrowing. Keys are stored in the macOS Keychain.
 - [Coinbase AgentKit](https://github.com/coinbase/agentkit) - Toolkit for giving AI agents programmable wallet capabilities.
 - [Crossmint](https://www.crossmint.com) - Wallet-as-a-service for agent-owned wallets and NFT minting.
 - [EIP-1271](https://eips.ethereum.org/EIPS/eip-1271) - Standard for contract wallet signature validation in dapps and agent auth flows.
