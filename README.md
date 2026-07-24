@@ -69,6 +69,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Official Python SDK for building agents on the Claude Code runtime.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration framework.
 - [ElizaOS](https://github.com/elizaOS/eliza) - Multi-agent simulation framework for autonomous characters.
+- [fractal](https://github.com/plasma-ai/fractal) - Runs supported coding-agent CLIs as a recursive hierarchy with per-node Git worktrees, configurable limits, persistent run state, and a live terminal UI.
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Haystack](https://github.com/deepset-ai/haystack) - LLM orchestration framework for building search and RAG pipelines.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Tool-using autonomous agent platform with memory, skills, delegation, and MCP support.
