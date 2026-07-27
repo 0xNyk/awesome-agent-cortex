@@ -242,6 +242,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [AutoGen agbench](https://github.com/microsoft/autogen/blob/main/python/packages/agbench/README.md) - Benchmark runner for AutoGen agent workflows.
 - [BrowserGym](https://github.com/ServiceNow/BrowserGym) - Gym-style environment for training and evaluating browser agents.
 - [browser-use](https://github.com/browser-use/browser-use) - Framework for browser task automation and agent web interaction loops.
+- [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Open-source benchmark for browser AI agents on daily tasks, with isolated environments and multi-layer trajectory capture.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Open-source framework for reproducible LLM and agent evaluations.
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Open robustness benchmark for measuring jailbreak resistance in language models and agents.
 - [MCPMark](https://github.com/eval-sys/mcpmark) - Stress-testing benchmark for evaluating model and agent capability on MCP tasks.
