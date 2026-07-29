@@ -323,6 +323,7 @@ Obsidian-specific architecture patterns and APIs for using vaults as agent memor
 
 Safety, red-teaming, and robustness tools for hardening agent behavior.
 
+- [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanning and red-teaming toolkit for security testing.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Guardrails framework for secure and robust agent development.
