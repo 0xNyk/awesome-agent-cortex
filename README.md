@@ -76,6 +76,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [LangChain](https://github.com/langchain-ai/langchain) - Composable framework for building LLM-powered applications.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Library for building stateful multi-agent workflows as graphs.
 - [Letta](https://github.com/letta-ai/letta) - Stateful agents with long-term memory (formerly MemGPT).
+- [LightAgent](https://github.com/wanxingai/LightAgent) - Lightweight Python framework for tool-using agents, workflows, MCP/SSE integration, memory, and multi-agent collaboration.
 - [LlamaIndex](https://github.com/run-llama/llama_index) - Data framework for document agents, retrieval, and workflow orchestration.
 - [Magentic-One](https://github.com/microsoft/autogen/tree/main/python/packages/autogen-magentic-one) - Multi-agent team for complex web and file tasks.
 - [Mastra](https://github.com/mastra-ai/mastra) - TypeScript framework for building AI applications and agents.
