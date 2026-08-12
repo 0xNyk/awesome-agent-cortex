@@ -434,6 +434,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
 - [Request Network](https://request.network) - Crypto-native invoicing and payment request rails for agent billing workflows.
 - [Solana Pay](https://solanapay.com) - Open payments standard for Solana-based checkout and transfer flows.
+- [stipend](https://github.com/stipend-sh/stipend) - Non-custodial USDC wallet on Base with per-transaction, per-day and per-counterparty spending limits enforced in the signing path, plus buyer-side x402 auto-pay and a local stdio MCP server.
 - [Superfluid](https://superfluid.org) - Streaming payment primitives for machine-to-machine and agent subscriptions.
 - [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
 - [x402 Protocol](https://github.com/coinbase/x402) - Open HTTP payment protocol using the 402 status code for agent-to-service payments.
