@@ -83,6 +83,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [OpenAI Agents SDK for Python](https://github.com/openai/openai-agents-python) - Official Python SDK for agent workflows, tools, handoffs, and guardrails.
 - [OpenAI Agents SDK for TypeScript](https://github.com/openai/openai-agents-js) - Official TypeScript SDK for agent workflows and voice agents.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
+- [OpenProgram](https://github.com/Fzkuji/OpenProgram) - Self-programming agent runtime with reviewable workflows, DAG context, tools, memory, and multi-agent execution.
 - [PydanticAI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework built around Pydantic.
 - [Rig](https://github.com/0xPlaygrounds/rig) - Rust framework for building LLM-powered applications.
 - [Semantic Kernel](https://github.com/microsoft/semantic-kernel) - SDK for integrating LLMs into apps with plugin architecture.
