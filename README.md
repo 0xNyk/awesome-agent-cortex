@@ -180,6 +180,7 @@ Execution sandboxes and runtime platforms for safely running agent actions and g
 - [Modal](https://modal.com) - Serverless compute platform often used for running agent workloads and tools.
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) - NVIDIA tooling for running OpenClaw inside an OpenShell sandbox with managed inference.
 - [RunPod Python SDK](https://github.com/runpod/runpod-python) - Python SDK for RunPod serverless and worker-based AI workloads.
+- [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Model-agnostic TypeScript runtime for persistent sandboxed agent sessions with streamed execution, artifacts, cancellation, audit and replay, exposed through a six-tool stdio MCP interface.
 
 <a id="mcp-ecosystem"></a>
 
