@@ -65,6 +65,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 
 - [AG2](https://github.com/ag2ai/ag2) - Open-source AgentOS for building multi-agent systems (evolved from AutoGen).
 - [Agno](https://github.com/agno-agi/agno) - Framework for building and running agentic software at scale.
+- [Agon](https://github.com/AutoResearch-Factory/Agon) - Autonomous research orchestrator. Runs generate-critique loops across 10+ disciplines with 18 reusable roles and 230.6 KiB of prompts; sustained a 30-day unattended run.
 - [AutoGen](https://github.com/microsoft/autogen) - Multi-agent conversation framework from Microsoft Research.
 - [Claude Agent SDK](https://github.com/anthropics/claude-agent-sdk-python) - Official Python SDK for building agents on the Claude Code runtime.
 - [CrewAI](https://github.com/crewAIInc/crewAI) - Role-based multi-agent orchestration framework.
