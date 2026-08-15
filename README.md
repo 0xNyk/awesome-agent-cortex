@@ -488,6 +488,7 @@ Quantitative finance frameworks and AI-driven trading systems.
 
 Debugging, tracing, evaluation, and testing tools for AI agents.
 
+- [agent-qa](https://github.com/vostride/agent-qa) - Runs natural-language web and mobile regression tests for coding agents, retaining execution memory and exposing workflows through CLI, MCP, and Agent Skills.
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Monitoring, cost tracking, and benchmarking for agent workflows.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry, recall, cost, skill, routing, and hook analytics for AI coding agents.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
