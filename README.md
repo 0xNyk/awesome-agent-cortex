@@ -369,6 +369,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [Khoj](https://github.com/khoj-ai/khoj) - Personal AI assistant with long-term memory and knowledge search.
 - [LangMem](https://github.com/langchain-ai/langmem) - Memory management toolkit for building long-horizon agent systems.
 - [LightRAG](https://github.com/HKUDS/LightRAG) - Simple and fast RAG framework using graph structures.
+- [LWC](https://github.com/JanYork/llm-wiki-cli) - Source-grounded project memory for coding agents with SQLite full-text retrieval, optional document and code graphs, lifecycle hooks, and a bounded read-only MCP interface.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants and agents.
 - [Memgraph](https://github.com/memgraph/memgraph) - In-memory graph database for real-time agent queries.
 - [Neo4j](https://github.com/neo4j/neo4j) - Graph database platform widely used for agent knowledge stores.
