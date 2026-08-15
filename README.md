@@ -359,6 +359,7 @@ Hands-on resources for designing, testing, and shipping high-quality agent skill
 - [Claude Skills Quickstart Checklist (this repo)](guides/claude-skills-quickstart-checklist.md) - Build-test-ship checklist for repeatable skill quality.
 - [NVIDIA Agent Skills](https://github.com/NVIDIA/skills) - NVIDIA-maintained catalog of skills for CUDA-X libraries, blueprints, and platform tools.
 - [SkillsBench](https://github.com/benchflow-ai/skillsbench) - Benchmark for measuring how agents use skill packages across verifiable tasks.
+- [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 71 Claude Code and Codex skills for orchestration, worker fleets, code review, AI evaluation, product, design, and growth workflows.
 
 ## Knowledge Graphs and Memory
 
