@@ -196,6 +196,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [Context7 MCP](https://github.com/upstash/context7) - MCP server that retrieves current, version-specific library documentation.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server for GitHub workflows and repository actions.
+- [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for managing skills, tools, and context for AI agents, with review workflows, role-based access, and a remote MCP server.
 - [MCP Agent](https://github.com/lastmile-ai/mcp-agent) - Framework patterns for building agents on top of MCP.
 - [MCP for Beginners](https://github.com/microsoft/mcp-for-beginners) - Cross-language curriculum and practical examples for learning MCP.
 - [MCP Go SDK](https://github.com/mark3labs/mcp-go) - Go implementation of the Model Context Protocol.
