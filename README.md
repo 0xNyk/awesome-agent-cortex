@@ -503,6 +503,7 @@ Curated papers on AI agents, multi-agent systems, and agent infrastructure.
 - [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Foundational paper on reasoning in language models.
 - [Generative Agents](https://arxiv.org/abs/2304.03442) - Simulating human behavior with LLM-driven agents in a sandbox.
 - [MemGPT](https://arxiv.org/abs/2310.08560) - OS-inspired memory management for LLM context windows.
+- [OpenSkill](https://arxiv.org/abs/2606.06741) - Open-world self-evolution method where agents derive skills and verification signals without target-task supervision.
 - [ReAct](https://arxiv.org/abs/2210.03629) - Synergizing reasoning and acting in language models.
 - [Reflexion](https://arxiv.org/abs/2303.11366) - Language agents with verbal reinforcement learning.
 - [The Landscape of Emerging AI Agent Architectures](https://arxiv.org/abs/2404.11584) - Survey of multi-agent design patterns.
