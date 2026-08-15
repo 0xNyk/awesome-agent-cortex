@@ -72,6 +72,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Google ADK](https://github.com/google/adk-python) - Agent Development Kit for building agents with Gemini.
 - [Haystack](https://github.com/deepset-ai/haystack) - LLM orchestration framework for building search and RAG pipelines.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Tool-using autonomous agent platform with memory, skills, delegation, and MCP support.
+- [Hivekeep](https://github.com/MarlBurroW/hivekeep) - Self-hosted platform to run a team of specialized AI agents with persistent memory, a web UI, and chat channels.
 - [Julep](https://github.com/julep-ai/julep) - Stateful agent platform with built-in persistence and task workflows.
 - [LangChain](https://github.com/langchain-ai/langchain) - Composable framework for building LLM-powered applications.
 - [LangGraph](https://github.com/langchain-ai/langgraph) - Library for building stateful multi-agent workflows as graphs.
