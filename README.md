@@ -241,6 +241,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [OSWorld](https://arxiv.org/abs/2404.07972) - Open-ended computer-use benchmark; reports best model 12.24% vs 72.36% human success in initial results.
 - [WebArena](https://arxiv.org/abs/2307.13854) - Realistic web-task benchmark; reports best GPT-4-based agent at 14.41% vs 78.24% human.
 - [GAIA](https://arxiv.org/abs/2311.12983) - General assistant benchmark; original framing reports large human-model gap on tool-heavy questions.
+- [PerspectiveGap (paper)](https://arxiv.org/abs/2606.08878) - Multi-agent orchestration prompting benchmark; 33 commercial models average 17.2% pass rate on assigning context fragments to correct sub-agent roles across 110 scenarios.
 
 - [AgentBench](https://github.com/THUDM/AgentBench) - Multi-domain benchmark suite for evaluating LLMs as agents.
 - [AgentEvals](https://github.com/langchain-ai/agentevals) - Evaluation utilities for scoring agent trajectories and outcomes.
