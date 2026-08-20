@@ -449,6 +449,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
 - [x402 Protocol](https://github.com/coinbase/x402) - Open HTTP payment protocol using the 402 status code for agent-to-service payments.
 
+- [MandateGuard](https://github.com/ezequiellich44-cmd/MandateGuard) - Deterministic payment policy engine for AI agents: budgets, allowlists, denylists, per-window rate limits, signed Ed25519 mandates enforced before any money-moving tool executes - no LLM in the decision path. Tamper-evident SHA-256 ledger. MCP server on official registry.
 ## DeFi Agents
 
 AI agents for decentralized finance operations and strategy.
