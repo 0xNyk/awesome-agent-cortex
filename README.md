@@ -489,6 +489,7 @@ Quantitative finance frameworks and AI-driven trading systems.
 Debugging, tracing, evaluation, and testing tools for AI agents.
 
 - [AgentOps](https://github.com/AgentOps-AI/agentops) - Monitoring, cost tracking, and benchmarking for agent workflows.
+- [agenttrace](https://github.com/luoyuctl/agenttrace) - Local-first TUI for AI coding agent session observability, including tokens, cost, latency, tool failures, anomalies, diffs, reports, and CI health gates.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry, recall, cost, skill, routing, and hook analytics for AI coding agents.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework.
