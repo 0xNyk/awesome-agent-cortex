@@ -351,6 +351,7 @@ Configuration files and workflow examples for AI coding tools.
 - [Cursor Starter Configs](cursorrules/) - Ready-to-use .cursorrules and rule files for Cursor projects.
 - [CursorDirectory](https://cursor.directory) - Community-shared Cursor rules and configurations.
 - [dotfiles](https://dotfiles.github.io) - Guide to managing dotfiles including agent configurations.
+- [Herbert](https://github.com/robertaustinbell/herbert) - Runtime-neutral template for building a personal AI agent with explicit identity, judgment, memory, authority boundaries, and verified-action requirements.
 - [Trail of Bits Claude Code Config](https://github.com/trailofbits/claude-code-config) - Opinionated Claude Code defaults and workflows from a security-focused engineering team.
 
 ## Skill Engineering and Playbooks
