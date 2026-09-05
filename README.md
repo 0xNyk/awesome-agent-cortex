@@ -169,6 +169,7 @@ Terminal-based agent interfaces and developer tools.
 - [sgpt](https://github.com/tbckr/sgpt) - Command-line productivity tool powered by LLMs.
 - [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for running agents in persistent sessions.
 - [Warp](https://www.warp.dev) - Modern terminal with built-in AI assistance.
+- [YYLO](https://github.com/yylo-dev/yylo) - Command-line orchestrator for coding agents with typed task, validation, merge, and release-readiness boundaries in a dedicated branch/worktree.
 - [Zellij](https://github.com/zellij-org/zellij) - Terminal workspace with plugin system for agent integration.
 
 ## Agent Runtime Infrastructure
