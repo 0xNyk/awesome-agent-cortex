@@ -485,6 +485,7 @@ Quantitative finance frameworks and AI-driven trading systems.
 - [Qlib](https://github.com/microsoft/qlib) - AI-oriented quantitative investment platform from Microsoft.
 - [TradingAgents](https://github.com/TauricResearch/TradingAgents) - Multi-agent LLM framework simulating a trading firm.
 - [VectorBT](https://github.com/polakowo/vectorbt) - Fast backtesting and analysis library for trading strategies.
+- [ManifoldBT](https://github.com/manifoldbt/manifoldbt) - High-performance Rust-powered Python backtesting: vectorized signals with realistic fills, parameter sweeps, walk-forward, Monte Carlo.
 - [Zipline](https://github.com/stefan-jansen/zipline-reloaded) - Pythonic algorithmic trading library for backtesting.
 
 ## Agent Observability and Testing
