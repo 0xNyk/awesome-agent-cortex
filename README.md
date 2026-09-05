@@ -377,6 +377,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [FalkorDB](https://github.com/FalkorDB/FalkorDB) - Ultra-fast graph database for AI agent knowledge.
 - [Graphiti](https://github.com/getzep/graphiti) - Real-time knowledge graph framework for AI agents.
 - [GraphRAG](https://github.com/microsoft/graphrag) - Graph-based retrieval augmented generation from Microsoft.
+- [inspeximus](https://github.com/DanceNitra/inspeximus) - Memory layer that retires corrected facts by key and can undo the correction later from the key alone.
 - [Khoj](https://github.com/khoj-ai/khoj) - Personal AI assistant with long-term memory and knowledge search.
 - [LangMem](https://github.com/langchain-ai/langmem) - Memory management toolkit for building long-horizon agent systems.
 - [LightRAG](https://github.com/HKUDS/LightRAG) - Simple and fast RAG framework using graph structures.
