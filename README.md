@@ -143,6 +143,7 @@ Agents with voice, vision, and multimodal capabilities.
 
 Hermes Agent runtime, deployment rails, and operator resources.
 
+- [Artifact Relay](https://github.com/eloktev/artifact-relay) - Self-hosted gateway and Hermes plugin for publishing long Markdown and HTML agent outputs to a private mobile-friendly viewer.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - Open-source autonomous AI agent with CLI, gateway, memory, subagents, and broad tool integrations.
 - [Hermes Agent + hermes-fly Best Practices (this repo)](guides/hermes-agent-hermes-fly-playbook.md) - Practical setup, operations, security, and optimization playbook.
 - [Hermes Agent Optimization Playbook (this repo)](guides/hermes-agent-optimization-playbook.md) - Deep operator guide for context, delegation, memory, and execution tuning.
