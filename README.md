@@ -373,6 +373,7 @@ Hands-on resources for designing, testing, and shipping high-quality agent skill
 
 Agent memory architectures, knowledge graphs, and second-brain integrations.
 
+- [Busabase](https://github.com/busabase/busabase) - Open-source database and knowledge workspace for AI agents with structured records, documents, files, MCP and OpenAPI access, and reviewable ChangeRequests for material writes.
 - [Cognee](https://github.com/topoteretes/cognee) - Memory management layer for LLM apps using knowledge graphs.
 - [FalkorDB](https://github.com/FalkorDB/FalkorDB) - Ultra-fast graph database for AI agent knowledge.
 - [Graphiti](https://github.com/getzep/graphiti) - Real-time knowledge graph framework for AI agents.
