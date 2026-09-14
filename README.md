@@ -391,6 +391,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector search engine for agent memory.
 - [ReMe](https://github.com/agentscope-ai/ReMe) - Local-first agent memory layer with editable Markdown storage and hybrid retrieval.
 - [txtai](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search and workflows.
+- [Verified Memory Vault](https://github.com/secondbrainstarter/verified-memory-vault) - Obsidian vault template giving coding agents a persistent plain-Markdown memory with self-verification: `memory_check.py` scores memory health (undated entries, duplicates, dead wikilinks, bloat) and exits nonzero for automated checks; optional `memory_guard.py` pre-commit hook refuses mass deletion of memory files. No Node, no plugins.
 - [Weaviate](https://github.com/weaviate/weaviate) - Vector database with built-in modules for AI workloads.
 - [Zep](https://github.com/getzep/zep) - Memory infrastructure and retrieval stack for AI assistants and agents.
 
