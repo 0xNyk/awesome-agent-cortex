@@ -250,6 +250,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [BrowserGym](https://github.com/ServiceNow/BrowserGym) - Gym-style environment for training and evaluating browser agents.
 - [browser-use](https://github.com/browser-use/browser-use) - Framework for browser task automation and agent web interaction loops.
 - [ClawBench](https://github.com/TIGER-AI-Lab/ClawBench) - Browser-agent benchmark with 283 tasks (V1 153 + V2 130) across 163 live websites, safe final-action interception, and replay, action, network, and message traces.
+- [Council of AI GSPC](https://github.com/CSOAI-ORG/councilof-ai) - Public model and agent measurement system that publishes signed evidence cards, content-addressed roots, and offline verification tools.
 - [Inspect AI](https://github.com/UKGovernmentBEIS/inspect_ai) - Open-source framework for reproducible LLM and agent evaluations.
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Open robustness benchmark for measuring jailbreak resistance in language models and agents.
 - [MCPMark](https://github.com/eval-sys/mcpmark) - Stress-testing benchmark for evaluating model and agent capability on MCP tasks.
