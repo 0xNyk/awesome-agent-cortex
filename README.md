@@ -198,6 +198,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server for coding and browser automation agents.
 - [Context7 MCP](https://github.com/upstash/context7) - MCP server that retrieves current, version-specific library documentation.
+- [Famulor Assistants & History Skill](https://github.com/bekservice/Famulor-Skill/tree/main/claude-store/skills/famulor-assistants-history) - Read-only Agent Skill for reviewing assistant configurations and omnichannel interaction history through Famulor's restricted OAuth-protected MCP profile.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server for GitHub workflows and repository actions.
 - [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for managing skills, tools, and context for AI agents, with review workflows, role-based access, and a remote MCP server.
