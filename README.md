@@ -505,6 +505,7 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 - [Phoenix](https://github.com/Arize-ai/phoenix) - Open-source AI observability platform from Arize.
 - [Portkey](https://github.com/Portkey-AI/gateway) - AI gateway with observability, caching, and fallback routing.
 - [SigNoz](https://github.com/SigNoz/signoz) - OpenTelemetry-native observability platform for traces, logs, and metrics.
+- [Speakeasy Agent Control Plane](https://www.speakeasy.com/product/ai-control-plane) - Centralizes agent and MCP access, enforces role-scoped policy, and records tool calls and access events.
 - [TruLens](https://github.com/truera/trulens) - Open-source framework for evaluating and tracking LLM and agent experiments.
 - [Weave](https://github.com/wandb/weave) - Toolkit for tracking and evaluating LLM applications from W&B.
 
