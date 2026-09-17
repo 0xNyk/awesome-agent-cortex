@@ -442,6 +442,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 
 Payment protocols and infrastructure for autonomous agent transactions.
 
+- [AffixIO](https://github.com/AffixIO/SDK) - Agentic Pay Kit (npm `affixio`) with host-side signed yes/no ACTION attestation (x402BeforePay / Agentic Pay / KYA; not person KYC). ([npm](https://www.npmjs.com/package/affixio)) ([docs](https://www.affix-io.com/agent-trust/))
 - [Awesome Agentic Commerce](https://github.com/Merit-Systems/awesome-agentic-commerce) - Curated directory of agent payments and commerce protocols, including x402.
 - [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
