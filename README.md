@@ -390,6 +390,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [Pinecone](https://www.pinecone.io) - Vector database for semantic memory and retrieval.
 - [Qdrant](https://github.com/qdrant/qdrant) - High-performance vector search engine for agent memory.
 - [ReMe](https://github.com/agentscope-ai/ReMe) - Local-first agent memory layer with editable Markdown storage and hybrid retrieval.
+- [Screenpipe](https://github.com/screenpipe/screenpipe) - Local-first screen text and audio history searchable through MCP and a local API for agent recall, meeting context, and work summaries; source-available under the Screenpipe Commercial License.
 - [txtai](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search and workflows.
 - [Weaviate](https://github.com/weaviate/weaviate) - Vector database with built-in modules for AI workloads.
 - [Zep](https://github.com/getzep/zep) - Memory infrastructure and retrieval stack for AI assistants and agents.
