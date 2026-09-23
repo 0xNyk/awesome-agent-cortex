@@ -464,6 +464,7 @@ AI agents for decentralized finance operations and strategy.
 - [Griffain](https://griffain.com) - AI agent platform for Solana DeFi operations.
 - [Kamino KLend SDK](https://github.com/Kamino-Finance/klend-sdk) - Lending protocol SDK for credit and yield allocation agents.
 - [Lulo](https://lulo.fi) - Yield optimization protocol with agent-friendly APIs.
+- [MetaMask Agent Wallet](https://github.com/MetaMask/agent-skills) - Self-custodial agent wallet CLI and skills for swaps, bridges, perps, prediction markets, yield, and x402 payments across EVM chains, with threat scanning and MEV protection.
 - [Orca Whirlpools SDK](https://github.com/orca-so/whirlpools) - Solana concentrated liquidity SDK for agent strategies.
 - [Raydium SDK](https://github.com/raydium-io/raydium-sdk-V2) - Solana AMM SDK for agent-driven liquidity provision.
 - [Virtuals Protocol](https://www.virtuals.io) - Agent tokenization and autonomous commerce protocol tracking agentic GDP.
