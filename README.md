@@ -195,6 +195,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [AG-UI](https://github.com/ag-ui-protocol/ag-ui) - Event-based protocol for connecting agent backends to interactive user interfaces.
 - [Agent Client Protocol](https://github.com/zed-industries/agent-client-protocol) - Open protocol between coding agents and editors or IDEs.
 - [Agent2Agent (A2A)](https://github.com/a2aproject/A2A) - Linux Foundation protocol for communication between independent agent applications.
+- [Archcore](https://github.com/archcore-ai/archcore) - Git-native context engineering CLI and MCP server for AI coding agents. Keep specs, ADRs, rules, plans, and project knowledge in Git.
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server for coding and browser automation agents.
 - [Context7 MCP](https://github.com/upstash/context7) - MCP server that retrieves current, version-specific library documentation.
