@@ -164,6 +164,7 @@ Terminal-based agent interfaces and developer tools.
 - [Glow](https://github.com/charmbracelet/glow) - Terminal Markdown renderer useful for agent output.
 - [Hermes Agent](https://github.com/NousResearch/hermes-agent) - CLI and gateway agent runtime with tools, memory, delegation, and automation support.
 - [hermes-fly](https://github.com/alexfazio/hermes-fly) - CLI wizard to deploy and operate Hermes Agent on Fly.io.
+- [Jev Social](https://github.com/socai-io/jev-social) - Read-only social-research CLI that uses Jev to select bounded operations while the local socai CLI captures source-linked Instagram, TikTok, and LinkedIn evidence in the user's signed-in browser.
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commonly paired with coding agents.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs from the terminal.
 - [sgpt](https://github.com/tbckr/sgpt) - Command-line productivity tool powered by LLMs.
