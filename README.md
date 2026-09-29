@@ -198,6 +198,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers) - Curated list of MCP server implementations.
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server for coding and browser automation agents.
 - [Context7 MCP](https://github.com/upstash/context7) - MCP server that retrieves current, version-specific library documentation.
+- [Court Rules](https://www.courtrules.app) - Hosted MCP server and free reference for U.S. federal court rules, local rules, judge standing orders, and court holidays.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server for GitHub workflows and repository actions.
 - [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for managing skills, tools, and context for AI agents, with review workflows, role-based access, and a remote MCP server.
