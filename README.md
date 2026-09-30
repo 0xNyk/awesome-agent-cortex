@@ -331,6 +331,7 @@ Obsidian-specific architecture patterns and APIs for using vaults as agent memor
 
 Safety, red-teaming, and robustness tools for hardening agent behavior.
 
+- [20131 Agent Security Runtime](https://github.com/411160007/20131-agentruntime) - Local-first runtime that records agent file writes, network calls, shell commands, and MCP tool invocations, evaluates actions against explicit policies, and keeps a replayable audit trail; Phase 0 is observe-only with no blocking.
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanning and red-teaming toolkit for security testing.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
