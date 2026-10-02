@@ -446,6 +446,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
+- [Pink Agentic AI Payments (sandbox)](https://pinkwallet.com/agentic/developers/connect-via-mcp/) - Remote MCP server giving each AI agent a budget and plain-language rules; a policy check decides allow, ask a human, or block before a one-time payment credential is issued. Sandbox only, test credentials, no money moves.
 - [Request Network](https://request.network) - Crypto-native invoicing and payment request rails for agent billing workflows.
 - [Solana Pay](https://solanapay.com) - Open payments standard for Solana-based checkout and transfer flows.
 - [Superfluid](https://superfluid.org) - Streaming payment primitives for machine-to-machine and agent subscriptions.
