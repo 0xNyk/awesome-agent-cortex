@@ -451,6 +451,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [Superfluid](https://superfluid.org) - Streaming payment primitives for machine-to-machine and agent subscriptions.
 - [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
 - [x402 Protocol](https://github.com/coinbase/x402) - Open HTTP payment protocol using the 402 status code for agent-to-service payments.
+- [bilbop x402](https://api.bilbop.org) - Live Solana USDC pay-per-call APIs for agents (summarize, token brief, mint info, Piper TTS, brand feedback) over x402; discovery at [api.bilbop.org/.well-known/x402.json](https://api.bilbop.org/.well-known/x402.json).
 
 ## DeFi Agents
 
