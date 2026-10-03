@@ -335,6 +335,7 @@ Safety, red-teaming, and robustness tools for hardening agent behavior.
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanning and red-teaming toolkit for security testing.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
 - [Invariant](https://github.com/invariantlabs-ai/invariant) - Guardrails framework for secure and robust agent development.
+- [HOL Guard](https://github.com/hashgraph-online/hol-guard) - Local-first runtime firewall for AI coding agents; intercepts shell, secrets, MCP config changes, and package installs before execution (Apache-2.0). Docs: https://hol.org/guard.
 - [JailbreakBench](https://github.com/JailbreakBench/jailbreakbench) - Open robustness benchmark for measuring jailbreak resistance in language models and agents.
 - [llm-attacks](https://github.com/llm-attacks/llm-attacks) - Reference implementation and resources for adversarial jailbreak attack evaluation.
 - [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) - Official security guidance for MCP authorization flows, threats, and mitigations.
