@@ -185,6 +185,7 @@ Execution sandboxes and runtime platforms for safely running agent actions and g
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) - NVIDIA tooling for running OpenClaw inside an OpenShell sandbox with managed inference.
 - [RunPod Python SDK](https://github.com/runpod/runpod-python) - Python SDK for RunPod serverless and worker-based AI workloads.
 - [SandBase Harness](https://github.com/sandbaseai/sandbase-harness) - Self-hosted agent runtime and MCP bridge with persistent sessions, approvals, credentials, audit/replay, and selectable execution backends.
+- [Tale](https://github.com/tale-project/tale) - Self-hosted project workspace for running configured AI agents in persistent sandboxes, coordinating tasks, and reviewing reports and deliverables.
 
 <a id="mcp-ecosystem"></a>
 
