@@ -445,6 +445,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [Awesome Agentic Commerce](https://github.com/Merit-Systems/awesome-agentic-commerce) - Curated directory of agent payments and commerce protocols, including x402.
 - [Coinbase Agentic Wallets](https://www.coinbase.com/developer-platform/discover/launches/agentic-wallets) - Wallet infrastructure for AI agents with programmable spending limits.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
+- [HostDeFi x402 API](https://hostdefi.com/features/x402-rpc/) - Machine-payable x402 endpoints: per-call JSON-RPC on 82 chains plus token-risk and authority data priced per call (no API key needed).
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
 - [Request Network](https://request.network) - Crypto-native invoicing and payment request rails for agent billing workflows.
 - [Solana Pay](https://solanapay.com) - Open payments standard for Solana-based checkout and transfer flows.
