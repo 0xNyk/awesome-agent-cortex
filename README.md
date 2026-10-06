@@ -85,6 +85,7 @@ Multi-agent orchestration, single-agent SDKs, and runtime frameworks.
 - [Microsoft Agent Framework](https://github.com/microsoft/agent-framework) - Framework for building, orchestrating, and deploying agents with Python and .NET support.
 - [OpenAI Agents SDK for Python](https://github.com/openai/openai-agents-python) - Official Python SDK for agent workflows, tools, handoffs, and guardrails.
 - [OpenAI Agents SDK for TypeScript](https://github.com/openai/openai-agents-js) - Official TypeScript SDK for agent workflows and voice agents.
+- [OpenAmer](https://github.com/openamer/openamer) - Local-first Windows agent runtime that drives the real desktop (filesystem, terminal, GUI, browser over CDP), with in-process cognition tools, a 10-subsystem heartbeat, and peer-to-peer A2A work routing between instances.
 - [OpenClaw](https://github.com/openclaw/openclaw) - Self-hosted personal AI agent with multi-platform messaging and skill registry.
 - [OpenProgram](https://github.com/Fzkuji/OpenProgram) - Self-programming agent runtime with reviewable workflows, DAG context, tools, memory, and multi-agent execution.
 - [PydanticAI](https://github.com/pydantic/pydantic-ai) - Type-safe agent framework built around Pydantic.
