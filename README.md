@@ -6,7 +6,8 @@
 
 <p align="center">
   <strong>A curated map of the tools, memory systems, identity rails, and operational patterns behind capable AI agents.</strong>
-</p>
+
+- [MemTether](https://github.com/MemTether/MemTether) - Cross-client AI memory hub with tamper-evident evidence chain, supersession chains, bi-temporal timestamps, human conflict adjudication, and 23 client adapters. 334 tests. Apache-2.0.</p>
 
 <p align="center">
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-CC0-FF6A2A.svg" alt="CC0 license"></a>
