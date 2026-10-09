@@ -449,6 +449,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [Request Network](https://request.network) - Crypto-native invoicing and payment request rails for agent billing workflows.
 - [Solana Pay](https://solanapay.com) - Open payments standard for Solana-based checkout and transfer flows.
 - [Superfluid](https://superfluid.org) - Streaming payment primitives for machine-to-machine and agent subscriptions.
+- [Tollex](https://tollex.org) - Paid agent capabilities on Robinhood Chain with x402 v2 payments in USDG and signed execution receipts.
 - [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
 - [x402 Protocol](https://github.com/coinbase/x402) - Open HTTP payment protocol using the 402 status code for agent-to-service payments.
 
