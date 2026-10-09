@@ -215,6 +215,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation via Playwright.
 - [SandBase CLI](https://github.com/sandbaseai/cli) - Open-source CLI and local MCP server that configures 25 AI clients for access to 2,000+ models and APIs, with six tools for discovery, execution, run history, and account status.
 - [Smithery](https://smithery.ai) - Registry and hosting platform for MCP servers.
+- [Tanod](https://github.com/tanod-labs/tanod-mcp) - Remote MCP server with 140+ pay-per-call tools for PDF, OCR, images, web pages and chain reads, paid in USDC via x402 after a free daily allowance.
 
 ## Prompt Engineering
 
