@@ -106,7 +106,7 @@ AI agents that write, review, and debug code.
 - [Devin](https://devin.ai) - Autonomous software engineering agent by Cognition.
 - [Goose](https://github.com/aaif-goose/goose) - Open-source developer agent governed by the Agentic AI Foundation.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
-- [Orbi](https://github.com/orbi-build/orbi) - Self-hosted loop that turns `ai-ready` GitHub issues into reviewed, merged PRs and tagged releases.
+- [Orbi](https://orbi.build) - Self-hosted loop that turns `ai-ready` GitHub issues into reviewed, merged PRs and tagged releases.
 - [SWE-Agent](https://github.com/SWE-agent/SWE-agent) - Agent for resolving software engineering tasks from GitHub issues.
 - [Windsurf](https://codeium.com/windsurf) - AI-native IDE by Codeium with agentic flows.
 
