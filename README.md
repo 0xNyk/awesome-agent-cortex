@@ -368,6 +368,7 @@ Hands-on resources for designing, testing, and shipping high-quality agent skill
 - [NVIDIA Agent Skills](https://github.com/NVIDIA/skills) - NVIDIA-maintained catalog of skills for CUDA-X libraries, blueprints, and platform tools.
 - [SkillsBench](https://github.com/benchflow-ai/skillsbench) - Benchmark for measuring how agents use skill packages across verifiable tasks.
 - [Suede Creator Skills](https://github.com/JasonColapietro/suede-creator-skills) - MIT-licensed collection of 71 Claude Code and Codex skills for orchestration, worker fleets, code review, AI evaluation, product, design, and growth workflows.
+- [URL to Markdown](https://github.com/replynodes/replynodes-agent-skills/tree/main/skills/url-to-markdown) - Agent skill for turning public webpage URLs into clean Markdown for LLM and RAG context through a read-only endpoint at https://md.replynodes.com/<target>.
 
 ## Knowledge Graphs and Memory
 
