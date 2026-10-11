@@ -117,6 +117,7 @@ AI agents that write, review, and debug code.
 - [claude-code-tips](https://github.com/ykdojo/claude-code-tips) - Community-sourced tips and tricks.
 - [CLAUDE.md Guide](https://docs.anthropic.com/en/docs/claude-code/memory) - Official documentation on memory files.
 - [Everything Claude Code](https://github.com/affaan-m/ECC) - Community collection of Claude Code skills, hooks, agents, and configuration patterns.
+- [workkit](https://github.com/ITW-Creative-Works/workkit) - Claude Code plugin that runs GitHub Issues as the work pipeline, with worker and verifier subagents and hooks that block commits until tests pass.
 
 ### Codex Resources
 
