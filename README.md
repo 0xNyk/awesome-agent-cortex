@@ -439,6 +439,7 @@ On-chain identity, wallets, and trust infrastructure for autonomous AI agents.
 - [UCAN](https://github.com/ucan-wg/spec) - User-controlled authorization for decentralized agent capabilities.
 
 ## Agent Payments
+- **[Money Reactor](https://github.com/makar52nn2016-jpg/money-reactor)** - x402 paid APIs for agents (USDC on Base): funded crypto bounty radar + GitHub repo honeypot/trust scoring; MCP over Streamable HTTP, free demo tools.
 
 Payment protocols and infrastructure for autonomous agent transactions.
 
