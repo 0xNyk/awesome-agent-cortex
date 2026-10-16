@@ -256,6 +256,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [MLE-bench](https://github.com/openai/mle-bench) - Benchmark harness for autonomous ML engineering tasks.
 - [OSWorld](https://github.com/xlang-ai/OSWorld) - Open-ended benchmark environment for desktop computer-use agents.
 - [OpenCUA](https://github.com/xlang-ai/OpenCUA) - Open foundation stack for building and evaluating computer-use agents.
+- [SECOND STRIKE](https://github.com/KyleClouthier/secondstrike-agents) - Real-time multi-agent world war environment for testing agents under pressure; scores nuclear escalation, broken pacts and said-versus-did deception on sealed seeds, with an MCP server and a Python client.
 - [Stagehand](https://github.com/browserbase/stagehand) - Browser automation framework for agentic web workflows and reproducible runs.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Canonical benchmark for coding agents on real GitHub issue tasks.
 - [Tau-Bench](https://github.com/sierra-research/tau-bench) - Realistic interactive benchmark for measuring agent reliability.
