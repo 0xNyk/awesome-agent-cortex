@@ -181,6 +181,7 @@ Execution sandboxes and runtime platforms for safely running agent actions and g
 - [Firecracker](https://github.com/firecracker-microvm/firecracker) - Secure and fast microVM technology for isolated agent execution.
 - [gVisor](https://github.com/google/gvisor) - Application kernel for containers that adds a strong isolation boundary.
 - [Kata Containers](https://github.com/kata-containers/kata-containers) - Lightweight VM-based container runtime for stronger workload isolation.
+- [MELRA](https://github.com/XAGI-Lab/melra) - Local alpha runtime for policy-gated MCP tool execution, scoped approvals, verification, and recovery of interrupted actions.
 - [Modal](https://modal.com) - Serverless compute platform often used for running agent workloads and tools.
 - [NemoClaw](https://github.com/NVIDIA/NemoClaw) - NVIDIA tooling for running OpenClaw inside an OpenShell sandbox with managed inference.
 - [RunPod Python SDK](https://github.com/runpod/runpod-python) - Python SDK for RunPod serverless and worker-based AI workloads.
