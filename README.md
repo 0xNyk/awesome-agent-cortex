@@ -104,7 +104,7 @@ AI agents that write, review, and debug code.
 - [Continue](https://github.com/continuedev/continue) - Open-source AI code assistant for VS Code and JetBrains.
 - [Cursor](https://cursor.com) - AI-first code editor built on VS Code.
 - [Devin](https://devin.ai) - Autonomous software engineering agent by Cognition.
-- [Frink](https://github.com/benord-labs/frink) - Desktop app for visual workflows where AI coding agents (Claude Code, Codex, OpenCode, GitHub Copilot, Cursor) act on tickets, errors, and schedules, and ask before changing anything.
+- [Frink](https://github.com/benord-labs/frink) - Desktop-first, open-source (MIT) application for running parallel agents, and multi-step custom workflows triggered by schedules, webhooks or events from tools like Linear and Sentry, across your already-used providers.
 - [Goose](https://github.com/aaif-goose/goose) - Open-source developer agent governed by the Agentic AI Foundation.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
 - [SWE-Agent](https://github.com/SWE-agent/SWE-agent) - Agent for resolving software engineering tasks from GitHub issues.
