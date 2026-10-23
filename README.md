@@ -517,6 +517,7 @@ Curated papers on AI agents, multi-agent systems, and agent infrastructure.
 - [Awesome AI Agent Papers](https://github.com/VoltAgent/awesome-ai-agent-papers) - Continuously updated collection of agent research papers.
 - [Chain-of-Thought Prompting](https://arxiv.org/abs/2201.11903) - Foundational paper on reasoning in language models.
 - [Generative Agents](https://arxiv.org/abs/2304.03442) - Simulating human behavior with LLM-driven agents in a sandbox.
+- [Harness Engineering for Language Agents](https://doi.org/10.20944/preprints202603.1756.v2) - Decomposes the agent harness into control, agency, and runtime, and proposes a HarnessCard disclosure for attributing agent results to the harness rather than the model.
 - [MemGPT](https://arxiv.org/abs/2310.08560) - OS-inspired memory management for LLM context windows.
 - [ReAct](https://arxiv.org/abs/2210.03629) - Synergizing reasoning and acting in language models.
 - [Reflexion](https://arxiv.org/abs/2303.11366) - Language agents with verbal reinforcement learning.
