@@ -339,6 +339,7 @@ Safety, red-teaming, and robustness tools for hardening agent behavior.
 - [llm-attacks](https://github.com/llm-attacks/llm-attacks) - Reference implementation and resources for adversarial jailbreak attack evaluation.
 - [MCP Security Best Practices](https://modelcontextprotocol.io/docs/tutorials/security/security_best_practices) - Official security guidance for MCP authorization flows, threats, and mitigations.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
+- [OpenMoat](https://github.com/crocodile-labs/openmoat) - Local policy layer that checks AI coding agents' commands, file access, web requests and MCP calls through their hooks before they run, with OS sandbox settings, egress proxy, MCP server pinning and hash-chained audit log.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and robustness testing toolkit for LLM systems.
 - [PyRIT](https://github.com/microsoft/PyRIT) - Python Risk Identification Tool for testing generative AI systems.
 
