@@ -412,6 +412,7 @@ Tools and SDKs for building AI agents on Solana.
 - [Solana Agent Architecture Playbook (this repo)](guides/solana-agent-architecture-playbook.md) - Reference architecture, security controls, and ops checklist for production Solana agents.
 - [Solana Agent Kit](https://github.com/sendaifun/solana-agent-kit) - Toolkit for connecting AI agents to Solana protocols.
 - [Solana Kit](https://github.com/anza-xyz/kit) - Modern Solana client SDK stack for building high-quality applications and agents.
+- [Solana Pulse](https://github.com/Timothymycompc/solana-pulse-ai-agent-gateway) - Pre-sign transaction and token safety checks for Solana agents over MCP and HTTP, with a public attack benchmark.
 - [Solana Web3.js](https://github.com/solana-foundation/solana-web3.js) - JavaScript SDK for interacting with the Solana blockchain.
 - [Switchboard Solana SDK](https://github.com/switchboard-xyz/solana-sdk) - Verifiable oracle and data-feed SDK for agent decision systems.
 - [Yellowstone gRPC](https://github.com/rpcpool/yellowstone-grpc) - High-throughput real-time Solana data streams for low-latency agents and indexers.
