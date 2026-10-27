@@ -214,6 +214,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation via Playwright.
 - [SandBase CLI](https://github.com/sandbaseai/cli) - Open-source CLI and local MCP server that configures 25 AI clients for access to 2,000+ models and APIs, with six tools for discovery, execution, run history, and account status.
+- [Scalekit](https://scalekit.com) - Agent auth and integration platform with per-user OAuth, managed token storage, scoped tool access, and a hosted MCP server.
 - [Smithery](https://smithery.ai) - Registry and hosting platform for MCP servers.
 
 ## Prompt Engineering
