@@ -480,6 +480,7 @@ Quantitative finance frameworks and AI-driven trading systems.
 - [Freqtrade](https://github.com/freqtrade/freqtrade) - Open-source algorithmic trading bot in Python.
 - [Hummingbot](https://github.com/hummingbot/hummingbot) - Open-source market making and arbitrage bot.
 - [Lean](https://github.com/QuantConnect/Lean) - Algorithmic trading engine by QuantConnect.
+- [ManifoldBT](https://github.com/manifoldbt/manifoldbt) - Rust-powered Python backtesting with vectorized signals, realistic fills, parameter sweeps, walk-forward, and Monte Carlo
 - [NautilusTrader](https://github.com/nautechsystems/nautilus_trader) - High-performance algorithmic trading platform in Rust and Python.
 - [Phoenix v1](https://github.com/Ellipsis-Labs/phoenix-v1) - On-chain central limit order book protocol for low-latency execution agents.
 - [Qlib](https://github.com/microsoft/qlib) - AI-oriented quantitative investment platform from Microsoft.
