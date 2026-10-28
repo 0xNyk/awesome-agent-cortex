@@ -259,6 +259,7 @@ Harnesses, benchmarks, and evaluation frameworks for measuring agent quality and
 - [Stagehand](https://github.com/browserbase/stagehand) - Browser automation framework for agentic web workflows and reproducible runs.
 - [SWE-bench](https://github.com/SWE-bench/SWE-bench) - Canonical benchmark for coding agents on real GitHub issue tasks.
 - [Tau-Bench](https://github.com/sierra-research/tau-bench) - Realistic interactive benchmark for measuring agent reliability.
+- [trajectorycheck](https://github.com/sushant-me/trajectorycheck) - Trajectory-level evaluation for AI agents that tags wrong tool calls, out-of-spec arguments, unauthorised side effects, failed steps and followed prompt-injection instructions, then scores behavioural consistency across runs.
 - [WebArena](https://github.com/web-arena-x/webarena) - Real-world web task benchmark environment for browser agents.
 - [WorkArena](https://github.com/ServiceNow/WorkArena) - Enterprise task benchmark for browser-based agent workflows.
 - [AgentDojo](https://github.com/ethz-spylab/agentdojo) - Security and robustness benchmark suite for tool-using agents.
