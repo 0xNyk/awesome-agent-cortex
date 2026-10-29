@@ -341,6 +341,7 @@ Safety, red-teaming, and robustness tools for hardening agent behavior.
 - [NeMo Guardrails](https://github.com/NVIDIA-NeMo/Guardrails) - Toolkit for adding programmable safety and policy guardrails to LLM systems.
 - [Promptfoo](https://github.com/promptfoo/promptfoo) - Red-teaming and robustness testing toolkit for LLM systems.
 - [PyRIT](https://github.com/microsoft/PyRIT) - Python Risk Identification Tool for testing generative AI systems.
+- [whatileaked](https://github.com/selan-ai/whatileaked) - Scans local Claude Code, Codex and Cursor transcripts for credentials already sent to the model, using the gitleaks rule set, with no network access and zero dependencies.
 
 ## Agent Configs and Dotfiles
 
