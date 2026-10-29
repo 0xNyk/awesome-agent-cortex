@@ -383,6 +383,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [LWC](https://github.com/JanYork/llm-wiki-cli) - Source-grounded project memory for coding agents with SQLite full-text retrieval, optional document and code graphs, lifecycle hooks, and a bounded read-only MCP interface.
 - [Mem0](https://github.com/mem0ai/mem0) - Memory layer for AI assistants and agents.
 - [Memgraph](https://github.com/memgraph/memgraph) - In-memory graph database for real-time agent queries.
+- [Mnemosyne OS](https://github.com/Mnemosyne-OS/Mnemosyne-Neural-OS) - Desktop memory app for Windows, macOS and Linux where watched folders feed separate vaults on the user's machine, searched by vector ranking fused with a local BM25 channel and exposed to agents through an MIT MCP server, with the user choosing which vaults a model may read.
 - [Neo4j](https://github.com/neo4j/neo4j) - Graph database platform widely used for agent knowledge stores.
 - [Obsidian](https://obsidian.md) - Knowledge base and note-taking app usable as agent memory backend.
 - [obsidian-graph-query](https://github.com/azuma520/obsidian-graph-query) - Query and traverse Obsidian vault graphs programmatically.
