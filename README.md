@@ -107,6 +107,7 @@ AI agents that write, review, and debug code.
 - [Goose](https://github.com/aaif-goose/goose) - Open-source developer agent governed by the Agentic AI Foundation.
 - [OpenHands](https://github.com/OpenHands/OpenHands) - Platform for AI software development agents (formerly OpenDevin).
 - [SWE-Agent](https://github.com/SWE-agent/SWE-agent) - Agent for resolving software engineering tasks from GitHub issues.
+- [Volt](https://github.com/LeulAria/volt) - Open-source agentic code editor on the VS Code core that drives Claude Code and Codex over ACP and local models via Ollama.
 - [Windsurf](https://codeium.com/windsurf) - AI-native IDE by Codeium with agentic flows.
 
 ### Claude Code Resources
