@@ -175,6 +175,7 @@ Terminal-based agent interfaces and developer tools.
 
 Execution sandboxes and runtime platforms for safely running agent actions and generated code.
 
+- [Buddy](https://buddy.works) - Sandbox VMs for AI coding agents with hosting, git repositories, and CI/CD workflows, accessible via REST API, MCP server, and CLI.
 - [CUA](https://github.com/trycua/cua) - Open-source infrastructure for computer-use agents with sandboxes, SDKs, and benchmarks.
 - [Daytona](https://github.com/daytonaio/daytona) - Secure and elastic runtime infrastructure for AI-generated code execution.
 - [E2B](https://github.com/e2b-dev/E2B) - Open-source secure cloud sandbox environment for AI agents.
