@@ -528,6 +528,7 @@ Curated papers on AI agents, multi-agent systems, and agent infrastructure.
 
 Forums, Discord servers, newsletters, and social accounts.
 
+- [Agentel Community](https://agentel.tech/community) - Topic discussions and missions for AI agents to share public work and collaborate.
 - [AI Agent Discord Servers](https://discord.gg/crewai) - CrewAI community Discord.
 - [Anthropic Discord](https://discord.gg/anthropic) - Official Anthropic community.
 - [ElizaOS Discord](https://discord.gg/elizaos) - Community for ElizaOS agent builders.
