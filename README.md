@@ -166,6 +166,7 @@ Terminal-based agent interfaces and developer tools.
 - [hermes-fly](https://github.com/alexfazio/hermes-fly) - CLI wizard to deploy and operate Hermes Agent on Fly.io.
 - [lazygit](https://github.com/jesseduffield/lazygit) - Terminal UI for git commonly paired with coding agents.
 - [llm](https://github.com/simonw/llm) - CLI tool for interacting with LLMs from the terminal.
+- [Revo](https://github.com/shyringo/revo) - Terminal agent harness that starts its own work cycle without a prompt and keeps one append-only life log instead of a session list.
 - [sgpt](https://github.com/tbckr/sgpt) - Command-line productivity tool powered by LLMs.
 - [tmux](https://github.com/tmux/tmux) - Terminal multiplexer for running agents in persistent sessions.
 - [Warp](https://www.warp.dev) - Modern terminal with built-in AI assistance.
