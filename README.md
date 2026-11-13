@@ -132,6 +132,7 @@ Agents with voice, vision, and multimodal capabilities.
 
 - [ElevenLabs](https://github.com/elevenlabs/elevenlabs-python) - Text-to-speech and voice cloning API for agent voice interfaces.
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time multimodal AI agents.
+- [OsmO](https://getosmo.app/for-my-ai) - Voice agent that places real phone calls for MCP clients after user confirmation and returns summaries and transcripts.
 - [Pipecat](https://github.com/pipecat-ai/pipecat) - Framework for building voice and multimodal conversational agents.
 - [TEN Framework](https://github.com/TEN-framework/ten-framework) - Open-source framework for conversational voice AI agents.
 - [Ultravox](https://github.com/fixie-ai/ultravox) - Fast multimodal LLM for real-time voice AI.
