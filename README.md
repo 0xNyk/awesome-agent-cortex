@@ -330,7 +330,7 @@ Obsidian-specific architecture patterns and APIs for using vaults as agent memor
 ## Agent Security and Robustness
 
 Safety, red-teaming, and robustness tools for hardening agent behavior.
-
+- [Chock](https://github.com/open-coder-ai/chock) - Compiles repository-committed policies into coding-agent hooks, git hooks and a CI check that refuse a listed action before it runs.
 - [Darkmoon](https://github.com/ASCIT31/Dark-Moon) - Open source (GPL-3.0) autonomous AI penetration testing platform covering web, API, Active Directory and Kubernetes.
 - [garak](https://github.com/NVIDIA/garak) - LLM vulnerability scanning and red-teaming toolkit for security testing.
 - [Guardrails AI](https://github.com/guardrails-ai/guardrails) - Validation and safety guardrails framework for LLM outputs.
