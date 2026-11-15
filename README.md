@@ -199,6 +199,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [Chrome DevTools MCP](https://github.com/ChromeDevTools/chrome-devtools-mcp) - Official Chrome DevTools MCP server for coding and browser automation agents.
 - [Context7 MCP](https://github.com/upstash/context7) - MCP server that retrieves current, version-specific library documentation.
 - [FastMCP](https://github.com/PrefectHQ/fastmcp) - Pythonic framework for building MCP servers and clients quickly.
+- [GetYouTubeTranscript MCP](https://github.com/tubeagentkit/youtube-mcp) - Hosted MCP server for YouTube transcripts in any caption language, YouTube search, and channel and playlist listings.
 - [GitHub MCP Server](https://github.com/github/github-mcp-server) - Official MCP server for GitHub workflows and repository actions.
 - [Hexis](https://github.com/Bevel-Software/Hexis) - Git-backed platform for managing skills, tools, and context for AI agents, with review workflows, role-based access, and a remote MCP server.
 - [MCP Agent](https://github.com/lastmile-ai/mcp-agent) - Framework patterns for building agents on top of MCP.
