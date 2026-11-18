@@ -131,6 +131,7 @@ AI agents that write, review, and debug code.
 Agents with voice, vision, and multimodal capabilities.
 
 - [ElevenLabs](https://github.com/elevenlabs/elevenlabs-python) - Text-to-speech and voice cloning API for agent voice interfaces.
+- [Gradbot](https://github.com/gradium-ai/gradbot) - Rust and Python framework for prototyping voice agents with Gradium speech and OpenAI-compatible language models.
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time multimodal AI agents.
 - [Pipecat](https://github.com/pipecat-ai/pipecat) - Framework for building voice and multimodal conversational agents.
 - [TEN Framework](https://github.com/TEN-framework/ten-framework) - Open-source framework for conversational voice AI agents.
