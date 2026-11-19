@@ -447,6 +447,7 @@ Payment protocols and infrastructure for autonomous agent transactions.
 - [Google A2A x402 Extension](https://github.com/google-agentic-commerce/a2a-x402) - Cryptocurrency payments for the Agent-to-Agent protocol via x402.
 - [lobster.cash](https://www.lobster.cash) - Agent payment solution on Solana with Visa Intelligent Commerce integration by Crossmint.
 - [Request Network](https://request.network) - Crypto-native invoicing and payment request rails for agent billing workflows.
+- [AutoTasker Hub](https://autotasker.highkingflower.com) - Pay-per-call China social trending data (Weibo/Douban/Zhihu/Bilibili) for AI agents, settled in USDC on Base via x402; 84 MCP tools, no account or API key. Verifiable settlement proof at /api/x402/proof.
 - [Solana Pay](https://solanapay.com) - Open payments standard for Solana-based checkout and transfer flows.
 - [Superfluid](https://superfluid.org) - Streaming payment primitives for machine-to-machine and agent subscriptions.
 - [x402 Foundation](https://www.x402.org) - Open protocol foundation governing the x402 payment standard.
