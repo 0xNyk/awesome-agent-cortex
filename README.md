@@ -393,6 +393,7 @@ Agent memory architectures, knowledge graphs, and second-brain integrations.
 - [txtai](https://github.com/neuml/txtai) - All-in-one embeddings database for semantic search and workflows.
 - [Weaviate](https://github.com/weaviate/weaviate) - Vector database with built-in modules for AI workloads.
 - [Zep](https://github.com/getzep/zep) - Memory infrastructure and retrieval stack for AI assistants and agents.
+- [Zortex](https://zortex.me/en/install) - Connects AI agents to supported apps and indexes synchronized content for search in an encrypted local store.
 
 ## Solana Agent Infrastructure
 
