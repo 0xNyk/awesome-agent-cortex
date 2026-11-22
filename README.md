@@ -495,6 +495,7 @@ Debugging, tracing, evaluation, and testing tools for AI agents.
 - [ax](https://github.com/Necmttn/ax) - Local telemetry, recall, cost, skill, routing, and hook analytics for AI coding agents.
 - [Braintrust](https://www.braintrust.dev) - Evaluation and observability platform for AI products.
 - [DeepEval](https://github.com/confident-ai/deepeval) - Open-source LLM evaluation framework.
+- [EvalShift](https://github.com/evalshift/evalshift-cli) - Replays recorded agent runs on two models and reports tool-call and output regressions before a model switch.
 - [Helicone](https://github.com/Helicone/helicone) - Open-source LLM observability and monitoring platform.
 - [LangFuse](https://github.com/langfuse/langfuse) - Open-source LLM engineering platform for tracing and evaluation.
 - [LangSmith](https://smith.langchain.com) - Platform for debugging, testing, and monitoring LLM applications.
