@@ -212,6 +212,7 @@ Open protocols, SDKs, servers, clients, and registries for connecting agents to 
 - [MCP Spec](https://modelcontextprotocol.io/specification) - Official Model Context Protocol specification.
 - [MCP Specification Repo](https://github.com/modelcontextprotocol/modelcontextprotocol) - Canonical specification and documentation repository.
 - [MCP TypeScript SDK](https://github.com/modelcontextprotocol/typescript-sdk) - Official TypeScript SDK for building MCP servers.
+- [OpenAny](https://github.com/openanysi/openany-mcp) - Business-to-agent marketplace (https://openany.si) with a remote MCP server at https://mcp.openany.si for 4,400+ APIs and 168+ models, where catalog browsing is free and execution requires an API key and is pay per call.
 - [Playwright MCP](https://github.com/microsoft/playwright-mcp) - MCP server for browser automation via Playwright.
 - [SandBase CLI](https://github.com/sandbaseai/cli) - Open-source CLI and local MCP server that configures 25 AI clients for access to 2,000+ models and APIs, with six tools for discovery, execution, run history, and account status.
 - [Smithery](https://smithery.ai) - Registry and hosting platform for MCP servers.
