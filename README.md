@@ -130,6 +130,7 @@ AI agents that write, review, and debug code.
 
 Agents with voice, vision, and multimodal capabilities.
 
+- [Dial](https://getdial.ai) - Real phone numbers for AI agents: SMS, iMessage, WhatsApp, AI voice calls, and inbound events.
 - [ElevenLabs](https://github.com/elevenlabs/elevenlabs-python) - Text-to-speech and voice cloning API for agent voice interfaces.
 - [LiveKit Agents](https://github.com/livekit/agents) - Framework for building real-time multimodal AI agents.
 - [Pipecat](https://github.com/pipecat-ai/pipecat) - Framework for building voice and multimodal conversational agents.
